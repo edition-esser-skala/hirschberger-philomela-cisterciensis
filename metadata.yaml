@@ -1,21 +1,19 @@
 composer:
-  last:
-  first:
-title:
-id:
-genre:
-scoring:
-ark: 
+  last: Hirschberger
+  first: P. Albericus
+title: Complete works
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob (G), 2 clno (C), timp (C–G), 2 vl, b, org
+ark: 68748/e1pah1
 license: cc-by-sa-4.0
 sources:
-  B1:
-    siglum:
-    shelfmark:
-    date:
-    rism:
-    url:
-    license:
+  C1:
+    siglum: D-Mbs
+    shelfmark: 4 Mus.pr. 36661
+    date: 1743
+    rism: 990029727
+    url: https://opacplus.bsb-muenchen.de/title/BV007813032
+    license: public domain
     principal: true
-imslp:
 parts:
   ottoni: Clarino I, II in C\\Timpani in C–G

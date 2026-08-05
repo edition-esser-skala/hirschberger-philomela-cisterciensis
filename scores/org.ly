@@ -13,9 +13,9 @@
       <<
         \new Staff {
           \set Staff.instrumentName = "Organo"
-          \xxxOrgano
+          \IKyrieOrgano
         }
-        \new FiguredBass { \xxxBassFigures }
+        \new FiguredBass { \IKyrieBassFigures }
       >>
     }
   }

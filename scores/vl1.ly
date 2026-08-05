@@ -13,7 +13,7 @@
       <<
         \new Staff {
           \set Staff.instrumentName = "Violino I"
-          \xxxViolinoI
+          \IKyrieViolinoI
         }
       >>
     }

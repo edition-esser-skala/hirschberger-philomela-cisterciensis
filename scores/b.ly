@@ -13,7 +13,7 @@
       <<
         \new Staff {
           \set Staff.instrumentName = "Bassi"
-          \xxxOrgano
+          \IKyrieOrgano
         }
       >>
     }
