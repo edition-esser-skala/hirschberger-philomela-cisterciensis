@@ -9,6 +9,15 @@ brkBeam = #(make-music 'BeamForbidEvent)
 obadlib = \markup \remark "ob (G) ad libitum"
 clnoobl = \markup \remark "clno (C)"
 
+fermataFine = #(define-event-function () ()
+  #{ \tweak Script.outside-staff-priority #0
+       \fermata
+     \tweak TextScript.self-alignment-X #-.4
+       ^\markup \remark "fine" #}
+)
+altOne = \markup \remark \circle "1"
+altTwo = \markup \remark \circle "2"
+
 
 tempoIKyrie = \tempoMarkup "Adagio"
   tempoIChriste = \tempoMarkup "Andante"
@@ -20,6 +29,15 @@ tempoIGloria = \tempoMarkup "Allegro"
   tempoIQuiTollis = \tempoMarkup "Allabreve" %240
   tempoIQuoniam = \tempoMarkup "Vivace" %90
   tempoICumSancto = \tempoMarkup "Allegro" %140
+tempoIConcerto = \tempoMarkup "Allegro"
+  tempoIConcertoB = \tempoMarkup "Adagio"
+  tempoIConcertoC = \tempoMarkup "Presto"
+tempoICredo = \tempoMarkup "Allabreve"
+  tempoIEtIncarnatus = \tempoMarkup "Adagio" %70
+  tempoICrucifixus = \tempoMarkup "Adagio" %60
+  tempoIEtResurrexit = \tempoMarkup "Allabreve" %180
+  tempoIMortuorum = \tempoMarkup "Adagio" %60
+  tempoIEtVitam = \tempoMarkup "Allegro" %140
 
 
 \include "notes/clno1.ly"

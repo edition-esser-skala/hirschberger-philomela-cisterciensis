@@ -386,3 +386,365 @@ IGloriaViolinoI = {
     c\fermata \bar "|." %269 finis
   }
 }
+
+IConcertoViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoIConcerto
+    c8 e g c
+    g h d f
+    e16( f) g4 a8
+    \appoggiatura c,16 h8 a16 h g4
+    c,8 e g c %5
+    g h d f
+    e16( f) g4 a8
+    \appoggiatura c, h4 r8 g'
+    c,16( e) g4 b,8~
+    b a16 g a4 %10
+    d16( fis) a4 c,8~
+    c h16 a h4
+    d16 c h a g f e d
+    c4 e'
+    fis16 e d c h a g fis %15
+    e4 g'
+    a16 g fis e d c h a
+    g8 g' g16 fis g8
+    g g, g16 fis g8
+    g, g'' g16 fis g8 %20
+    g g, g16 fis g8
+    g, d''4 c8
+    h16 d g h d,8 c
+    h d4 c8
+    h a16 g d'8 d, %25
+    g4 r
+    c,8 e g c
+    e, g c e
+    g b,4 g8
+    a16 g f8 r4 %30
+    d8 fis a d
+    fis, a d fis
+    a c,4 a8
+    h!16 a g8 r4
+    g'8 f4 e8 %35
+    f16 d( c d) f d( c d)
+    f8 e4 d8
+    e16 c( h c) e c( h c)
+    e8 d4 c8
+    h a16 g d'8 f, %40
+    e d16 c g'8 g,
+    c g' g a16 h
+    c8 g g a16 h
+    c8 g g a16 h
+    c8 e, f g %45
+    c,4\fermataFine r
+    a8 c e a
+    e gis h d
+    c16 d e4 f8
+    gis, fis16 \hA gis e4 %50
+    a,8 c e a
+    e gis h d
+    c16( d) e4 f8
+    \appoggiatura a, gis4 r8 e'
+    cis16 d e \hA cis a8 g'! %55
+    f d, r d'
+    h16 c d h g8 f'
+    e c, r c'
+    a16 h c a f8 e'
+    d h, r h' %60
+    gis16 a h \hA gis e8 d'
+    c a, r c'
+    h e4 c8
+    h e4 c8
+    h e4 c8 %65
+    h16 gis e8 r a
+    a a' a16 gis a8
+    a a, a16 gis a8
+    a, a'' a16 gis a8
+    a a, a16 gis a8 %70
+    a, a' h4\trill
+    a8 e e fis16 gis
+    a8 e e fis16 gis
+    a8 e e fis16 gis
+    a8 c, d e \noBreak %75
+    a,4 r \markDaCapo \bar "||"
+    \time 4/4 \tempoIConcertoB
+      a'16 c8 a16 gis h8 \hA gis16 a4 r16 e'( c a) \noBreak
+    d( f a f) d( f) a,( d) h4 r16 d( h g)
+    c( e g e) c( e) g,( c) a4 r16 c( a f)
+    h( d f d) h( d) f,( h) gis4 r16 h( gis e) %80
+    c' h8 d h' d,16 c h8 d h' d,16 \noBreak
+    c8 h16 a d8.\trill e16 <e h e,>4 r\fermata \bar "||"
+    \time 2/4 \tempoIConcertoC
+      c4 e8 d16 c \noBreak
+    g'8g, r g'
+    e g c c %85
+    h16 a g8 r e,
+    f a' g f
+    e, g' f e
+    d, f' e d
+    e16 d c8 e4~ %90
+    e8 d16 c d4~
+    d8 c16 h \once \tieDashed c4~
+    c8 h16 a h8 a16 g
+    a8 d c h
+    a h' a g %95
+    fis d c h
+    a h' a g
+    fis e16 d a'8 c,
+    h a16 g d'8 d,
+    g g4 d8 %100
+    g, g'4 d8 \noBreak
+    g,4 r \bar ":|.|:"
+    g' h8 a16 g \noBreak
+    d'8 d, r d'
+    h d g g %105
+    fis16 e d8 r h,
+    c e' d c
+    h, d' c h
+    a, c' h a
+    h16 a g8 r e %110
+    f! a' g f
+    e, g' f e
+    d, f' e d
+    e16 d c8 a'4~
+    a8 g16 f g4~ %115
+    g8 f16 e f4~
+    f8 e16 d e8 d16 c
+    h8 g' f e
+    d e d c
+    h g' f e %120
+    d e d c
+    h a16 g d'8 f,
+    e d16 c g'8 g,
+    c c'4 g8
+    c, c'4 g8 %125
+    c,4 r\fermata \bar ":|." %126 finis
+  }
+}
+
+ICredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoICredo
+    e'4\fE f g8 c, a' c,
+    h2 c8 g c e
+    d g, g g g d' d d
+    e c c c c4 e8 f
+    g e d c g' e d c %5
+    g' d c h c a' c, a
+    h d c h a c h a
+    g h d g d,4 fis'
+    g8 g, g g g d' e c
+    d g, h c d g, e' c %10
+    d g, h c d g, e' c
+    d4 g, g' g
+    a g8 a f4 h
+    gis fis8 \hA gis e4 \hA gis
+    a f e8 d c h %15
+    a c e a e,4 gis'
+    a2 a,4\p a
+    a gis8 a h2~
+    h4 a8 h c2~
+    c4 h8 c d2~ %20
+    d4 c8 d e2~
+    e4 d8 e f( e) e( d)
+    d4 d d d
+    c8 g c e c g c e
+    c g c e c g c e %25
+    g b, b b b b b b
+    a a a a a a a a
+    d a d fis d a d \hA fis
+    d a d fis d a d \hA fis
+    a c, c c c c c c %30
+    h! h h h h4 g
+    f'! e2 g,4
+    f' e2 r4
+    R1
+    r4 c8\fE c c g c e %35
+    d g, g g g4 d'
+    e8 fis g d c2
+    h8 g h c d4 d
+    e a8 g g4 fis\trill
+    g2 r %40
+    r4 e f! g
+    a a a d
+    h h r2
+    r4 c a d
+    r h g g %45
+    f e d c
+    h a g c
+    a' a g g
+    e8 g c e, d4 h' \noBreak
+    c4 c, r2\fermata \bar "||" %50
+    \key f \major \time 3/4 \tempoIEtIncarnatus \newSpacingSection
+      f,16(\fE a) c4 a8 g f16( e) \noBreak
+    f( a) c4 a8 g f16( e)
+    f8( b) a( d) c( f)
+    b,4\trill a r
+    f16(\p a) c4 a8 g f16 e %55
+    f( a) c4 a8 g f16 e
+    f8( b) a( d) c( f)
+    b,( a) a4 r
+    b16( d) f4 f8 f f
+    \once \slurDashed a,16( c) f4 f8 f f %60
+    g,16( b) e4 g b,8
+    a( g) g4 r
+    c16( e) g4 e8 d c16 h
+    c g e g c8 e d c16 h
+    c g e g c8 f e d %65
+    c d \appoggiatura c h4.\trill c8
+    c2 r4
+    c16(\f e) g4 e8 d c16 h
+    c( e) g4 e8 d c16 h
+    c8.[ a16 f8. a16 g8. g,16] %70
+    c2 r4
+    c'\p b!8 a g f
+    d' c d4 r
+    d c8( h) a( g)
+    e' d e4 r %75
+    f e8( f) g4
+    f8( c) c( b!) a4
+    f' e8( f) g4
+    f8( c) c( b) a4
+    f16 a c4 a8 g f16 e %80
+    f a c4 a8 g f16 e
+    f4 r r
+    r8 d'4\fE c b8
+    a d4 c b8
+    a g16 f g4 e \noBreak %85
+    f2 r4\fermata \bar "||"
+    \key c \major \time 4/4 \tempoICrucifixus \newSpacingSection
+      R1*12 \noBreak %98
+    R1\fermata \bar "||"
+    \time 2/2 \tempoIEtResurrexit \newSpacingSection
+      c2\p g'4 a8 h \noBreak %100
+    c4 g g a8 h
+    c4 g g a8 h
+    c4 g8 e c2
+    c4 e' d c
+    h, d' c h %105
+    a, c' h a
+    h8 a g4 d8 c h a
+    g2 d'
+    g4 d d e8 fis
+    g4 d d e8 fis %110
+    g2 g,
+    c g'
+    c4 g g a8 h
+    c4 g g a8 h
+    c2 c, %115
+    r8 c e g c4 g
+    r a8 g f e d c
+    h2 h'
+    r4 c8 h a g f e
+    d2 d' %120
+    r8 c, e g c4 a
+    g f8 e f4 g
+    c,2 r
+    R1*3 %126
+    r2 r8 a' c e
+    f4 d,2 d'4
+    h d8 c h a g f
+    e4 c2 c'4 %130
+    a c8 h a g f e
+    d4 h2 h'4
+    gis h8 a \hA gis fis? e d
+    c a c e a c h a
+    gis e \hA gis h e4 h %135
+    c8 h4 d8 c h4 d8
+    c h4 d8 c h4 d8
+    c4 h r h
+    c h8 a h4 gis?
+    a2 r4 c %140
+    h h2 c4
+    h h2 g'4
+    fis8 a4 g8 \hA fis a4 g8
+    fis a4 g8 \hA fis a4 \hA fis8
+    g4 fis8 e dis2 %145
+    e r
+    R1*7 %153
+    r2 g4\f h
+    a8( d,) g( d) a'4 d, %155
+    h'8 a g fis g4 g,
+    g2 r4 g
+    g g, g d''8 g,
+    e'( g,) d'( g,) e'( g,) d'( g,)
+    e'4 d2 h8 e, %160
+    c' e, h' e, c' e, h' e,
+    c'4 h e e
+    a2 a4 a
+    gis fis8 e a2~
+    a gis %165
+    a r
+    r4 a,\p f e8 d
+    h'2 h
+    d4 c8 h c4 c
+    h h h a8 gis %170
+    a2 r
+    r4 e' e e
+    r cis d e
+    r a, d f
+    r h, c! d %175
+    r g, c e
+    d2 c
+    b a
+    e' a
+    e gis %180
+    a4 c, h gis' \noBreak
+    a a, r2\fermata \bar "||"
+    \time 4/4 \tempoIMortuorum \newSpacingSection
+      r2 g'4\fE g \noBreak
+    f2 r
+    gis4 gis h d, %185
+    c a' a2~ \noBreak
+    a\trillE gis\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIEtVitam
+      \after 4*0 -\critnote R2*4 %191
+    r8 g,\fE a h
+    c a d c
+    h cis d4~
+    d c %195
+    c h
+    c d
+    h c~
+    c h
+    c2 %200
+    c4 h
+    c h
+    a4. a8
+    g h c d
+    e c a a %205
+    h4 a
+    g2
+    fis4 g
+    c2
+    h8 g a h %210
+    c4 h
+    a8 a h c
+    d4 c
+    h8 h c d
+    e4 d %215
+    c d
+    h c~
+    c h
+    r8 c d e
+    f d g f? %220
+    e fis g4
+    g f~
+    f e~
+    e d8 c
+    h4 c %225
+    c h
+    c8 g a b
+    a4 c
+    c8 e f g
+    f2 %230
+    e
+    d
+    c~
+    c4 h
+    c r %235
+    c2
+    c\fermata \bar "|." %237 finis
+  }
+}

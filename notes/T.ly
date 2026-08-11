@@ -446,3 +446,298 @@ IGloriaTenoreLyrics = \lyricmode {
   a --
   men. %269 finis
 }
+
+ICredoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoICredo
+    \mvTr e4\fE^\tuttiE d8 d c4 a
+    d2 c4 c
+    g g g h8 h
+    c4 c r2
+    g4 c c c8 c %5
+    d4 h8 h c4 a
+    h c a4. a8
+    h2 r
+    h4 h h c
+    h g8 a h4 c %10
+    h g8([ a)] h4 c8 c
+    h4 h g g
+    a g8 a f4 f
+    gis fis8([ \hA gis)] e4 \hA gis
+    a d h4. h8 %15
+    c2 r
+    R1*18 %34
+    r4 \mvTr e8\fE^\tuttiE e e4 e %35
+    d h g8 a h g
+    c4 h a2
+    d h4 h
+    c c8 c a4 a
+    h g a h %40
+    c e d c
+    c^\critnote c c a
+    d d2 h4
+    c c r a
+    h h r2 %45
+    c4( h) a a
+    h f g g
+    a d8 e d2
+    e r \noBreak
+    R1\fermata \bar "||" %50
+    \key f \major \time 3/4 \tempoIEtIncarnatus \newSpacingSection
+      R2.*35 \noBreak %85
+    R2.\fermata \bar "||"
+    \key c \major \time 4/4 \tempoICrucifixus \newSpacingSection
+      \mvTr a,4\pE^\solo d d8([ cis)] cis4 \noBreak
+    d8([ e)] f4 f8([ e)] e4
+    \mvTr c8.\fE^\tutti a16 a8 a b([ a)] a4
+    c8. a16 a8 a b([ a)] a4 %90
+    r8 \mvTr c\pE^\solo d a b c16([ d)] c8([ \hA b)]
+    a4 c( d) d
+    c \once \tieDashed f~ f8 e16([ d)] e8 e
+    e d16([ cis?)] d8 d d c16([ h!)] c8 c
+    c h r4 es8 es es es %95
+    es d r4 c^\tuttiE h!
+    es d d d
+    e e f4. f8 \noBreak
+    e2 r\fermata \bar "||"
+    \time 2/2 \tempoIEtResurrexit \newSpacingSection
+      R1*46 %145
+    r2 \mvTr e,4\pE^\soloE^\aTre e
+    h' h8 h h4 h
+    e,8 e e4 e g
+    a g fis( d)
+    g2 g4 g %150
+    fis e \hA fis d
+    g2 g4 a
+    d( g, d2)
+    g \mvTr h4\fE^\tuttiE g
+    d'2^\critnote d4 a %155
+    h d d r
+    g, g g g
+    g2 g4 h
+    c h c h
+    c h r gis %160
+    a gis a \hA gis
+    a gis h h
+    a2 d4 d
+    h2 c
+    e1 %165
+    e4 \mvTr e\pE^\solo c h8([ a)]
+    f'2 f
+    r4 f f f
+    f e8([ d)] e4 e
+    d d d c8([ h)] %170
+    c4 h a8([ h)] c([ d)]
+    e2 r4 e
+    cis2 h4 a
+    d8([ e)] f4 r d
+    h2 a4( g) %175
+    c!8([ d)] e4 e e
+    d2 c
+    b a
+    gis a
+    a( gis) %180
+    a r \noBreak
+    R1\fermata \bar "||"
+    \time 4/4 \tempoIMortuorum \newSpacingSection
+      r2 \mvTr g4\fE^\tuttiE g \noBreak
+    a a r2
+    gis4 gis gis gis %185
+    a a a a \noBreak
+    c2 e\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIEtVitam
+      \mvTr c2\fE^\tuttiE \noBreak
+    c4 h8 h
+    c4 h %190
+    a4. a8
+    g4 h(
+    a) d8 d
+    h4 a
+    h( g) %195
+    a r
+    a d
+    g, c
+    a( h)
+    g e' %200
+    d2\trill
+    c4 r
+    R2
+    r8 g[ a h]
+    c[ a d c] %205
+    h[ cis] d4
+    d c
+    c h
+    a2
+    g4 r %210
+    r8 e8[ f! g]
+    a4 g
+    f8 f[ g a]
+    h4 a
+    g8 g[ a h] %215
+    c4 a
+    d c
+    a h
+    g c
+    d2\trill %220
+    c4 d
+    c a
+    h c~
+    c a
+    d e %225
+    d2
+    e4 r
+    r8 c([ b a]
+    g4) c
+    c2^\critnote %230
+    c
+    c
+    a4 a
+    g2
+    g4 r %235
+    a2
+    g\fermata \bar "|." %237 finis
+  }
+}
+
+ICredoTenoreLyrics = \lyricmode {
+  Pa -- trem o -- mni -- po --
+  ten -- tem, fa --
+  cto -- rem coe -- li et
+  ter -- rae,
+  vi -- si -- bi -- li -- um %5
+  o -- mni -- um et in --
+  vi -- si -- bi -- li --
+  um.
+  Et in u -- num
+  Do -- mi -- num Je -- sum %10
+  Chri -- stum, Fi -- li -- um
+  De -- i u -- ni --
+  ge -- ni -- tum, De -- i,
+  De -- i, De -- i
+  u -- ni -- ge -- ni -- %15
+  tum.
+
+  Ge -- ni -- tum non %35
+  fa -- ctum, con -- sub -- stan -- ti --
+  a -- lem Pa --
+  tri, per quem
+  o -- mni -- a fa -- cta
+  sunt, qui pro -- pter %40
+  nos, nos ho -- mi --
+  nes et pro -- pter
+  no -- stram sa --
+  lu -- tem de --
+  scen -- dit, %45
+  de -- scen -- dit,
+  de -- scen -- dit, de --
+  scen -- dit de coe --
+  lis.
+
+  Cru -- ci -- fi -- xus, %87
+  cru -- ci -- fi -- xus
+  e -- ti -- am pro no -- bis,
+  e -- ti -- am pro no -- bis, %90
+  sub Pon -- ti -- o Pi -- la --
+  to pas -- sus,
+  pas -- _ sus et se --
+  pul -- tus est, se -- pul -- tus est, se --
+  pul -- tus, pas -- sus et se -- %95
+  pul -- tus, pas -- sus
+  et se -- pul -- tus
+  est, se -- pul -- tus
+  est.
+
+  Et in %146
+  Spi -- ri -- tum San -- ctum
+  Do -- mi -- num et vi --
+  vi -- fi -- can --
+  tem, qui ex %150
+  Pa -- tre Fi -- li --
+  o -- que pro --
+  ce --
+  dit. Qui cum
+  Pa -- tre et %155
+  Fi -- li -- o
+  si -- mul ad -- o --
+  ra -- tur et
+  con -- glo -- ri -- fi --
+  ca -- tur, et %160
+  con -- glo -- ri -- fi --
+  ca -- tur: qui lo --
+  cu -- tus est
+  per Pro --
+  phe -- %165
+  tas. Et u -- nam
+  san -- ctam,
+  san -- ctam ca --
+  tho -- li -- cam et
+  a -- po -- sto -- li -- %170
+  cam Ec -- cle -- si --
+  am. Con --
+  fi -- te -- or
+  u -- num, u --
+  num ba -- %175
+  ptis -- ma in re --
+  mis -- si --
+  o -- nem
+  pec -- ca --
+  to -- %180
+  rum.
+
+  Et ex --
+  pe -- cto
+  re -- sur -- re -- cti -- %185
+  o -- nem mor -- tu --
+  o -- rum.
+  Et
+  vi -- tam ven --
+  tu -- ri %190
+  sae -- cu --
+  li, sae --
+  cu -- li,
+  a -- men,
+  a -- %195
+  men,
+  a -- men,
+  a -- men,
+  a --
+  men, a -- %200
+  _
+  men,
+
+  a --
+  _ %205
+  _ men,
+  a -- men,
+  a -- men,
+  a --
+  men, %210
+  a --
+  _ _
+  men, a --
+  _ _
+  men, a -- %215
+  _ men,
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- %220
+  men, a --
+  _ _
+  men, a --
+  men,
+  a -- men, %225
+  a --
+  men,
+  a --
+  men,
+  a -- %230
+  men,
+  a --
+  _ men,
+  a --
+  men, %235
+  a --
+  men. %237 finis
+}
