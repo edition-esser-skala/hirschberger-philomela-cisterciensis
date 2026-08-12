@@ -41,6 +41,13 @@ tempoICredo = \tempoMarkup "Allabreve"
 tempoIOffertorium = \tempoTitleMarkup "Recitativo" "Adagio"
   tempoIOffertoriumB = \tempoTitleMarkup "Aria" "Adagio"
   tempoIOffertoriumC = \tempoMarkup "Vivace"
+tempoISanctus = \tempoMarkup "Adagio"
+  tempoIPleni = \tempoMarkup "Allabreve"
+tempoIBenedictus = \tempoMarkup "Andante"
+  tempoIOsanna = \tempoMarkup "Allabreve"
+tempoIAgnus = \tempoMarkup "Adagio"
+  tempoIAgnusB = \tempoMarkup "Andante"
+  tempoIDona = \tempo \markup \medium { \larger \larger "Allegro" \critnote }
 
 
 \include "notes/clno1.ly"

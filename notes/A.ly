@@ -923,3 +923,349 @@ IOffertoriumAltoLyrics = \lyricmode {
   os, con -- tra ho -- stes tu --
   os. %69 finis
 }
+
+ISanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoISanctus
+    r2 \mvTr g'~\fE^\tuttiE
+    g4 f e2
+    fis4 g2( \hA fis4)
+    g2 g4 g
+    g2( gis4) a %5
+    ais2.^\critnote h4
+    a2 g!4 g \noBreak
+    f^\critnote f e2\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIPleni
+      r4 e g a \noBreak
+    g2 g %10
+    g g4 g
+    g2 g
+    g a
+    fis g
+    e fis4 fis %15
+    g h8[ a] g4 fis
+    g h8[ a] g4 fis
+    g e8 e d2
+    d r
+    R1*4 %23
+    g2 g4 g
+    g g r g %25
+    g g r g
+    g g r2
+    r4 e( a2)
+    f4 f h2
+    g4 g a2 %30
+    e4(^\critnote d) r g
+    g1
+    g2 r4 g
+    f( e) d e
+    e d r g %35
+    a1
+    h
+    a4 a4 g2
+    g4 a g( f)
+    e a g( f) %40
+    e a g( f)
+    e a g f
+    e a g2
+    g r\fermata \bar "|." %44 finis
+  }
+}
+
+ISanctusAltoLyrics = \lyricmode {
+  San --
+  _ _
+  ctus, san --
+  ctus, san -- ctus,
+  san -- ctus, %5
+  san -- ctus
+  Do -- mi -- nus
+  Sa -- ba -- oth.
+  Ple -- ni sunt
+  coe -- li, %10
+  coe -- li et
+  ter -- ra
+  glo -- _
+  _ _
+  _ ri -- a, %15
+  glo -- _ _ _
+  _ _ _ _
+  _ ri -- a tu --
+  a.
+
+  Ple -- ni sunt %24
+  coe -- li, sunt %25
+  coe -- li et
+  ter -- ra
+  glo --
+  ri -- a, glo --
+  ri -- a tu -- %30
+  a. __ O --
+  san --
+  na, o --
+  san -- na, o --
+  san -- na, o -- %35
+  san --
+  na
+  in ex -- cel --
+  sis, o -- san --
+  na, o -- san -- %40
+  na, o -- san --
+  na, o -- san -- na
+  in ex -- cel --
+  sis. %44 finis
+}
+
+IBenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key g \major \time 2/4 \autoBeamOff \tempoIBenedictus
+    R2*57 \noBreak %57
+    R2\fermata \bar "||"
+    \twotwotime \key c \major \time 2/2 \tempoIOsanna \newSpacingSection
+      \mvTr c1\fE^\tuttiE \noBreak
+    d %60
+    e
+    f2. d4
+    e2. c4
+    d1
+    e4 fis g2~ %65
+    g4 fis8[ e] \hA fis2
+    g g
+    g fis
+    g4( d) g2
+    e4 fis8[ g] a2~ %70
+    a4 d, g2
+    g4( fis8[ e] \hA fis2)
+    g r
+    e1
+    f! %75
+    g
+    a2. f4
+    g2. e4
+    f1
+    e2 g( %80
+    fis) g
+    g4( fis8[ e] \hA fis2)
+    g r
+    R1*5 %88
+    r2 g
+    a1 %90
+    g2 g
+    f1
+    e2 e
+    f1
+    g %95
+    a2. f4
+    g2. e4
+    f1
+    e2 g
+    f1 %100
+    e
+    d
+    c
+    h
+    a %105
+    g2 c
+    c( h)
+    c r
+    a' g
+    a1 %110
+    g\breve*1/2\fermata \bar "|." %111 finis
+  }
+}
+
+IBenedictusAltoLyrics = \lyricmode {
+  O -- %59
+  san -- %60
+  na
+  in ex --
+  cel -- _
+  _
+  _ _ _ %65
+  _ _
+  sis, o --
+  san -- na
+  in __ ex --
+  cel -- _ _ %70
+  sis, o --
+  san --
+  na,
+  o --
+  san -- %75
+  na
+  in ex --
+  cel -- _
+  _
+  sis, in __ %80
+  ex --
+  cel --
+  sis,
+
+  o -- %89
+  san -- %90
+  na, o --
+  san --
+  na, o --
+  san --
+  na %95
+  in ex --
+  cel -- _
+  _
+  sis, o --
+  san -- %100
+  na
+  in
+  ex --
+  cel --
+  sis, %105
+  in ex --
+  cel --
+  sis,
+  in ex --
+  cel -- %110
+  sis. %111 finis
+}
+
+IAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoIAgnus
+    \mvTr g'4\fE^\tuttiE g f( g)
+    e g a2
+    a4 g g( fis)
+    g g a a8 a
+    g4 g f!2 %5
+    e r
+    fis4 fis g g
+    g( fis) g2
+    g4 g g2(
+    f!4) e e2 %10
+    fis r
+    f4 f es d \noBreak
+    d2 e\fermata \bar "||"
+    \time 3/4 \tempoIAgnusB
+      r4 \mvTr a\pE^\aTre a \noBreak
+    gis fis \hA gis %15
+    a e a
+    h h c
+    a( h) c
+    c2( h4)
+    c \mvTr g\fE^\tutti g %20
+    g g g
+    g g e
+    f f a
+    g2 g4
+    f2. %25
+    e4 g g
+    g2 g4
+    g2. \noBreak
+    g\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIDona
+      \mvDl g8.\fE^\tuttiE g16 g8 g \noBreak %30
+    g g r4
+    r8 a([ g]) f
+    e f e([ d)]
+    c r r e
+    d d r f %35
+    e e r g
+    f4( e)
+    d8 r r e
+    f f r d
+    e e r4 %40
+    r8 g([ f]) e
+    d c d([ f)]
+    c a' g4\trill
+    g r8 a
+    a a r a %45
+    a a r fis
+    g([ h a g)]
+    fis h([ a)] c
+    h g g([ e16 fis)]
+    g8 g([ fis]) e %50
+    d d e([ d)]
+    d e f!([ g)]
+    c, fis g([ a)]
+    d, gis a([ h)]
+    e, e a4 %55
+    g! r
+    r8 g([ f]) e
+    d c d([ f)]
+    c a' g4
+    g r %60
+    r8 g f([ e16 d)]
+    e8 e d([ c16 h)]
+    c8 a' g4
+    g r
+    R2 %65
+    R\fermata \bar "|." %66 finis
+  }
+}
+
+IAgnusAltoLyrics = \lyricmode {
+  A -- gnus De --
+  i, qui tol --
+  lis pec -- ca --
+  ta, pec -- ca -- ta, pec --
+  ca -- ta mun -- %5
+  di:
+  Mi -- se -- re -- re
+  no -- bis,
+  mi -- se -- re --
+  re no -- %10
+  bis,
+  mi -- se -- re -- re
+  no -- bis.
+  A -- gnus
+  De -- i, qui %15
+  tol -- lis, qui
+  tol -- lis pec --
+  ca -- ta
+  mun --
+  di. A -- gnus %20
+  De -- i, qui
+  tol -- lis, qui
+  tol -- lis pec --
+  ca -- ta
+  mun -- %25
+  di: Do -- na
+  no -- bis
+  pa --
+  cem.
+  Do -- na no -- bis %30
+  pa -- cem,
+  do -- na
+  no -- bis pa --
+  cem, da
+  pa -- cem, da %35
+  pa -- cem, da
+  pa --
+  cem, da
+  pa -- cem, da
+  pa -- cem, %40
+  do -- na
+  no -- bis pa --
+  cem, da pa --
+  cem, da
+  pa -- cem, da %45
+  pa -- cem, da
+  pa --
+  cem, do -- na
+  no -- bis pa --
+  cem, do -- na %50
+  no -- bis pa --
+  cem, da pa --
+  cem, da pa --
+  cem, da pa --
+  cem, da pa -- %55
+  cem,
+  do -- na
+  no -- bis pa --
+  cem, da pa --
+  cem, %60
+  da pa --
+  cem, da pa --
+  cem, da pa --
+  cem. %64 finis
+}

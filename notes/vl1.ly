@@ -818,3 +818,241 @@ IOffertoriumViolinoI = {
     g r g-\critnote r\fermata \bar "|." %70 finis
   }
 }
+
+ISanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoISanctus
+    r2 g''\fE
+    g4 f e a
+    fis g2 \hA fis4
+    g2 r4 g
+    g2 gis4 a %5
+    e2. d4
+    a'2 g! \noBreak
+    f e\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIPleni
+      r4 e g a \noBreak
+    h,2\trill c4 e %10
+    d g,2 f'4
+    e2 d
+    r8 e e e e4 c'
+    r8 d, d d d4 h'
+    r8 c, c c c4 a' %15
+    h, d8 c h4 a
+    h d8 c h4 a
+    h e d8 c h a
+    g d' e fis g a \hA fis a
+    g d e fis g a \hA fis a %20
+    g d, e fis g a \hA fis a
+    g d e fis g a \hA fis a
+    g4 a8 g d4 fis
+    g2 r4 e'
+    d g2 e4 %25
+    d g2 e4
+    d g, r2
+    r4 g' a2
+    r4 a h2
+    r4 h c d %30
+    c g r g
+    f e d e
+    e d g, e'
+    d c h c
+    c h g c %35
+    a h8 c d4 c
+    h c8 d e4 d
+    c a' g8 f e d
+    c4 a g f
+    e f' e d %40
+    c a g f
+    e f' e d
+    c a' g2 \noBreak
+    g r\fermata \bar "|." %44 finis
+  }
+}
+
+IBenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key g \major \time 2/4 \tempoIBenedictus
+    g'4\f h8. a32 g
+    d'8 d, d4
+    r8 g' cis,8.\trill h32 \hA cis
+    d8 d, d4
+    r8 f' f8.\trill e32 d %5
+    e8 c, c e
+    r g' g8. fis!32 e
+    fis8 d, d fis
+    r c'! c h16 a
+    h8. c32 d c8 h16 a %10
+    h8 a a g16 fis
+    g8 h, c d
+    g, h'\p a g16 fis
+    g8 h, c d
+    g,4 r %15
+    g' h8. a32 g
+    d'8 d, d4
+    r8 g' cis,8.\trill h32 \hA cis
+    d8 d, d4
+    r8 h' h d %20
+    c!16( d) e4 g,8
+    h16( c) d4 g,8
+    a16( h) c4 d,8
+    h' a a a
+    h h h h %25
+    a a a a
+    g g g g
+    fis e16 d d'4
+    r8 fis, g a
+    d4\f fis8. e32 d %30
+    a'8 a, a4
+    r8 d' gis,8.\trill fis32\hA gis
+    a8 a, a4
+    r8 a d16( fis) a( c,!)
+    h8 g, g4 %35
+    r8 h' e16( gis) h( d,)
+    cis8 a, a4
+    r8 g''! g fis16 e
+    fis8 a g fis16 e
+    fis8 d e d16 cis %40
+    d8 fis, g a
+    d,4 r
+    R2
+    r4 r8 h'\p
+    a d c! h %45
+    a d c h
+    a g g g
+    g a a a
+    a h h h
+    h c c c %50
+    c-\critnote d d d
+    h16( d) e( fis) g4
+    r8 h,, c d
+    g, a''\f a g16 fis
+    g8 h a g16 fis %55
+    g8 d16 h c8 h16 a
+    h8 h, c d \noBreak
+    g,4 r\fermata \bar "||"
+    \twotwotime \key c \major \time 2/2 \tempoIOsanna \newSpacingSection
+      r2 c'~\fE \noBreak
+    c h %60
+    c4 g c2
+    a4 h8( c) d2~
+    d4 g, c2~
+    c4 h8 a h2
+    c h %65
+    a1
+    g2 h
+    c1
+    d
+    e2. c4 %70
+    d2. h4
+    c1
+    h4 h c d
+    e2 e4 e
+    d1 %75
+    c2 r
+    R1*3
+    r2 e %80
+    d d
+    c1
+    h2 g
+    a1
+    h %85
+    c2. a4
+    h2. g4
+    a1
+    g2 h
+    c d %90
+    h c
+    c4 h8 a h2
+    c c~
+    c h
+    c4 g c2 %95
+    a4 h8 c d2~
+    d4 g, c2
+    c4 h8 a h2
+    c g'
+    f1 %100
+    e
+    d
+    c
+    h
+    a %105
+    g2 c
+    c h
+    c r
+    c c
+    c1 %110
+    c\breve*1/2\fermata \bar "|." %111 finis
+  }
+}
+
+IAgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoIAgnus
+    g''4\fE g f g
+    e r r2
+    r4 g c2
+    h4 g a a
+    h c2 h4 %5
+    c2 r
+    a4 a b a
+    a2 h
+    r g4 g
+    f! e e2 %10
+    fis r
+    f4 f es d \noBreak
+    d2 e\fermata \bar "||"
+    \time 3/4 \tempoIAgnusB R2.*6 %19
+    r4 g\fE g %20
+    g g g
+    e e g
+    a a a
+    g2 g4
+    f2. %25
+    e4 g g
+    g2 g4
+    g2. \noBreak
+    g\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIDona \newSpacingSection
+      c4\fE h \noBreak %30
+    c8 a g f
+    e f e d
+    c a g f
+    e g c16 e, d c
+    g d' h' c d f, e d %35
+    g, e' c' d e g, f e
+    f e' d f, e d' c e,
+    d8 g' cis,4\trill
+    d8 f h,4\trill
+    c!8 g' f e %40
+    d e d c
+    h c h a
+    g a' g16 f e d
+    c8 c16 c fis8 a
+    c,16 d, fis a c8 a' %45
+    c,16 d, fis? a c8 a'
+    g h a g
+    fis? g \hA fis e
+    d g g e16 fis?
+    h,8 g fis? e %50
+    d g' a fis?
+    g g32 f e d c16 c c c
+    c8 a'32 g fis e d16 d d d
+    d8 h'32 a gis fis? e16 e e e
+    e8 a a a %55
+    g! g f! e
+    d e d c
+    h c h a
+    g c c h
+    c g' f e16 d %60
+    e8 e d c16 h
+    c8 g f e16 d
+    e8 c' c h
+    c e g16 f e d
+    c8 e g16 f e d %65
+    c4 r\fermata \bar "|." %66 finis
+  }
+}

@@ -393,3 +393,103 @@ IOffertoriumClarinoI = {
     e e16 e e8 e e4 r\fermata \bar "|." %70 finis
   }
 }
+
+ISanctusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoISanctus
+    R1*2
+    r4 g''\fE fis2\trill
+    g r
+    R1*2 %6
+    r2 r4 g \noBreak
+    f2 e\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIPleni
+      R1*2 %10
+    r4 d e f
+    e2 d
+    R1*11 %23
+    d2 d4 e
+    d d r e %25
+    d d r e
+    d d r2
+    R1*3 %30
+    r2 r4 \pa g,
+    g g8 g g4 g
+    g2 r
+    g4 g8 g g4 g
+    g2 \pd r %35
+    R1*3
+    r2 \pa c,
+    c4 c8 c c4 c %40
+    c2 r4 c
+    c2 c
+    c'4 d \pd d2\trill
+    c r\fermata \bar "|." %44 finis
+  }
+}
+
+IBenedictusClarinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoIBenedictus
+    R2*57 \noBreak %57
+    R2\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIOsanna \newSpacingSection
+      R1*40 %98
+    \pa g''1\fE
+    f %100
+    e
+    d
+    c \pd
+    R1*5 %108
+    a'2 g
+    a1 %110
+    g\breve*1/2\fermata \bar "|." %111 finis
+  }
+}
+
+IAgnusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoIAgnus
+    g''4\fE g f g
+    e r r2
+    R1*10 %12
+    g,8. g32 g g8 g e2\fermata \bar "||"
+    \time 3/4 \tempoIAgnusB R2.*6 %19
+    r4 e'\fE e %20
+    d2 d4
+    e2 r4
+    R2.*3 %25
+    r4 e e
+    d2 e4
+    d2. \noBreak
+    e\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIDona
+      e4\fE d %30
+    c r
+    R2*7 %38
+    r4 r8 d
+    e g f e %40
+    d4 r
+    R2
+    r8 a' g16 f e d
+    c4 r
+    R2*6 %50
+    r8 d e d
+    \pa d c16 c c8 c
+    c4 r
+    r8 e,16 e e8 e
+    e4 \pd r %55
+    R2*3
+    r8 a' g16 f e d
+    c8 g' f e16 d %60
+    e4 r
+    R2
+    r8 a g16 f e d
+    c8 g c g
+    e g c g %65
+    e4 r\fermata \bar "|." %66 finis
+  }
+}

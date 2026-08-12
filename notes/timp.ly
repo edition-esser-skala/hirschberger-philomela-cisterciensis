@@ -269,3 +269,90 @@ IOffertoriumTimpani = {
     c c16 c c8 c c4 r\fermata \bar "|." %70
   }
 }
+
+ISanctusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoISanctus
+    R1*7 \noBreak %7
+    R1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIPleni
+      R1*2 %10
+    g2 r4 g
+    c2 g
+    R1*11 %23
+    g2 g4 c
+    g2 r4 c %25
+    g2 r4 c
+    g2 r
+    R1*3 %30
+    r2 r4 g
+    g2 r
+    g r
+    g4 g8 g g4 g
+    g2 r %35
+    R1*3
+    r2 c
+    c r %40
+    c r
+    c r
+    c g
+    c r\fermata \bar "|." %44 finis
+  }
+}
+
+IBenedictusTimpani = {
+  \relative c {
+    \clef bass
+    \twofourtime \key c \major \time 2/4 \tempoIBenedictus
+    R2*57 \noBreak %57
+    R2\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIOsanna \newSpacingSection
+      R1*50 %108
+    c2\fE c
+    c1 %110
+    c\breve*1/2\fermata \bar "|." %111 finis
+  }
+}
+
+IAgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoIAgnus
+    c2\fE r
+    c4 r r2
+    R1*10 %12
+    g8. g32 g g8 g c2\fermata \bar "||"
+    \time 3/4 \tempoIAgnusB R2.*6 %19
+    r4 c\fE c %20
+    g g g
+    c2 r4
+    R2.*3 %25
+    r4 c c
+    g2 c4
+    g2. \noBreak
+    c\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIDona
+      c4\fE g \noBreak %30
+    c r
+    R2*7 %38
+    r4 r8 g
+    c4 r8 c %40
+    g4 r
+    R2
+    r8 c g g
+    c4 r
+    R2*7 %51
+    r8 c16 c c8 c
+    c4 r
+    R2*5 %58
+    r8 c g g
+    c4 g %60
+    c r
+    R2
+    r8 c g g
+    c4 r8 g
+    c4 r8 g %65
+    c4 r\fermata \bar "|." %66 finis
+  }
+}

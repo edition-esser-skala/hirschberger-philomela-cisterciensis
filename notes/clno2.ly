@@ -64,7 +64,7 @@ IKyrieClarinoII = {
     r8 g c g
     g4 r
     r8 d'16 d d8 d
-    d e,16 e e8 e %10
+    d e,16 e e8 e %100
     e4 r
     R2*3
     r8 f' e16 d c g %105
@@ -391,5 +391,105 @@ IOffertoriumClarinoII = {
     e c8 c16 c c8 c16 c c4
     c8 e16 e e8 e g e16 e e8 e
     c c16 c c8 c c4 r\fermata \bar "|." %70 finis
+  }
+}
+
+ISanctusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoISanctus
+    R1*2
+    r4 d'\fE d2\trill
+    d r
+    R1*2 %6
+    r2 r4 c \noBreak
+    d g, c2\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIPleni
+      R1*2 %10
+    r4 g c d
+    c2 g
+    R1*11 %23
+    g2 g4 c
+    g2 r4 c %25
+    g g r c
+    g g r2
+    R1*3 %30
+    r2 r4 g
+    g2 r4 g
+    g g8 g g4 g
+    g2 r4 g
+    g2 r %35
+    R1*3
+    r2 c,
+    c r4 c %40
+    c c8 c c4 c
+    c2 r4 c
+    e e g2
+    e r\fermata \bar "|." %44 finis
+  }
+}
+
+IBenedictusClarinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoIBenedictus
+    R2*57 \noBreak %57
+    R2\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIOsanna \newSpacingSection
+      R1*40 %98
+    r2 e'~\fE
+    e d~ %100
+    d \once \tieDashed c~
+    c r
+    R1
+    R1*5 %108
+    c2 c
+    f1 %110
+    e\breve*1/2\fermata \bar "|." %111 finis
+  }
+}
+
+IAgnusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoIAgnus
+    e'4\fE e d2
+    c4 r r2
+    R1*10 %12
+    g8. g32 g g8 g e2\fermata \bar "||"
+    \time 3/4 \tempoIAgnusB R2.*6 %19
+    r4 c'\fE c %20
+    g2 g4
+    c2 r4
+    R2.*3 %25
+    r4 c c
+    g2 c4
+    g2. \noBreak
+    c\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIDona
+      c4\fE g \noBreak %30
+    e r
+    R2*7 %38
+    r4 r8 g
+    c e d c %40
+    g4 r
+    R2
+    r8 f' e16 d c g
+    e4 r
+    R2*6 %50
+    r8 g c g
+    g4 r
+    r8 d'16 d d8 d
+    d e,16 e e8 e
+    e4 r %55
+    R2*3
+    r8 f' e16 d c g
+    e8 e' d c16 g %60
+    c4 r
+    R2
+    r8 f e16 d c g
+    e8 e g e
+    c e g e %65
+    c4 r\fermata \bar "|." %66 finis
   }
 }
