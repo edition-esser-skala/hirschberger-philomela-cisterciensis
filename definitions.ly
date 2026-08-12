@@ -38,6 +38,9 @@ tempoICredo = \tempoMarkup "Allabreve"
   tempoIEtResurrexit = \tempoMarkup "Allabreve" %180
   tempoIMortuorum = \tempoMarkup "Adagio" %60
   tempoIEtVitam = \tempoMarkup "Allegro" %140
+tempoIOffertorium = \tempoTitleMarkup "Recitativo" "Adagio"
+  tempoIOffertoriumB = \tempoTitleMarkup "Aria" "Adagio"
+  tempoIOffertoriumC = \tempoMarkup "Vivace"
 
 
 \include "notes/clno1.ly"

@@ -574,7 +574,7 @@ ICredoSoprano = {
     \clef treble
     \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoICredo
     \mvTr c'4\fE^\tutti h8 h c4 d
-    \appoggiatura c8 h2 c4 c
+    h2^\critnote c4 c
     d d d d8 d
     e4 c r2
     e4 e e g8 e %5
@@ -903,16 +903,134 @@ ICredoSopranoLyrics = \lyricmode {
   men, %235
   a --
   men. %237 finis
-
-  % et vi -- tam ven -- tu -- ri sae -- cu -- li, a -- men,
-  % et vi -- tam ven -- tu -- ri sae -- cu -- li, a -- men,
-  % et vi -- tam ven -- tu -- ri sae -- cu -- li, a -- men,
-  % et vi -- tam ven -- tu -- ri sae -- cu -- li, a -- men,
-  % et vi -- tam ven -- tu -- ri sae -- cu -- li, a -- men,
-  % et vi -- tam ven -- tu -- ri sae -- cu -- li, a -- men,
 }
 
+IOffertoriumSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoIOffertorium
+    r4 r8 r16 \mvTr g'\pE^\solo c8 c r c16 e
+    \appoggiatura d8 c16 c c8 r e cis cis r h16 a
+    d d d8 r4 d8 d r16 d f d
+    \appoggiatura c8 h16 h h8 r d e16 d c8 r c
+    g' e16 c \appoggiatura h8 a a r16 a d c c g g8 \noBreak %5
+    R1\fermata \bar "||"
+    \tempoIOffertoriumB e'4^\dolce g8([ h,)] c([ h)] c4 \noBreak
+    a8([ h)] c([ g)] \appoggiatura g f4\trill e
+    R1*5 %13
+    e'4 g8([ h,)] c([ h)] c4
+    a8([ h)] c([ g)] \appoggiatura g f4\trill e %15
+    c'8([ e)] d([ c)] h([ d)] c([ h)]
+    a([ c)] h([ a)] h4 c
+    d4. e8 \appoggiatura g, fis4 g
+    a8([ c)] \afterGrace h4 { c8[ d] } a4 r
+    g' fis8([ e)] d4 e8[( g,)] %20
+    \appoggiatura g fis4. g8 g4 r
+    R1*4 %25
+    d'4. e8 d([ g,)] fis([ g)]
+    d'4. e8 d([ g,)] fis([ g)]
+    c4. e8 c([ h)] c([ g)]
+    c4. e8 c([ h)] c4
+    a8([ h)] c([ g)] a([ h)] c4 %30
+    d8([ f e)] d16([ c)] \appoggiatura c8 d4^\critnote r
+    f8([ e)] e4 d8([ c)] c4
+    a8([ g)] g([ c)] \appoggiatura g f4 e
+    f'8([ a)] g([ f)] e([ g)] c,4
+    d4. h8 c4 r %35
+    fis4.\trill fis8 g([ d)] h([ g)]
+    d'8([ f e)] d16([ c)] d4 r
+    f8([ e)] e4 d8([ c)] c4
+    g( h8.) c16 c4 r
+    R1*3 \noBreak %42
+    R1\fermata \bar "||"
+    \tempoIOffertoriumC R1*2 %45
+    r4 r8 \mvDl e\fE^\tutti e g16([ f)] e8 e
+    e g16([ f)] e8 c c c c([ h)]
+    c4 r8 e d8. d16 d8 d
+    e8. e16 e8 d e d c4\trill
+    h8 h h a16 h g8 g c h16([ c)] %50
+    a8 a d c16([ d)] h8 h c h16([ c)]
+    a8 a r d16 d d8 d r d16 d
+    d8 d r d16 d d8 d d4\trill
+    d8 h h c16 d e8 e c d16([ e)]
+    f8 f d e16([ f)] g8 g e d16([ e)] %55
+    f8 f d c16([ d)] e8 e c h16([ c)]
+    d8 d h a16([ h)] c8 c h4
+    a r8 cis d e f cis
+    d e f h, c d e h
+    c d e g f e d e %60
+    d d r g, c4 c8 c
+    c4 c8 a d4 d8 d
+    d4 d8 d g4 g8 g
+    e([ d)] e e16 d e8 e r e16 d
+    e8 e r e16 d e8 e d4 %65
+    c r8 e16 d e8 e r e16 d
+    e8 e r e16 d e8 e d4
+    c c8 c c c c4\trill
+    c r r2
+    R1\fermata \bar "|." %70 finis
+  }
+}
 
+IOffertoriumSopranoLyrics = \lyricmode {
+  Ve -- ni -- te pi -- ae
+  a -- ni -- mae et me -- cum Be -- a --
+  tis -- si -- mam coe -- li ter -- rae -- que
+  Do -- mi -- nam di -- li -- gi -- te jun --
+  ga -- mur a -- man -- ti ae -- ter -- no foe -- de -- re. %5
+
+  San -- cta, San -- cta,
+  San -- cta pi -- a,
+
+  San -- cta, San -- cta, %14
+  San -- cta pi -- a %15
+  Ju -- va pre -- ces,
+  o Ma -- ri -- a!
+  ad -- de vo -- tis
+  sup -- pli -- cum
+  tu -- um Pa -- tro -- %20
+  ni -- ci -- um
+
+  ul -- ti -- ma in %26
+  mor -- tis ho -- ra
+  Fi -- li -- um pro
+  no -- bis o -- ra
+  nos ab ho -- ste %30
+  li -- be -- ra
+  Vir -- go! Ma -- ter!
+  Vir -- go! Ma -- ter!
+  Vir -- go! Ma -- ter!
+  Do -- mi -- na! %35
+  nos ab ho -- ste
+  li -- be -- ra
+  Vir -- go! Ma -- ter!
+  Do -- mi -- na!
+
+  Di -- gna -- re me lau -- %46
+  da -- re te vir -- go sa -- cra --
+  ta, di -- gna -- re me lau --
+  da -- re te vir -- go sa -- cra --
+  ta, da mi -- hi vir -- tu -- tem con -- tra %50
+  ho -- stes, \xE con -- tra \x ho -- stes, ho -- stes
+  tu -- os, con -- tra ho -- stes, con -- tra
+  ho -- stes, con -- tra ho -- stes tu --
+  os, da mi -- hi vir -- tu -- tem con -- tra
+  ho -- stes, con -- tra ho -- stes, con -- tra %55
+  ho -- stes, con -- tra ho -- stes, con -- tra
+  ho -- stes, con -- tra ho -- stes tu --
+  os, di -- gna -- re me lau --
+  da -- re te, di -- gna -- re me lau --
+  da -- re te vir -- go, vir -- go sa -- %60
+  cra -- ta, da mi -- hi vir --
+  tu -- tem, da mi -- hi vir --
+  tu -- tem, da mi -- hi vir --
+  tu -- tem con -- tra ho -- stes, con -- tra
+  ho -- stes, con -- tra ho -- stes tu -- %65
+  os, con -- tra ho -- stes con -- tra
+  ho -- stes, con -- tra ho -- stes tu --
+  os, con -- tra ho -- stes tu --
+  os. %69 finis
+}
 
 
 % San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.

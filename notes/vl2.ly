@@ -754,3 +754,73 @@ ICredoViolinoII = {
     e\fermata \bar "|." %237 finis
   }
 }
+
+IOffertoriumViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoIOffertorium
+    e1~\pE
+    e
+    a,4 f' f2
+    d e
+    g4 c, d2 \noBreak %5
+    e4 d e2\fermata \bar "||"
+    \tempoIOffertoriumB R1*2
+    \mvTr c8.[\fE-\dolce e'16 d8 c] g,8.[ h'16 a8 g]
+    d8.[ a'16 g8 fis] g4 r8 h %10
+    d,8.[ a'16 g8 fis] g4 r8 g
+    \tuplet 3/2 8 { g16 f e } e8 \tuplet 3/2 8 { f16 e d } d8 e4 r8 g
+    \tuplet 3/2 8 { g16 f e } e8 \tuplet 3/2 8 { f16 e d } d8 e4 r
+    R1*2 %15
+    r8 c'\pE h a r h a g
+    r a g fis g4 r
+    R1*3 %20
+    r2 r8 h\fE a g
+    r a g fis r d c h
+    r-\critnote c h a h4 r8 d
+    \tuplet 3/2 8 { d16 c h } h8 \tuplet 3/2 8 { c16 h a } a8 h4 r8 d
+    \tuplet 3/2 8 { d16 c h } h8 \tuplet 3/2 8 { c16 h a } a8 h4 r %25
+    r8 h'\p h c h4 r
+    r8 h h c h4 r
+    r8 g g g g4 r
+    r8 g g g g4 r
+    R1*4 %33
+    r8 f' e d c4 r
+    R1 %35
+    r8 c c c h4 r
+    r2 r8 h h4
+    R1
+    r2 r8 e,\fE d c
+    r d c h r g' f e %40
+    r f e d e4 r8 g
+    \tuplet 3/2 8 { g16 f e } e8 \tuplet 3/2 8 { f16 e d } d8 e4 r8 g \noBreak
+    \tuplet 3/2 8 { g16 f e } e8 \tuplet 3/2 8 { f16 e d } d8 e4 r\fermata \bar "||"
+    \tempoIOffertoriumC c8\fE c'16 h c8 g c,4 r \noBreak
+    e r e r %45
+    r16 c e g e8 c' c16 g e g c g e g
+    c g e g c8 c c c c h
+    c16 g e g c,8 c' d16 h h h h8 h
+    c16 e e e e8 d c d c4\trill
+    h8 g g fis16 g e8 e a g16 a %50
+    fis8 fis h a16 h g8 g a g16 a
+    fis d' d d d d d d d d d d d d d d
+    d d d d d d d d h8 h a4\trill
+    h8 d, d e16 f! g8 c c h16 c
+    d8 d h c16 d e8 e c h16 c %55
+    d8 d h a16 h c8 c a gis16 a
+    h8 h e h c c h4\trill
+    cis16 a \hA cis e \hA cis8 cis d e f cis
+    d e f h, c d e h
+    c d e e d c h c %60
+    h4 r8 g c c16 c c c c c
+    c4 c8 a d d16 d d d d d
+    d4 d8 d g g16 g g g g g
+    e8 d e e16 d e e e e e e e d
+    e e e e e e e d e e e e d8 d %65
+    e4 r8 e16 d e e e e e e e d
+    e8 e r e16 d e8 e d4
+    e e8 e f e f4\trill
+    e r e r
+    e r e-\critnote r\fermata \bar "|." %70 finis
+  }
+}

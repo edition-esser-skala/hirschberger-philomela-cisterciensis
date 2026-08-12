@@ -356,3 +356,40 @@ ICredoClarinoII = {
     c4 r\fermata \bar "|." %237 finis
   }
 }
+
+IOffertoriumClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoIOffertorium
+    R1*5 \noBreak %5
+    R1\fermata \bar "||"
+    \tempoIOffertoriumB R1*36 \noBreak %42
+    R1\fermata \bar "||"
+    \tempoIOffertoriumC r4 r8 g'\fE e e16 e e e e e \noBreak
+    g8 e16 e e e e e e8 c16 c c c c c %45
+    c4 r8 c' c e16 d c8 c
+    c e16 d c8 r r2
+    r4 r8 c g8. g16 g8 g
+    c8. c16 c8 g c g c4
+    g r r2 %50
+    R1
+    r4 r8 d' g, g r d'
+    g, g r d' g, g d'4
+    g, r r2
+    R1*2 %56
+    r2 e8 e16 e e8 e
+    e4 r r2
+    r4 r8 g c d e g,
+    c d e e d c g c %60
+    g4 r r8 c,16 c c8 c
+    c4 r r2
+    r r8 g' g d'
+    c g c c16 g c8 c r c16 g
+    c8 c r c16 g c8 c g4 %65
+    e8 e'16 d c8 c16 g c8 c r c16 g
+    c8 c r c16 g c8 c g4
+    e c8 c16 c c8 c16 c c4
+    c8 e16 e e8 e g e16 e e8 e
+    c c16 c c8 c c4 r\fermata \bar "|." %70 finis
+  }
+}

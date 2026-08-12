@@ -741,3 +741,67 @@ ICredoTenoreLyrics = \lyricmode {
   a --
   men. %237 finis
 }
+
+IOffertoriumTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoIOffertorium
+    R1*5 \noBreak %5
+    R1\fermata \bar "||"
+    \tempoIOffertoriumB R1*36 \noBreak %42
+    R1\fermata \bar "||"
+    \tempoIOffertoriumC R1*2 %45
+    r4 r8 \mvDl c\fE^\tutti c e16([ d)] c8 c
+    c^\critnote e16([ d)] c8 c c c a([ h)]
+    g4 r8 c h8. h16 h8 h
+    c8. c16 c8 h c h a([ d)]
+    d4 r8 g, c h16 c a8 a %50
+    d c16([ d)] h8 h e d16([ e)] c8 a
+    d d, r a'16 a h8 h r a16 a
+    h8 h r a16 a h8 h a4\trill
+    h r8 h c c16 c a8 h16([ c)]
+    d8 d h c16([ d)] e8 e c h16([ c)] %55
+    d8 d h a16([ h)] c8 c a gis16([ a)]
+    h8 h gis h c e e4
+    e r8 e d cis d e
+    d cis d d c h c d
+    c h c e d c h c %60
+    h h r4 r8 c c c
+    c4 c8 r r d d d
+    d4 d8 r r h c d
+    c([ h)] c c16 h c8 c r c16 h
+    c8 c r c16 h c8 c c([ h)] %65
+    c4 r8 c16 h c8 c r c16 h
+    c8 c r c16 h c8 c c([ h)]
+    c4 c8 e f e f4\trill
+    e r r2
+    R1\fermata \bar "|." %70 finis
+  }
+}
+
+IOffertoriumTenoreLyrics = \lyricmode {
+  Di -- gna -- re me lau -- %46
+  da -- re te vir -- go sa -- cra --
+  ta, di -- gna -- re me lau --
+  da -- re te vir -- go sa -- cra --
+  ta, da mi -- hi vir -- tu -- tem %50
+  con -- tra ho -- stes, con -- tra ho -- stes
+  tu -- os, con -- tra ho -- stes, con -- tra
+  ho -- stes, con -- tra ho -- stes tu --
+  os, da mi -- hi vir -- tu -- tem
+  con -- tra ho -- stes, con -- tra ho -- stes, %55
+  con -- tra ho -- stes, con -- tra ho -- stes,
+  con -- tra ho -- stes, ho -- stes tu --
+  os, di -- gna -- re me lau --
+  da -- re te, di -- gna -- re me lau --
+  da -- re te vir -- go, vir -- go sa -- %60
+  cra -- ta, mi -- hi vir --
+  tu -- tem, mi -- hi vir --
+  tu -- tem, mi -- hi vir --
+  tu -- tem con -- tra ho -- stes, con -- tra
+  ho -- stes, con -- tra ho -- stes tu -- %65
+  os, con -- tra ho -- stes con -- tra
+  ho -- stes, con -- tra ho -- stes tu --
+  os, con -- tra ho -- stes tu --
+  os. %69 finis
+}

@@ -748,3 +748,73 @@ ICredoViolinoI = {
     c\fermata \bar "|." %237 finis
   }
 }
+
+IOffertoriumViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoIOffertorium
+    g'1~\pE
+    g
+    f4 a a2
+    g1
+    c2 a4 g8 h \noBreak %5
+    c4. h8\trill c2\fermata \bar "||"
+    \tempoIOffertoriumB R1*2
+    \mvTr c,8.[\fE-\dolce e'16 d8 c] g,8.[ d''16 c8 h]
+    d,8.[ c'16 h8 a] \tuplet 3/2 8 { h16 a g } g8 g'4 %10
+    d,8.[ c'16 h8 a] \tuplet 3/2 8 { h16 a g } g8 f'!4
+    \tuplet 3/2 8 { e16 d c } c8 \tuplet 3/2 8 { d16 c h } h8 c8. g16 f'!4
+    \tuplet 3/2 8 { e16 d c } c8 \tuplet 3/2 8 { d16 c h } h8 \appoggiatura h c4 c,
+    R1*2 %15
+    r8 e'\pE d c r d c h
+    r c h a h4 r
+    R1*3 %20
+    r2 r8 d\fE c h
+    r c h a r h a g
+    r a g fis g4 c
+    \tuplet 3/2 8 { h16 a g } g8 \tuplet 3/2 8 { a16 g fis } fis8 g8. d16 c'4
+    \tuplet 3/2 8 { h16 a g } g8 \tuplet 3/2 8 { a16 g fis } fis8 g4 r %25
+    r8 d'\p d e d4 r
+    r8 d d e d4 r
+    r8 c c c c4 r
+    r8 c c c c4 r
+    R1*4 %33
+    r8 a' g f e4 r
+    R1 %35
+    r8 fis fis fis g4 r
+    r2 r8 d d4
+    R1
+    r2 r8 g,\fE f e
+    r f e d r e' d c %40
+    r d c h c4 f
+    \tuplet 3/2 8 { e16 d c } c8 \tuplet 3/2 8 { d16 c h } h8 c4 f \noBreak
+    \tuplet 3/2 8 { e16 d c } c8 \tuplet 3/2 8 { d16 c h } h8 c4 r\fermata \bar "||"
+    \tempoIOffertoriumC c,8\fE c'16 h c8 g c,4 r \noBreak
+    c' r c r %45
+    r16 c, e g c8 e e16 g g g g g g g
+    c g g g g g g g a8 g f4\trill
+    e16 c c c c8 e d16 g g g g8 g
+    e16 g g g g8 d e16 fis g8 g \hA fis
+    g h, h a16 h g8 g c h16 c %50
+    a8 a d c16 d h8 h c h16 c
+    a d d d d d d d d d d d d d d d
+    d d d d d d d d d8 g g fis
+    g h, h c16 d e8 g a g
+    f! g16 a h8 a g a16 h c8 h %55
+    a g16 a h8 h g f16 g a8 a
+    f e16 f gis8 gis a a a gis
+    a16 a, cis e a8 e f g a e
+    f g a d, e f g d
+    e f g g f e d e %60
+    d4 r r8 e f g
+    a16 f c a f4 r8 fis' g a
+    h16 g d h g4 r8 h c d
+    g4 r8 g g16 g g g g g g g
+    g g g g g g g g g g g g g g g g %65
+    g4 r8 g g16 g g g g g g g
+    g g g g g g g g g g g g g g g g
+    g4 g8 g a g a4\trill
+    g r g r
+    g r g-\critnote r\fermata \bar "|." %70 finis
+  }
+}

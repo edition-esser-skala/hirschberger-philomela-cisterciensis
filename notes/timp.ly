@@ -239,3 +239,33 @@ ICredoTimpani = {
     c2\fermata \bar "|." %237 finis
   }
 }
+
+IOffertoriumTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoIOffertorium
+    R1*5 \noBreak %5
+    R1\fermata \bar "||"
+    \tempoIOffertoriumB R1*36 \noBreak %42
+    R1\fermata \bar "||"
+    \tempoIOffertoriumC r4 r8 c\fE c c16 c c8 c \noBreak
+    c4 r8 c c c16 c c8 c %45
+    c4 r8 c c4 r8 c
+    c4 r r2
+    r4 r8 c g8. g16 g8 g
+    c4 r r2
+    R1*9 %58
+    r4 r8 g c4 r8 g
+    c4 r8 c g4 r8 c %60
+    g4 r r8 c16 c c8 c
+    c4 r r2
+    r r4 r8 g
+    c4 r8 c16 g c4 r8 c16 g
+    c4 r8 c16 g c8 c g g %65
+    c4 r8 c16 g c4 r8 c16 g
+    c8 c r c16 g c8 c g4
+    c r c r
+    c r8 c c c16 c c8 c
+    c c16 c c8 c c4 r\fermata \bar "|." %70
+  }
+}

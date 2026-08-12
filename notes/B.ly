@@ -738,3 +738,69 @@ ICredoBassoLyrics = \lyricmode {
   a --
   men. %237 finis
 }
+
+IOffertoriumBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoIOffertorium
+    R1*5 \noBreak %5
+    R1\fermata \bar "||"
+    \tempoIOffertoriumB R1*36 \noBreak %42
+    R1\fermata \bar "||"
+    \tempoIOffertoriumC R1*2 %45
+    r4 r8 \mvDl c'\fE^\tutti c8. c,16 c8 c'
+    c8. c,16 c8 c f e d4
+    c r8 c' g8. g16 g8 g
+    c8. c,16 c8 g' c g a4
+    g r r2 %50
+    R1
+    r4 r8 d'16 d, g8 g, r d''16 d,
+    g8 g, r d'16 d g8 g, d'4\trill
+    g, r8 g' c, d16 e f8 e
+    d e16([ f)] g8 f e f16([ g)] a8 a %55
+    f e16([ f)] g8 g e d16([ e)] f8 f
+    d c16([ d)] e8 e c a e'4
+    a, r8 a' f e d a'
+    f e d g e d c g'
+    e d c c d e g c %60
+    g g, r4 r8 c d e
+    f4 f8 r r d e fis
+    g4 g8 r r g a h
+    c([ g)] c, c'16 g c8 c, r c'16 g
+    c8 c, r c'16 g c8 c, g'([ g,)] %65
+    c4 r8 c'16 g c8 c, r c'16 g
+    c8 c, r c'16 g c8 c, g'([ g,)]
+    c4 c'8 c, f c f,4
+    c' r r2
+    R1\fermata \bar "|." %70 finis
+  }
+}
+
+IOffertoriumBassoLyrics = \lyricmode {
+  Di -- gna -- re me lau -- %46
+  da -- re te vir -- go sa -- cra --
+  ta, di -- gna -- re me lau --
+  da -- re te vir -- go sa -- cra --
+  ta, %50
+
+  con -- tra ho -- stes, con -- tra
+  ho -- stes, con -- tra ho -- stes tu --
+  os, da mi -- hi vir -- tu -- tem
+  con -- tra ho -- stes, con -- tra ho -- stes, %55
+  con -- tra ho -- stes, con -- tra ho -- stes,
+  con -- tra ho -- stes, ho -- stes tu --
+  os, di -- gna -- re me lau --
+  da -- re te, di -- gna -- re me lau --
+  da -- re te vir -- go, vir -- go sa -- %60
+  cra -- ta, mi -- hi vir --
+  tu -- tem, mi -- hi vir --
+  tu -- tem, mi -- hi vir --
+  tu -- tem con -- tra ho -- stes, con -- tra
+  ho -- stes, con -- tra ho -- stes tu -- %65
+  os, con -- tra ho -- stes con -- tra
+  ho -- stes, con -- tra ho -- stes tu --
+  os, con -- tra ho -- stes tu --
+  os. %69 finis
+  % Di -- gna -- re me lau -- da -- re te vir -- go sa -- cra -- ta,
+  % da mi -- hi vir -- tu -- tem con -- tra ho -- stes tu -- os.
+}

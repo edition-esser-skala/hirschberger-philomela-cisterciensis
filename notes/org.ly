@@ -1583,3 +1583,153 @@ ICredoBassFigures = \figuremode {
   r
   r %237 finis
 }
+
+IOffertoriumOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoIOffertorium
+    \mvTr c1~\pE-\soloE
+    c2 a
+    d d
+    g, c
+    e4 f fis g8 g, \noBreak %5
+    c4 g c,2\fermata \bar "||"
+    \tempoIOffertoriumB c''4\pE h a e \noBreak
+    f e d8 g, c4
+    c\fE r g r
+    d' r g r8 g, %10
+    d'4 r8 d g4 r8 h,
+    c e g g, c4 r8 h
+    c e g g, c4 g'16 f e d
+    c8 c'\pE h4 a e
+    f e d8 g, c4 %15
+    c r g r
+    d' r g, a
+    h c d8 c h4
+    a g d' d16 c h a
+    g4 a h c %20
+    d d, g r
+    d'\fE r g r
+    d r g, r8 fis
+    g h d d, g4 r8 fis
+    g h d d, g4 d'16 c h a %25
+    g4 r8 c\pE g'4 r
+    g, r8 c g'4 r
+    r8 e e c c4 r
+    r8 e e c c4 r
+    f e f e8 c %30
+    h4 c g' r
+    a g f e
+    f e d c
+    f r c e
+    f g c, r %35
+    r8 a a a g4 r
+    h c g' g,
+    a8 a' g4 f e8 f
+    g4 g, c r
+    g\fE r c r %40
+    g' r c, r8 h
+    c e g g, c4 r8 h \noBreak
+    c e g g, c4 r\fermata \bar "||"
+    \tempoIOffertoriumC \mvTr c8\fE-\tutti c'16 h c8 g c,4 r \noBreak
+    c r c r %45
+    c8 c'16 h c8 c, c4 r8 c'
+    c,4 r8 c f e d4
+    c r8 c g'8. g16 g8 g
+    c c, c g' c g a4
+    g r8 \clef "treble_8" g c h16 c a8 a %50
+    d c16 d h8 h e d16 e c8 a
+    d d, r \clef bass d g g, r d'
+    g g, r d' g g, d' d,
+    g4 r8 g' c, d16 e f8 e
+    d e16 f g8 f e f16 g a8 a %55
+    f e16 f g4 e8 d16 e f4
+    d8 c16 d e8 e c a e' e,
+    a4 r8 a' f e d a'
+    f e d g e d c g'
+    e d c c d e g c %60
+    g g, r4 r8 c d e
+    f4 r r8 d e fis
+    g4 r r8 g a h
+    c g c, c'16 g c,4 r8 c'16 g
+    c,4 r8 c'16 g c8 c, g' g, %65
+    c4 r8 c'16 g c,4 r8 c'16 g
+    c8 c, r c'16 h c8 c, g' g,
+    c4 c8 c f c f,4
+    c' r c r
+    c r c r\fermata \bar "|." %70 finis
+  }
+}
+
+IOffertoriumBassFigures = \figuremode {
+  r1
+  r2 <7 _+>
+  r1
+  r
+  <6>2 \bo <[6]>4 <4>8 <3> %5
+  r4 <4>8 \bc <[3]> r2
+  r4 <6>2 q4
+  r q <7>8 q4.
+  r1
+  <_+> %10
+  q4. q2 <5!>8
+  r <6>2. <5!>8
+  r1
+  r4 <6>2 q4
+  r q <7>8 q4. %15
+  r1
+  <_+>2. <7>8 <6\\>
+  <6>2 <_+>4 <6>
+  <6\\>2 <_+>
+  r4 <6\\>8 <5> <6>2 %20
+  <4>4 <_+>2.
+  q1
+  q2.. <5!>8
+  r4 \bo <[_+]> r4. \bc <[5!]>8
+  r4 <4>8 <_+>4. q4 %25
+  r1
+  r
+  r8 <6>2..
+  r8 q2..
+  r4 q2 q4 %30
+  <[6 5]>1
+  <6>4 q q q
+  r q <7>8 <6>4.
+  r2. <6>4
+  q1 %35
+  r8 <6\\>2..
+  <[5!]>1
+  <6>8 <\t> <6>4 q q
+  <4> <3>2.
+  r1 %40
+  r
+  r
+  r
+  r
+  r %45
+  r8. <6>16 r2.
+  r2 r8 <6> <7> <6>
+  r1
+  r2. <7>8 <6\\>
+  r1 %50
+  <_+>4 <[5\+]>2 <6>4
+  <_+>4. q2 q8
+  r4. <[_+]> <4>8 <_+>
+  r2.. <6>8
+  r4. q8 r2 %55
+  <6>8 <\t>4. <6>8 <\t>4.
+  <6>8 <\t> <_+>4 <6> <4>8 <_+>
+  <[_+]>4. <_+>8 <6> <6\\>4 <_+>8
+  <6> <6\\>4. <6[!]>8 <6>4.
+  q8 q2 q4. %60
+  r1
+  r2 r8 <_+>4.
+  r1
+  r
+  r2. <4>8 <3> %65
+  r1
+  r2. \bo <[4]>8 \bc <[3]>
+  r1
+  r
+  r %70 finis
+}

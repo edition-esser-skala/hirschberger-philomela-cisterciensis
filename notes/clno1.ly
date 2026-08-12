@@ -356,3 +356,40 @@ ICredoClarinoI = {
     c4 \pd r\fermata \bar "|." %237 finis
   }
 }
+
+IOffertoriumClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoIOffertorium
+    R1*5 \noBreak %5
+    R1\fermata \bar "||"
+    \tempoIOffertoriumB R1*36 \noBreak %42
+    R1\fermata \bar "||"
+    \tempoIOffertoriumC r4 r8 \pao g'\fE c g16 g g g g g \noBreak
+    c8 g16 g g g g g g8 e16 e e e e e %45
+    \pao c4 r8 e' e g16 f e8 e
+    e g16 f e8 r r2
+    r4 r8 e d8. d16 d8 d
+    e8. e16 e8 d e d \pao c4
+    d r r2 %50
+    R1
+    r4 r8 \pao d d d r \pao d
+    d d r \pa d d g g fis \pd
+    g4 r r2
+    R1*2 %56
+    r2 \pa e,8 e16 e e8 e
+    e4 \pd r r2
+    r4 r8 d' e f g d
+    e f g g f e d e %60
+    d4 r r8 \pa c,16 c c8 c
+    c4 \pd r r2
+    \pa r4 r8 d' g4 g8 g \pd
+    e d e e16 d e8 e r e16 d
+    e8 e r e16 d e8 e d4\trill %65
+    c8 g'16 f e8 e16 d e8 e r e16 d
+    e8 e r e16 d e8 e d4\trill
+    c \pa c8 c \pd c c16 c c4\trill
+    c8 g16 g g8 g c g16 g g8 g
+    e e16 e e8 e e4 r\fermata \bar "|." %70 finis
+  }
+}
