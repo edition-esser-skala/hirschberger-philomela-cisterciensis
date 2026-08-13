@@ -1,7 +1,7 @@
 # Changelog
 
-## 1.0.0 – DATE
+## 0.1.0 – 2026-08-13
 
 ### Added
 
-- initial release
+- first mass of *Philomela Cisterciensis*
