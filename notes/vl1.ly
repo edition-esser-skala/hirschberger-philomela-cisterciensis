@@ -473,7 +473,7 @@ IConcertoViolinoI = {
     c( e g e) c( e) g,( c) a4 r16 c( a f)
     h( d f d) h( d) f,( h) gis4 r16 h( gis e) %80
     c' h8 d h' d,16 c h8 d h' d,16 \noBreak
-    c8 h16 a d8.\trill e16 <e h e,>4 r\fermata \bar "||"
+    c8 h16 a d8.\trill e16 <e h e,>4 r\fermata \bar "||" \pageBreakInPart
     \time 2/4 \tempoIConcertoC
       c4 e8 d16 c \noBreak
     g'8g, r g'
@@ -932,7 +932,7 @@ IBenedictusViolinoI = {
     g8 h a g16 fis %55
     g8 d16 h c8 h16 a
     h8 h, c d \noBreak
-    g,4 r\fermata \bar "||"
+    g,4 r\fermata \bar "||" \pageBreakInPart
     \twotwotime \key c \major \time 2/2 \tempoIOsanna \newSpacingSection
       r2 c'~\fE \noBreak
     c h %60

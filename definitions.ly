@@ -1,20 +1,14 @@
-\version "2.24.0"
+\version "2.26.0"
 
 #(define option-movement-title-format "number-title")
 #(define option-print-all-bar-numbers #f)
 \include "ees.ly"
 \include "ees_articulate.ly"
 
-brkBeam = #(make-music 'BeamForbidEvent)
+
 obadlib = \markup \remark "ob (G) ad libitum"
 clnoobl = \markup \remark "clno (C)"
 
-fermataFine = #(define-event-function () ()
-  #{ \tweak Script.outside-staff-priority #0
-       \fermata
-     \tweak TextScript.self-alignment-X #-.4
-       ^\markup \remark "fine" #}
-)
 altOne = \markup \remark \circle "1"
 altTwo = \markup \remark \circle "2"
 
@@ -47,7 +41,7 @@ tempoIBenedictus = \tempoMarkup "Andante"
   tempoIOsanna = \tempoMarkup "Allabreve"
 tempoIAgnus = \tempoMarkup "Adagio"
   tempoIAgnusB = \tempoMarkup "Andante"
-  tempoIDona = \tempo \markup \medium { \larger \larger "Allegro" \critnote }
+  tempoIDona = \tempo \markup \normal-weight { \larger \larger "Allegro" \critnote }
 
 
 \include "notes/clno1.ly"
