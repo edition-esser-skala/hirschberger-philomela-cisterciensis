@@ -1,7 +1,14 @@
 # Changelog
 
+## 0.2.0 – 2026-11-21
+
+### Added
+
+- parts for first mass
+
+
 ## 0.1.0 – 2026-08-13
 
 ### Added
 
-- first mass of *Philomela Cisterciensis*
+- Missa in honorem B. V. M. (no. 1)
