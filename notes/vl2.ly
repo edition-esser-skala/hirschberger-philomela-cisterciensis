@@ -1060,3 +1060,84 @@ IAgnusViolinoII = {
     c4 r\fermata \bar "|." %66 finis
   }
 }
+
+IIKyrieViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoIIKyrie
+    h'4.\fE h8 h2
+    r4 d e2~
+    e4 d d cis
+    d d f,2
+    e4 e' g,2 %5
+    fis!4 b, a g
+    d' d c b \noBreak
+    a2 r\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIIKyrieB
+      r4 h'16(\p a) g( a) \noBreak
+    h4 h16( a) g( a) %10
+    h4 r
+    r8 e, d c
+    h4 d16 c h a
+    g8 h16 d g8 g
+    d fis16 a a8 fis %15
+    d g16 h h8 g~
+    g fis r d
+    d d d \once \tieDashed g~
+    g fis4 d8
+    d d d \once \tieDashed g~ %20
+    g fis d16 c h! a
+    g4 g'8 h!16 a
+    g4 r
+    R2
+    r4 r8 fis %25
+    e4 g8 fis16 e
+    fis4 r8 fis
+    e4 g8 fis16 e
+    fis8 fis r4
+    R2 %30
+    d8\fE fis16 a d4
+    a8 cis16 e e8 cis
+    d, fis16 a d8 fis
+    d cis a a
+    h cis16 d e4 %35
+    a,8 h16 cis d4
+    d8 cis16 h cis4
+    d dis8 dis
+    e16( h) dis( h) e( h) dis( h)
+    e( h) dis( h) fis'( h,) dis( h) %40
+    e8 c! h4\trill
+    h r
+    r8 c\p c c
+    c h r4
+    r8 c c c %45
+    c h r \once \tieDashed h~
+    h8^\critnote a r a~
+    a g r g~
+    g fis r \once \tieDashed f~
+    f^\critnote e r g %50
+    fis!4 r8 a
+    g fis r a
+    g fis r4
+    R2
+    h8\fE h a4 %55
+    h h8 d
+    h16 a g a h4
+    R2
+    r8 e, d c
+    h4 d16 c h a %60
+    g8 h16 d g8 h
+    d, fis16 a c8 d,
+    g, h16 d g h d8
+    g, fis d' d
+    e4~ e8 d16 c %65
+    d4~ d8 c16 h
+    c2
+    h8 h a g
+    fis h a g
+    fis g4 fis8 %70
+    g c h a
+    g c, h a
+    g2\fermata \bar "|." %73 fins
+  }
+}

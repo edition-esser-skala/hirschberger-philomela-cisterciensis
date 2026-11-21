@@ -1381,3 +1381,160 @@ IAgnusSopranoLyrics = \lyricmode {
   cem, da pa --
   cem. %64 finis
 }
+
+IIKyrieSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoIIKyrie
+    \mvTr d'4.\fE^\tutti d8 d2
+    r4 d e2~
+    e4 d8 d d4( cis)
+    d d f,2
+    e4 e' g,2 %5
+    fis!4 d' c( b)
+    a b a( g) \noBreak
+    fis2 r\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIIKyrieB
+      \mvTr d'16([\pE^\solo c)] h([ c)] d4 \noBreak
+    d16([ c)] h([ c)] d4 %10
+    r8 e d([ c)]
+    h4 r
+    R2
+    r4 r8 h
+    h a r c %15
+    c h r h
+    h a r d
+    d c4 b8
+    b a4 d8
+    d c4 b8 %20
+    b a r4
+    h8 d16([ c)] h4
+    h8 d16([ c)] h8 g'
+    fis([ e)] d c
+    h a d4 %25
+    d8([ cis16 d)] e8 e
+    e([ d16 cis)] d8 d
+    d([ cis16 d)] e8 e
+    e([ d16 cis)] d8 a16 a
+    h8 e cis4\trill %30
+    d r8 \mvTr d\fE^\tutti
+    d cis r e
+    e d r fis
+    fis e a, a
+    h([ cis16 d] e8) e %35
+    a,([ h16 cis)] d8 d
+    d([ cis16 h] cis4)
+    d dis8 dis
+    e dis e dis16 dis
+    e8 dis r dis16 dis %40
+    e8 fis e([ dis)]
+    e4 r
+    R2
+    r8 \mvTr d!\pE^\solo h g
+    e'4 e8 e %45
+    e d r d
+    d c r c
+    c h r h
+    h a d4~
+    d8 c e4 %50
+    e8 d4 c8
+    h a4 c8
+    h a4 c8
+    h a16 g g8([ fis)]
+    g4 r %55
+    \mvTr d'16([\fE^\tutti c)] h([ c)] d4
+    d16([ c)] h([ c)] d4
+    r8 e d([ c)]
+    h4 r
+    R2 %60
+    r4 r8 h
+    h a r c
+    c h r h
+    h a d d
+    e4 e8([ d16 c)] %65
+    d8 d d([ c16 h)]
+    c2
+    h8 d c([ h)]
+    a d c([ h)]
+    a h a4 %70
+    g8 g g4
+    g8 g g4
+    g2\fermata \bar "|." %73 finis
+  }
+}
+
+IIKyrieSopranoLyrics = \lyricmode {
+  Ky -- ri -- e
+  e -- lei --
+  son, e -- lei --
+  son, e -- lei --
+  son, e -- lei -- %5
+  son, e -- lei --
+  son, e -- lei --
+  son.
+  Ky -- ri -- e,
+  Ky -- ri -- e %10
+  e -- lei --
+  son,
+
+  e --
+  lei -- son, e -- %15
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e -- %20
+  lei -- son,
+  Ky -- ri -- e,
+  Ky -- ri -- e e --
+  lei -- son, e --
+  lei -- son, e -- %25
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, Ky -- ri --
+  e e -- lei -- %30
+  son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, Ky -- ri --
+  e __ e -- %35
+  lei -- son, e --
+  lei --
+  son, Ky -- ri --
+  e e -- lei -- son, e --
+  lei -- son, Ky -- ri -- %40
+  e e -- lei --
+  son.
+
+  Chri -- ste e --
+  lei -- son, e -- %45
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, Chri --
+  ste e -- %50
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e -- lei --
+  son. %55
+  Ky -- ri -- e,
+  Ky -- ri -- e
+  e -- lei --
+  son,
+  %60
+  e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, Ky -- ri --
+  e e -- %65
+  lei -- son, e --
+  lei --
+  son, e -- lei --
+  son, e -- lei --
+  son, e -- lei -- %70
+  son, e -- lei --
+  son, e -- lei --
+  son. %73 finis
+}

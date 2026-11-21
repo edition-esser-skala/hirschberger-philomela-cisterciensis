@@ -1200,3 +1200,92 @@ IAgnusTenoreLyrics = \lyricmode {
   cem, da pa --
   cem. %64 finis
 }
+
+IIKyrieTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoIIKyrie
+    \mvTr h4.\fE^\tuttiE h8 h2
+    r r4 g
+    a d8 d h4( cis)
+    a r r g
+    g g r a %5
+    a b8 b a4( g)
+    fis d' c( b) \noBreak
+    a2 r\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIIKyrieB
+      R2*22 %30
+    r4 r8 \mvTr a\fE^\tutti
+    a a r a
+    a a r d
+    d cis r d
+    h4 e8 e %35
+    a,4 d8 d
+    h4( cis)
+    a h8 h
+    h h h h16 h
+    h8 h r h16 h %40
+    h8 c! h4
+    h r
+    R2*13 %55
+    r4 \mvDl d16([\fE^\tuttiE c)] h([ c)]
+    d4 d16([ c)] h([ c)]
+    d4 r
+    R2*2 %60
+    r4 r8 d
+    d d r d
+    d d r d
+    d d r h
+    e e r a, %65
+    d d r g,
+    c4( a)
+    h r8 d
+    d d r d
+    d d16 d d4 %70
+    d8 c h([ a)]
+    g c h([ a)]
+    g2\fermata \bar "|." %73 finis
+  }
+}
+
+IIKyrieTenoreLyrics = \lyricmode {
+  Ky -- ri -- e
+  e --
+  lei -- son, e -- lei --
+  son, e --
+  lei -- son, e -- %5
+  lei -- son, e -- lei --
+  son, e -- lei --
+  son.
+
+  e -- %31
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e -- %35
+  lei -- son, e --
+  lei --
+  son, Ky -- ri --
+  e e -- lei -- son, e --
+  lei -- son, Ky -- ri -- %40
+  e e -- lei --
+  son.
+
+  Ky -- ri -- %56
+  e, Ky -- ri --
+  e
+
+  e -- %61
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e -- %65
+  lei -- son, e --
+  lei --
+  son, e --
+  lei -- son, e --
+  lei -- son, e -- lei -- %70
+  son, e -- lei --
+  son, e -- lei --
+  son. %73 finis
+}

@@ -1056,3 +1056,84 @@ IAgnusViolinoI = {
     c4 r\fermata \bar "|." %66 finis
   }
 }
+
+IIKyrieViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoIIKyrie
+    g''4.\fE g8 g2
+    r r4 h
+    a a8 a g2
+    fis4 r r d~
+    d c r e~ %5
+    e d c b
+    a b a g \noBreak
+    fis2 r\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIIKyrieB
+      r4 d'16(\p c) h( c) \noBreak
+    d4 d16( c) h( c) %10
+    d4 r
+    r8 c h a
+    g4 d16 c h a
+    g8 h16 d g8 h
+    d, fis16 a c8 a %15
+    d, g16 h d8 h~
+    h a r d,
+    d d d b'~
+    b a4 d,8
+    d d d b'~ %20
+    b a d,16 c h a
+    g4 h'8 d16 c
+    h4 r
+    R2
+    r4 d~ %25
+    d8 cis16 d e4~
+    e8 d16 cis d8 d~
+    d cis16 d e8 e~
+    e d16 cis d8 r
+    R2 %30
+    d,8\fE fis16 a d8 fis
+    a, cis16 e g8 a,
+    d, fis16 a d fis a8
+    fis e a4
+    g8 h h a16 g %35
+    \once \tieDashed a4~ a8 g16 fis
+    g2
+    fis4 fis16( h,) fis'( h,)
+    g'( h,) fis'( h,) g'( h,) fis'( h,)
+    g'( h,) fis'( h,) h'( h,) fis'( h,) %40
+    g'8 fis16 e e8 dis
+    e4 r
+    r8 a\p a a
+    a g r4
+    r8 e e e %45
+    e d r d~
+    d c r c~
+    c h r \once \tieDashed h~
+    h a d4~
+    d8 c \once \tieDashed e4~ %50
+    e8 d4 c!8
+    h a r c
+    h a r4
+    R2
+    g16\fE h d g d,8 fis' %55
+    g4 g,8 g'
+    d16 c h c d4
+    R2
+    r8 c h a
+    g4 d16 c h a %60
+    g8 h16 d g8 h
+    d, fis16 a c8 d,
+    g, h16 d g h d8
+    h a r g'
+    e fis16 g a4 %65
+    d,8 e16 fis g4~
+    g8 fis16 e fis4
+    g8 d c h
+    a d c h
+    a h d d, %70
+    g e' d c
+    h e, d c
+    h2\fermata \bar "|." %73 finis
+  }
+}

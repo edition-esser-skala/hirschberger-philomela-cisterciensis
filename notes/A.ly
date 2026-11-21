@@ -1269,3 +1269,160 @@ IAgnusAltoLyrics = \lyricmode {
   cem, da pa --
   cem. %64 finis
 }
+
+IIKyrieAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoIIKyrie
+    \mvTr g'4.\fE^\tutti g8 g2
+    r r4 h
+    a a8 a g2
+    fis4 r r d
+    e e r e %5
+    fis g r d
+    d2. e4^\critnote \noBreak
+    d2 r\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIIKyrieB
+      \mvTr h'16([\pE^\solo a)] g([ a)] h4 \noBreak
+    h16([ a)] g([ a)] h4 %10
+    r8 c h([ a)]
+    g4 r
+    R2
+    r4 r8 g
+    g fis r a %15
+    a g r g
+    g fis r b
+    b a4 g8
+    g fis4 b8
+    b a4 g8 %20
+    g fis r4
+    g8 h!16([ a)] g4
+    g8 h16([ a)] g8 h
+    a([ c)] h a
+    g fis r fis %25
+    e4 g8 fis16([ e)]
+    fis8 fis r fis
+    e4 g8 fis16([ e)]
+    fis8 fis r fis16 fis
+    g8 h16([ g)] e4 %30
+    fis r8 \mvTr fis\fE^\tutti
+    fis e r g
+    g fis r a
+    a a r a
+    g4 h8[ a16 g] %35
+    a4~ a8[ g16 fis]
+    g2
+    fis4 fis8 fis
+    g fis g fis16 fis
+    g8 fis r fis16 fis %40
+    g8 a fis4
+    g8 \mvTr h\pE^\solo g e
+    c'4 c8 c
+    c h r4
+    R2 %45
+    r4 r8 h
+    h a r a
+    a g r g
+    g fis r f
+    f e r g %50
+    fis! fis r a
+    g fis4 a8
+    g fis4 a8
+    g e16 e d4
+    d r %55
+    \mvTr h'16([\fE^\tutti a)] g([ a)] h4
+    h16([ a)] g([ a)] h4
+    r8 c h([ a)]
+    g4 r
+    R2 %60
+    r4 r8 g
+    g fis r a
+    a g r g
+    g fis r g
+    e([ fis16 g)] a4 %65
+    d,8 e16([ fis)] g8 g
+    g([ fis16 e] fis4)
+    g8 h a([ g)]
+    fis h a([ g)]
+    fis g g([ fis)] %70
+    g e d([ c)]
+    h e d([ c)]
+    h2\fermata \bar "|." %73 finis
+  }
+}
+
+IIKyrieAltoLyrics = \lyricmode {
+  Ky -- ri -- e
+  e --
+  lei -- son, e -- lei --
+  son, e --
+  lei -- son, e -- %5
+  lei -- son, e --
+  le -- i --
+  son.
+  Ky -- ri -- e,
+  Ky -- ri -- e %10
+  e -- lei --
+  son,
+
+  e --
+  lei -- son, e -- %15
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e -- %20
+  lei -- son,
+  Ky -- ri -- e,
+  Ky -- ri -- e e --
+  lei -- son, e --
+  lei -- son, e -- %25
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, Ky -- ri --
+  e e -- lei -- %30
+  son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- _ %35
+  _
+  _
+  son, Ky -- ri --
+  e e -- lei -- son, e --
+  lei -- son, Ky -- ri -- %40
+  e e -- lei --
+  son. Chri -- ste e --
+  lei -- son, e --
+  lei -- son,
+  %45
+  e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e -- %50
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e -- lei --
+  son. %55
+  Ky -- ri -- e,
+  Ky -- ri -- e
+  e -- lei --
+  son,
+  %60
+  e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, %65
+  e -- lei -- son, e --
+  lei --
+  son, e -- lei --
+  son, e -- lei --
+  son, e -- lei -- %70
+  son, e -- lei --
+  son, e -- lei --
+  son. %73 finis
+}

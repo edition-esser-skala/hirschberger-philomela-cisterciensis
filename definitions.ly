@@ -1,7 +1,7 @@
 \version "2.26.0"
 
 #(define option-movement-title-format "number-title")
-#(define option-print-all-bar-numbers #f)
+#(define option-print-all-bar-numbers #t)
 \include "ees.ly"
 \include "ees_articulate.ly"
 
@@ -43,7 +43,12 @@ tempoIAgnus = \tempoMarkup "Adagio"
   tempoIAgnusB = \tempoMarkup "Andante"
   tempoIDona = \tempo \markup \normal-weight { \larger \larger "Allegro" \critnote }
 
+tempoIIKyrie = \tempoMarkup "Adagio"
+  tempoIIKyrieB = \tempoMarkup "Allegro"
 
+
+\include "notes/cor1.ly"
+\include "notes/cor2.ly"
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
 \include "notes/timp.ly"

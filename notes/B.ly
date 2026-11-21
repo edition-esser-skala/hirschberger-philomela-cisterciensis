@@ -1114,3 +1114,92 @@ IAgnusBassoLyrics = \lyricmode {
   cem, da pa --
   cem. %64 finis
 }
+
+IIKyrieBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoIIKyrie
+    \mvTr g'4.\fE^\tuttiE g8 g2
+    r r4 g
+    fis fis8 fis e2
+    d4 r r h
+    c c r cis %5
+    \once \tieDashed d1~
+    d2. cis4 \noBreak
+    d2 r\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIIKyrieB
+      R2*22 %30
+    r4 r8 \mvTr d\fE^\tutti
+    a' a, r cis
+    d d r d
+    a' a, r fis'
+    g4~ g8[ fis16 e] %35
+    \once \tieDashed fis4~ fis8[ e16 d]
+    e2
+    d4 h8 h'
+    e, h' e, h16 h
+    e8 h' r h16 h %40
+    e,8 a h([ h,)]
+    e4 r
+    R2*13 %55
+    r4 \mvDl h'16([\fE^\tutti a)] g([ a)]
+    h4 h16([ a)] g([ a)]
+    h4 r
+    R2*2 %60
+    r4 r8 g
+    d' d, r d
+    g g, r g'
+    d d r h'
+    c4 c8 h16([ a)] %65
+    h4 h8 a16([ g)]
+    a2
+    g4 r8 g
+    d' d, r g
+    d' g,16 g d4 %70
+    g,8 g' g4
+    g,8 g' g4
+    g,2\fermata \bar "|." %73 finis
+  }
+}
+
+IIKyrieBassoLyrics = \lyricmode {
+  Ky -- ri -- e
+  e --
+  lei -- son, e -- lei --
+  son, e --
+  lei -- son, e -- %5
+  le --
+  i --
+  son.
+
+  e -- %31
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- %35
+  _
+  _
+  son, Ky -- ri --
+  e e -- lei -- son, e --
+  lei -- son, Ky -- ri -- %40
+  e e -- lei --
+  son.
+
+  Ky -- ri -- %56
+  e, Ky -- ri --
+  e
+
+  e -- %61
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e -- %65
+  lei -- son, e --
+  lei --
+  son, e --
+  lei -- son, e --
+  lei -- son, e -- lei -- %70
+  son, e -- lei --
+  son, e -- lei --
+  son. %73 finis
+}
