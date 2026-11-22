@@ -1203,3 +1203,226 @@ IIKyrieBassoLyrics = \lyricmode {
   son, e -- lei --
   son. %73 finis
 }
+
+IIGloriaBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoIIGloria
+    \mvTr g8\fE^\tutti g' g g fis4 r8 fis
+    g g g g d4 r
+    h8 h h h c c r4
+    cis8 cis cis cis d d r4
+    r8 d d d g4 r %5
+    r8 d16 d d8 d g,4 r
+    r r8 d' g c, d d
+    g,4 r r2 \noBreak
+    R1\fermata \bar "||"
+    \tempoIIGratias e'8. e16 e4 fis fis8 fis \noBreak %10
+    g4 g r e8 fis
+    g([ d)] g4 g g
+    fis h8 h eis,4 eis
+    fis eis8 eis fis2 \noBreak
+    h, r\fermata \bar "||" %15
+    \twofourtime \time 2/4 \tempoIIDomine \newSpacingSection
+      R2*58 \noBreak %73
+    R2\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIIQuiTollis \newSpacingSection
+      \mvTr e2\fE^\tutti e \noBreak %75
+    e r
+    r4 a g fis
+    e2 h
+    R1*3 %81
+    g'4 g g g
+    d1
+    g,
+    g'2 g, %85
+    g r
+    r4 c h a
+    g2 d'
+    R1*7 %95
+    e2 e,
+    e r
+    r4 a' g fis8 fis
+    e2 h
+    e e %100
+    dis d
+    cis c
+    h g
+    a1
+    h2 r %105
+    R1*3
+    r2 h(
+    cis) dis %110
+    r4 e( g) a
+    h fis2 gis4
+    a e2 fis4
+    g!2 e
+    h1 \noBreak %115
+    e,\fermata \bar "||"
+    \key c \major \time 3/4 \tempoIIQuoniam \newSpacingSection
+      R2.*15 %131
+    \mvTr c'16([\pE^\solo d)] e([ f)] g8 c h c
+    c,16([ d)] e([ f)] g8 c h c
+    r a g[( f)] e([ d)]
+    e([ d)] c4 r %135
+    r8 c e([ g)] c4
+    h h, r
+    a^\critnote a' g8([ fis)]
+    g g, g4 r
+    c c cis %140
+    d d8 c h4
+    c d2\trill
+    g, r4
+    R2.*5 %148
+    g16([ a)] h([ c)] d8 g fis g
+    g,16([ a)] h([ c)] d8 g fis g %150
+    r c h([ a)] g([ fis)]
+    g4 g, r
+    R2.
+    c16([ d)] e([ f!)] g8 b a g
+    a f f,4 r %155
+    d'16([ e fis g)] a8 c h! a
+    h g g,4 r
+    c'8([ a]) \grace g fis4.\trill g8
+    g4 g, r
+    c'8([ a)] \grace g fis4.\trill fis8 %160
+    g4 g, r
+    c'8[ h16 a] g8[ f! e d]
+    c[ d16 e] f8[ g a h]
+    c e, f4( g)
+    c,2 r4 %165
+    R2.*4 \noBreak
+    R2.\fermata \bar "||" %170
+    \key g \major \time 4/4 \tempoIICumSancto \newSpacingSection
+      r4 \mvTr c\fE^\tuttiE d g \noBreak
+    d4. d8 g,4 g'
+    g g8 g fis4 fis \noBreak
+    e2 d\fermata \bar "||"
+    \time 2/4 \tempoIIAmen
+      R2*19 %193
+    d4 d
+    e8([ cis)] d4 %195
+    g2
+    fis4 h~
+    h8[ e,] a4
+    d, g
+    g fis %200
+    r8 g[ h d]
+    c[ d16 c] h8 g
+    e4 a~
+    a8[ d,] g4
+    fis fis %205
+    e2
+    d4 h
+    c2
+    d4 g
+    d2 %210
+    g,\fermata \bar "|." %211 finis
+  }
+}
+
+IIGloriaBassoLyrics = \lyricmode {
+  Et in ter -- ra pax, pax,
+  pax ho -- mi -- ni -- bus
+  bo -- nae vo -- lun -- ta -- tis,
+  bo -- nae vo -- lun -- ta -- tis.
+  Lau -- da -- mus te, %5
+  ad -- o -- ra -- mus te,
+  glo -- ri -- fi -- ca -- mus
+  te.
+
+  Gra -- ti -- as a -- gi -- mus %10
+  ti -- bi pro -- pter
+  ma -- gnam, ma -- gnam
+  glo -- ri -- am, ma -- gnam
+  glo -- ri -- am tu --
+  am. %15
+
+  Qui tol -- %75
+  lis
+  pec -- ca -- ta
+  mun -- di:
+
+  Mi -- se -- re -- re %82
+  no --
+  bis.
+  Qui tol -- %85
+  lis
+  pec -- ca -- ta
+  mun -- di:
+
+  Qui se -- %96
+  des
+  ad dex -- te -- ram
+  Pa -- tris:
+  Mi -- se -- %100
+  re -- re,
+  mi -- se --
+  re -- re
+  no --
+  bis, %105
+
+  no -- %109
+  bis, %110
+  mi -- se --
+  re -- _ _
+  _ _ _
+  _ re
+  no -- %115
+  bis.
+
+  Quo -- ni -- am tu so -- lus, %132
+  quo -- ni -- am tu so -- lus,
+  tu so -- lus
+  san -- ctus, %135
+  tu so -- lus
+  san -- ctus,
+  tu so -- lus
+  Do -- mi -- nus,
+  so -- lus al -- %140
+  tis -- si -- mus, Je --
+  su Chri --
+  ste.
+
+  Quo -- ni -- am tu so -- lus, %149
+  quo -- ni -- am tu so -- lus, %150
+  tu so -- lus
+  san -- ctus,
+
+  quo -- ni -- am tu so -- lus
+  Do -- mi -- nus, %155
+  so -- lus, so -- lus al --
+  tis -- si -- mus,
+  Je -- _ su
+  Chri -- ste,
+  Je -- _ su %160
+  Chri -- ste,
+  Je -- _
+  _ _
+  _ su Chri --
+  ste. %165
+
+  Cum San -- cto %171
+  Spi -- ri -- tu in
+  glo -- ri -- a De -- i
+  Pa -- tris,
+
+  a -- men, %194
+  a -- men, %195
+  a --
+  men, a --
+  men,
+  a -- men,
+  a -- men, %200
+  a --
+  _ _ men,
+  a -- _
+  men,
+  a -- men, %205
+  a --
+  men, a --
+  _
+  _ men,
+  a -- %210
+  men. %211 finis
+}

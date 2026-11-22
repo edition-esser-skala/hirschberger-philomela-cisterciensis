@@ -45,6 +45,13 @@ tempoIAgnus = \tempoMarkup "Adagio"
 
 tempoIIKyrie = \tempoMarkup "Adagio"
   tempoIIKyrieB = \tempoMarkup "Allegro"
+tempoIIGloria = \tempoMarkup "Vivace"
+  tempoIIGratias = \tempoMarkup "Adagio" %60
+  tempoIIDomine = \tempoMarkup "Andante" %90
+  tempoIIQuiTollis = \tempoMarkup "Allabreve" %160
+  tempoIIQuoniam = \tempoMarkup "Vivace" %110
+  tempoIICumSancto = \tempoMarkup "Adagio" %60
+  tempoIIAmen = \tempoMarkup "Vivace" %150
 
 
 \include "notes/cor1.ly"

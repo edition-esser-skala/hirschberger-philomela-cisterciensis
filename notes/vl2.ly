@@ -1141,3 +1141,218 @@ IIKyrieViolinoII = {
     g2\fermata \bar "|." %73 fins
   }
 }
+
+IIGloriaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoIIGloria
+    d'16\fE g fis g d g fis g d a' g a d, a' g a
+    d, h' a h d, h' a h d, a' g a d, a' g a
+    d, g fis g d g fis g e c h c e c h c
+    e a g a e a g a fis d cis d fis d cis d
+    a d c d a d c d h4 r %5
+    a16 d c d a d c d h4 r
+    r8 c h a h c a a
+    h4 h16 a a g g4 h16 a a g \noBreak
+    g4 r r2\fermata \bar "||"
+    \tempoIIGratias e'2. dis4 \noBreak %10
+    e h c2~
+    c4 h e e
+    e d gis2
+    fis4 d cis2\trill \noBreak
+    dis r\fermata \bar "||" %15
+    \twofourtime \time 2/4 \tempoIIDomine \newSpacingSection
+      r8 \parOn h,\fE-\parenthesize-! c-! h-! \noBreak
+    g g'-! a-! \parOff g-\parenthesize-!
+    h4 a8 g16 fis
+    g8 fis16 e d c h a
+    g8 h' a g16 fis %20
+    g8 fis16 e d c h a
+    g8 h' a g
+    fis4 r
+    r8 h,\p c h
+    g g' a g %25
+    h4 a8 g16 fis
+    g8 fis16 e d c h a
+    g4 r8 d'
+    g4 r
+    r16 c c c c8 c %30
+    r16 c c c h8 h
+    r16 h h h a8 g16 fis
+    g8 fis r fis~
+    fis e16 fis g8 g~
+    g fis16 g a8 r %35
+    R2
+    r8 fis\f g fis
+    d d' e d
+    fis4 e8 d16 cis
+    d8 fis, e d16 cis %40
+    d8 d4 cis8
+    d4 r
+    R2*3 %45
+    d'8\p fis e d16 cis
+    d4 r
+    R2
+    r16 h h h h4
+    r16 a a a a4 %50
+    r16 g g g g4
+    r16 fis fis fis fis4
+    e8 fis r4
+    r8 d e fis
+    g4 r %55
+    R2*2
+    r8 fis fis fis
+    d d d d
+    e e e e %60
+    e e e e
+    fis fis fis fis
+    g4 r
+    r8 h4 a8
+    g4 r %65
+    r8 h4 a8
+    g4 r
+    R2
+    h4\f a8 g16 fis
+    g g fis e d c h a %70
+    g8 h' a g16 fis
+    g g fis e d c h a
+    g8 e'16 fis g8 fis \noBreak
+    g d g,4\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIIQuiTollis \newSpacingSection
+      e''2\fE e, \noBreak %75
+    e4 g fis g
+    e2 r
+    R1
+    r4 e g a
+    h fis2 gis4 %80
+    a e2 fis4
+    g! d g2~
+    g fis
+    g1
+    g'2 g, %85
+    g4 h a h
+    g2 r
+    R1*2
+    e2 e4 d %90
+    c c e e
+    d2 d
+    d h'
+    a1\trill
+    g4 a g fis %95
+    e2 r
+    e4 g fis g
+    e2 r
+    R1
+    r4 e g a %100
+    h fis2 gis4
+    a e2 fis4
+    g! d g2
+    g fis4 e
+    dis2 d %105
+    cis fis
+    h, e
+    R1
+    r2 dis
+    e fis %110
+    h, g'
+    fis h
+    e, a
+    d,! g
+    fis1 \noBreak %115
+    gis\fermata \bar "||"
+    \key c \major \time 3/4 \tempoIIQuoniam \newSpacingSection
+      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
+      c,16\fE d e f g8 e d e \noBreak
+    g,16 a h c d8 f e f
+    c16 d e f g8 g f e
+    r16 g f e d c h a g4 %120
+    r8 g' g g g g
+    a16 c32( b) a16 g f8 c a4
+    r8 a' a a a a
+    h!16 d32( c) h16 a g8 d h4
+    c' r8 c4 es,8 %125
+    c'4 r8 c4 es,8
+    d e g,4 d'
+    e e d
+    d2\fermata r4
+    e8 d16 c a'8 g16 f g8 g, %130
+    c2 r4
+    r r8 g'\p f e
+    r4 r8 g f e
+    R2.*2 %135
+    r8 g g g g g
+    h16 d32( c) h16 a h8 d4 h8
+    c4 e, r
+    g16 h32( a) g16 fis g8 h4 g8
+    c4 e, r %140
+    fis16 a32( g) fis16 e d \once \slurDashed fis32( e) d16 c h4
+    g' g fis
+    g16\fE a h c d4 c8 h
+    d,16 e fis g a8 c h c
+    g16 a h c d8 d c h %145
+    a4 a a
+    h8 a16 g d'4 d,
+    g g, r
+    r r8 d'\p c h
+    r4 r8 d c h %150
+    R2.
+    r8 f''! e d c h
+    c4 g r
+    g8 g g g g g
+    a16 c32( b) a16 g a c32( b) a16 g a8 f %155
+    a a a a a a
+    h!16 d32( c) h16 a h d32( c) h16 a h4
+    c r8 c4 es,8
+    es4 d r
+    c' r8 c4 es,8 %160
+    es4 d r
+    c'8 h16 a g8 f e d
+    c d16 e f8 g a h
+    c e, f4 g
+    e\f e d %165
+    d2\fermata r4
+    c16 d e f g8 g f e
+    c16 d e f g8 g f e
+    a g16 f g4 g, \noBreak
+    c2 r4\fermata \bar "||" %170
+    \key g \major \time 4/4 \tempoIICumSancto \newSpacingSection
+      \revert Score.SpacingSpanner.common-shortest-duration
+      c'2.\fE h4 \noBreak
+    a d h e
+    cis cis d2~ \noBreak
+    d4 cis d2\fermata \bar "||"
+    \time 2/4 \tempoIIAmen
+      R2*6 %180
+    d,4 d
+    e8 cis d4
+    g2
+    fis4 h~
+    h8 e, a4 %185
+    fis g~
+    g fis
+    g r
+    r g
+    e a %190
+    a8 d, g4~
+    g fis
+    g a
+    fis8 d fis a
+    g a16 g fis8 d %195
+    h'2
+    a4 a
+    g2
+    fis4 g
+    a2 %200
+    g4 r
+    r g~
+    g e
+    fis g
+    a2 %205
+    g
+    fis4 f
+    e2
+    fis!4 g~
+    g fis %210
+    g2\fermata \bar "|." %211 finis
+  }
+}

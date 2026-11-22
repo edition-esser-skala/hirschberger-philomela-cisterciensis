@@ -521,8 +521,83 @@
   %   }
   % }
   % \part "missa2" "II" "Missa Beati Alberici"
+  % \bookpart {
+  %   \section "1" "Kyrie"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #2
+  %     indent = 3\cm
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \transposedName "Corno vel Oboe I, II" "G" ""
+  %           % \transpose c g,
+  %           \partCombine #'(0 . 10) \IIKyrieCornoI \IIKyrieCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "Violino"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "I"
+  %             \IIKyrieViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "II"
+  %             \IIKyrieViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \incipitSoprano
+  %           \new Voice = "Soprano" { \dynamicUp \IIKyrieSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \IIKyrieSopranoLyrics
+
+  %         \new Staff {
+  %           \incipitAlto
+  %           \new Voice = "Alto" { \dynamicUp \IIKyrieAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \IIKyrieAltoLyrics
+
+  %         \new Staff {
+  %           \incipitTenore
+  %           \new Voice = "Tenore" { \dynamicUp \IIKyrieTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \IIKyrieTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Basso"
+  %           \new Voice = "Basso" { \dynamicUp \IIKyrieBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \IIKyrieBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
+  %           % \transpose c c,
+  %           \IIKyrieOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \IIKyrieBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 } %105
+  %   }
+  % }
   \bookpart {
-    \section "1" "Kyrie"
+    \section "2" "Gloria"
     \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
@@ -534,66 +609,65 @@
       system-system-spacing.basic-distance = #17
       system-system-spacing.minimum-distance = #17
       systems-per-page = #2
-      indent = 3\cm
     }
     \score { %\articulate
       <<
         \new StaffGroup \with { \setGroupDistance #11 #11 } <<
           \new Staff <<
-            \set Staff.instrumentName = \transposedName "Corno vel Oboe I, II" "G" ""
+            \set Staff.instrumentName = \markup \center-column { "cor/ob" "1, 2" }
             % \transpose c g,
-            \partCombine #'(0 . 10) \IIKyrieCornoI \IIKyrieCornoII
+            \partCombine #'(0 . 10) \IIGloriaCornoI \IIGloriaCornoII
           >>
         >>
         \new StaffGroup <<
           \new GrandStaff \with { \setGroupDistance #11 #11 } <<
-            \set GrandStaff.instrumentName = "Violino"
+            \set GrandStaff.instrumentName = "vl"
             \new Staff {
-              \set Staff.instrumentName = "I"
-              \IIKyrieViolinoI
+              \set Staff.instrumentName = "1"
+              \IIGloriaViolinoI
             }
             \new Staff {
-              \set Staff.instrumentName = "II"
-              \IIKyrieViolinoII
+              \set Staff.instrumentName = "2"
+              \IIGloriaViolinoII
             }
           >>
         >>
         \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
-            \incipitSoprano
-            \new Voice = "Soprano" { \dynamicUp \IIKyrieSoprano }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \IIGloriaSoprano }
           }
-          \new Lyrics \lyricsto Soprano \IIKyrieSopranoLyrics
+          \new Lyrics \lyricsto Soprano \IIGloriaSopranoLyrics
 
           \new Staff {
-            \incipitAlto
-            \new Voice = "Alto" { \dynamicUp \IIKyrieAlto }
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \IIGloriaAlto }
           }
-          \new Lyrics \lyricsto Alto \IIKyrieAltoLyrics
+          \new Lyrics \lyricsto Alto \IIGloriaAltoLyrics
 
           \new Staff {
-            \incipitTenore
-            \new Voice = "Tenore" { \dynamicUp \IIKyrieTenore }
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \IIGloriaTenore }
           }
-          \new Lyrics \lyricsto Tenore \IIKyrieTenoreLyrics
+          \new Lyrics \lyricsto Tenore \IIGloriaTenoreLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \IIKyrieBasso }
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \IIGloriaBasso }
           }
-          \new Lyrics \lyricsto Basso \IIKyrieBassoLyrics
+          \new Lyrics \lyricsto Basso \IIGloriaBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \IIKyrieOrgano
+            \IIGloriaOrgano
           }
         >>
-        \new FiguredBass { \IIKyrieBassFigures }
+        \new FiguredBass { \IIGloriaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 } %105
+      \midi { \tempo 4 = 110 } %see definitions
     }
   }
 }

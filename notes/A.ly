@@ -1426,3 +1426,290 @@ IIKyrieAltoLyrics = \lyricmode {
   son, e -- lei --
   son. %73 finis
 }
+
+IIGloriaAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoIIGloria
+    \mvTr g'8\fE^\tutti g g g a4 r8 a
+    g g g g fis4 r
+    g8 g g g g g r4
+    a8 a a a a a r4
+    r8 a a a g h16 h a8 g16 g %5
+    fis8 a16 a a8 a g h a g
+    fis4 g8 fis g a g fis
+    g4 r r2 \noBreak
+    R1\fermata \bar "||"
+    \tempoIIGratias g8. g16 g4 a a8 a \noBreak %10
+    h4 g r g8 a
+    d,4 g h h
+    ais h8 h gis4 gis
+    fis gis?8 gis fis2 \noBreak
+    fis r\fermata \bar "||" %15
+    \twofourtime \time 2/4 \tempoIIDomine \newSpacingSection
+      R2*9 %24
+    \mvTr g4\pE^\solo a8 g %25
+    h4 a8 g16([ fis)]
+    g8 g r4
+    g8 h a g16([ fis)]
+    g8 g r4
+    r c~ %30
+    c8[ h16 a] h4
+    h8([ c16 h)] a8 g16([ fis)]
+    g fis fis8 r fis~
+    fis e r g~
+    g fis r g %35
+    fis h16([ g)] e8. fis16
+    fis4 r
+    R2*6 %43
+    d4 e8 d
+    d fis e d16([ cis)] %45
+    d d d8 r4
+    fis8 a g fis16([ e)]
+    fis fis fis8 a4
+    h2
+    a %50
+    g
+    fis
+    e8 fis e4
+    fis r
+    g8([ h)] a g %55
+    fis([ a)] g fis
+    g fis16([ g)] a8 g
+    g fis r4
+    R2
+    e4 g8 e %60
+    \grace d cis cis r4
+    fis a8 fis
+    g4 a8 g16([ fis)]
+    g8 h4 a8
+    g4 a8[ g16 fis] %65
+    g8 h4 a8
+    g4. fis8
+    g4 r
+    R2*5 %73
+    R2\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIIQuiTollis \newSpacingSection
+      \mvTr g2\fE^\tutti a \noBreak %75
+    g r
+    r4 e e cis8([ dis)]
+    e2 dis
+    r4 e( g) a
+    h fis2 gis4 %80
+    a e2 fis4
+    g! d g2
+    g( fis)
+    g1
+    g2 g %85
+    g r
+    r4 g g e8([ fis)]
+    g2 fis
+    R1
+    e2 e4 d %90
+    c c e e
+    d2 d
+    d h'
+    a1
+    g2 r %95
+    g a
+    g r
+    r4 e e dis8 dis
+    e2 dis
+    r4 e( g) a %100
+    h fis2 gis4
+    a e2 fis4
+    g! d g2
+    g( fis4 e)
+    dis2 d( %105
+    cis) fis
+    h, e
+    R1
+    r2 dis?
+    e fis %110
+    e g4 g
+    fis2 h
+    e, a
+    d,! g
+    fis1 \noBreak %115
+    gis\fermata \bar "||"
+    \key c \major \time 3/4 \tempoIIQuoniam \newSpacingSection
+      R2.*53 \noBreak %169
+    R2.\fermata \bar "||" %170
+    \key g \major \time 4/4 \tempoIICumSancto \newSpacingSection
+      r4 \mvTr e\fE^\tuttiE fis g \noBreak
+    g4. fis8 g4 g
+    a a8 a a4 a \noBreak
+    g2 fis\fermata \bar "||"
+    \time 2/4 \tempoIIAmen
+      R2*6 %180
+    d4 d
+    e8([ cis)] d4
+    g2
+    fis4 h~
+    h8[ e,] a4 %185
+    fis g
+    g( fis)
+    g r
+    r g~
+    g a %190
+    a8([ d,)] g4
+    g fis
+    g( a)
+    fis8 d[ fis a]
+    g[ a16 g] fis8 d %195
+    h'2
+    a4 a
+    g2
+    fis4 g
+    a2 %200
+    g4 r
+    r g~
+    g e
+    fis g
+    a2 %205
+    g
+    fis4 f
+    e2
+    fis!4 g
+    g( fis) %210
+    g2\fermata \bar "|." %211 finis
+  }
+}
+
+IIGloriaAltoLyrics = \lyricmode {
+  Et in ter -- ra pax, pax,
+  pax ho -- mi -- ni -- bus
+  bo -- nae vo -- lun -- ta -- tis,
+  bo -- nae vo -- lun -- ta -- tis.
+  Lau -- da -- mus te, be -- ne -- di -- ci -- mus %5
+  te, ad -- o -- ra -- mus te, glo -- ri -- fi --
+  ca -- mus, glo -- ri -- fi -- ca -- mus
+  te.
+
+  Gra -- ti -- as a -- gi -- mus %10
+  ti -- bi pro -- pter
+  ma -- gnam, ma -- gnam
+  glo -- ri -- am, ma -- gnam
+  glo -- ri -- am tu --
+  am. %15
+
+  Do -- mi -- ne, %25
+  Do -- mi -- ne
+  De -- us,
+  De -- us Rex coe --
+  le -- stis,
+  De -- %30
+  us
+  Pa -- ter o --
+  mni -- po -- tens, Pa --
+  ter, Pa --
+  ter, Pa -- %35
+  ter o -- mni -- po --
+  tens.
+
+  Do -- mi -- ne %44
+  Fi -- li u -- ni -- %45
+  ge -- ni -- te,
+  Fi -- li u -- ni --
+  ge -- ni -- te, Je --
+  _
+  _ %50
+  _
+  _
+  _ su Chri --
+  ste.
+  Do -- mi -- ne, %55
+  Do -- mi -- ne
+  De -- us, A -- gnus
+  De -- i,
+
+  Fi -- li -- us %60
+  Pa -- tris,
+  Fi -- li -- us,
+  Fi -- li -- us
+  Pa -- _ _
+  _ _ %65
+  _ _ _
+  _ _
+  tris.
+
+  Qui tol -- %75
+  lis
+  pec -- ca -- ta
+  mun -- di:
+  Mi -- se --
+  re -- _ _ %80
+  _ _ _
+  _ _ re
+  no --
+  bis.
+  Qui tol -- %85
+  lis
+  pec -- ca -- ta
+  mun -- di:
+
+  Su -- sci -- pe %90
+  de -- pre -- ca -- ti --
+  o -- nem
+  no -- stram,
+  no --
+  stram. %95
+  Qui se --
+  des
+  ad dex -- te -- ram
+  Pa -- tris:
+  Mi -- se -- %100
+  re -- _ _
+  _ _ _
+  _ _ re
+  no --
+  bis, mi -- %105
+  se --
+  re -- re
+
+  no --
+  _ _ %110
+  bis, mi -- se --
+  re -- re,
+  mi -- se --
+  re -- re
+  no -- %115
+  bis.
+
+  Cum San -- cto %171
+  Spi -- ri -- tu in
+  glo -- ri -- a De -- i
+  Pa -- tris,
+
+  a -- men, %181
+  a -- men,
+  a --
+  men, a --
+  men, %185
+  a -- men,
+  a --
+  men,
+  a --
+  men, %190
+  a -- men,
+  a -- men,
+  a --
+  men, a --
+  _ _ men, %195
+  a --
+  _ men,
+  a --
+  men, a --
+  _ %200
+  men,
+  a --
+  _
+  men, a --
+  _ %205
+  _
+  men, a --
+  _
+  _ men,
+  a -- %210
+  men. %211 finis
+}

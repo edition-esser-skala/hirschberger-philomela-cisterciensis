@@ -1137,3 +1137,217 @@ IIKyrieViolinoI = {
     h2\fermata \bar "|." %73 finis
   }
 }
+
+IIGloriaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoIIGloria
+    d'16\fE g fis g d g fis g d a' g a d, a' g a
+    d, h' a h d, h' a h d, a' g a d, a' g a
+    d, g fis g d g fis g e c h c e c h c
+    e a g a e a g a fis d cis d fis d cis d
+    a d c d a d c d h4 r %5
+    a16 d c d a d c d h4 r
+    r8 a' g fis g e d16 c h a
+    h8 g' d16 c c h h8 g' d16 c c h \noBreak
+    h4 r r2\fermata \bar "||"
+    \tempoIIGratias g'2 a \noBreak %10
+    h4 e, r g8 a
+    d,4 g h2
+    ais4 h cis h8 cis
+    ais4 h2 ais4 \noBreak
+    h2 r\fermata \bar "||" %15
+    \twofourtime \time 2/4 \tempoIIDomine \newSpacingSection
+      g,,8\fE g'-! a-! g-! \noBreak
+    g, h'-! c-! h-!
+    d4 c8 h16 a
+    h g fis e d c h a
+    g8 d'' c h16 a %20
+    h g fis e d c h a
+    g8 d'' c \tuplet 3/2 8 { h16 c d }
+    \grace h8 a4 r
+    g,8\p g' a g
+    g, h' c h %25
+    d4 c8 h16 a
+    h g fis e d c h a
+    g4 r8 d'
+    g4 r
+    r16 e' e e e8 e %30
+    r16 d d d d8 d
+    r16 c c c c8 h16 a
+    h8 a r d~
+    d cis16 d e8 e~
+    e d16 e fis8 r %35
+    R2
+    d,8\f d' e d
+    d, fis' g fis
+    a4 g8 fis16 e
+    fis8 a, g fis16 e %40
+    \tuplet 3/2 8 { \sbOn fis e d d' h g \sbOff } e4\trill
+    d r
+    R2*3 %45
+    fis'8\p a g fis16 e
+    fis4 r
+    R2
+    r4 r16 g g g
+    g4 r16 fis fis fis %50
+    fis4 r16 e e e
+    e4 r16 d d d
+    cis8 d r4
+    r8 fis, g a
+    h4 r %55
+    R2*2
+    r8 a a a
+    g g g g
+    g g g g %60
+    a a a a
+    a a a a
+    h4 r
+    r8 g' d c
+    h4 r %65
+    r8 g' d c
+    h4 r
+    R2
+    d4\f c8 h16 a
+    h g fis e d c h a %70
+    g8 d'' c h16 a
+    h g fis e d c h a
+    g8 c' \tuplet 3/2 8 { \sbOn h16 a g a g fis \sbOff } \noBreak
+    g8 d g,4\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIIQuiTollis \newSpacingSection
+      e''2\fE e, \noBreak %75
+    e4 e' dis e
+    e,2 r
+    R1
+    e'2 e
+    dis d %80
+    cis c
+    h1
+    a
+    g
+    g'2^\critnote g, %85
+    g4 g' fis g
+    g,2 r
+    R1
+    d'2 h4 a
+    gis gis a h %90
+    c2 a
+    fis4 fis g! a
+    h2 e
+    e dis
+    e4 c h a %95
+    g2 r
+    h4 e dis e
+    e,2 r
+    R1*6 %104
+    r4 h' d! e %105
+    fis cis2 dis4
+    e h2 cis4
+    d!2 cis4 h
+    ais2 h
+    a1 %110
+    g2 e'
+    dis d
+    cis c
+    h e
+    e dis \noBreak %115
+    e1\fermata \bar "||"
+    \key c \major \time 3/4 \tempoIIQuoniam \newSpacingSection
+      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
+      c,16\fE d e f g8 c h c \noBreak
+    g,16 a h c d8 d' c d
+    c,16 d e f g8 e' d c
+    r16 g f e d c h a g4 %120
+    e''16 \once \slurDashed g32( f) e16 d c8 b4 a16 g
+    a8 c f4 f,
+    fis'16 a32( g) fis16 e d8 c4 h!16 a
+    h8 d g4 g,
+    c16 es32( d) c16 h c8 es4 c8 %125
+    c16 es32( d) c16 h c8 es4 c8
+    h c g,4 h'
+    c16 e!32( d) c16 h a c32( h) a16 g fis8. g16-\critnote
+    <f h>2\fermata r4
+    e8 d16 c a'8 g16 f g8 g, %130
+    c2 r4
+    r r8 c'\p h c
+    r4 r8 c h c
+    r f e d c h
+    c16 e32( d) c16 g e g32( f) e16 d c4 %135
+    e'16 g32( f) e16 d e8 g4 e8
+    d4 g r
+    c,16 e32( d) c16 h c8 a'4 c,8
+    c4 h r
+    e16 g32( f) e16 d c e32( d) c16 h a8 g %140
+    fis2 g4
+    e' d8 c h a
+    g16\f a h c d8 g fis g
+    d,16 e fis g a8 a' g a
+    g,16 a h c d8 h' a g %145
+    fis16 a32( g) fis16 e d8 c h a
+    h a16 g d'4 d,
+    g g, r
+    r r8 g'\p fis g
+    r4 r8 g fis g %150
+    r e' d c h a
+    g a' g f! e d
+    c16 e32( d) c16 g e g32( f) e16 d c4
+    e'16 g32( f) e16 d e g32( f) e16 d c8 b
+    a f a c f4 %155
+    fis16 a32( g) fis16 e fis a32( g) fis16 e d8 c
+    h! g h d g4
+    c,16 es32( d) c16 h c8 es4 c8
+    c4 h r
+    c16 es32( d) c16 h c8 es4 c8 %160
+    c4 h r
+    c8 h16 a g8 f e! d
+    c d16 e f8 g a h
+    c e, f4 g
+    c16\f e32( d) c16 h a c32( h) a16 g fis8. g16 %165
+    <h f>2\fermata r4
+    c,16 d e f g8 c h c
+    c,16 d e f g8 c h c
+    a g16 f g4 g, \noBreak
+    c2 r4\fermata \bar "||" %170
+    \key g \major \time 4/4 \tempoIICumSancto \newSpacingSection
+      \revert Score.SpacingSpanner.common-shortest-duration
+      r4 g''\fE fis g \noBreak
+    g4.^\critnote fis8 g4 h
+    a2 a4 a \noBreak
+    g2 fis\fermata \bar "||"
+    \time 2/4 \tempoIIAmen
+      g,4 g \noBreak %175
+    a8 fis g4
+    c2
+    h4 e~
+    e8 a, d4~
+    d cis %180
+    d a
+    g8-\critnote a16 g fis8 a
+    h4 e~
+    e8 a, d4~
+    d cis %185
+    d h
+    a2
+    h8 g h d
+    c d16 c h8 g
+    e'2 %190
+    d4 d
+    cis d
+    e2
+    d4 r
+    R2*4 %198
+    r4 h
+    c! d %200
+    h g
+    a8 fis g4
+    c2
+    h4 e~
+    e8 a, d4~ %205
+    d cis
+    d d~
+    d c!~
+    c h
+    a2 %210
+    h\fermata \bar "|." %211 finis
+  }
+}
