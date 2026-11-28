@@ -2046,7 +2046,131 @@ IICredoSopranoLyrics = \lyricmode {
   men. %246 finis
 }
 
+IIOffertoriumSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoIIOffertorium
+    R2.*41 %41
+    R2.\fermataFine
+    R2.*31 \markDaCapo \bar "||" %73
+    \twotwotime \time 2/2 \tempoIIOffertoriumB \newSpacingSection
+      R1*7 %80
+    r2 \mvTr d'4\fE^\tuttiE d
+    cis2 d
+    e1
+    d~
+    d %85
+    R1*2
+    r2 g,4 g
+    fis2 g4 g
+    a1 %90
+    g
+    r2 d'4 d
+    cis2 d
+    e1~
+    e2 d %95
+    cis4( h) cis2
+    cis h4 h
+    h2( ais)
+    h1
+    d! %100
+    h2 e4 e
+    c!2 c4 c
+    c2 h
+    a2. a4
+    h2 r %105
+    R1
+    d
+    h2 e4 e
+    c2 c4 c
+    c2 h %110
+    h a
+    h h~
+    h a~
+    a g'~
+    g fis~ %115
+    fis e~
+    e d
+    cis2. cis4
+    h1
+    R %120
+    d
+    cis2 d
+    e2. e4
+    d2 e
+    fis fis %125
+    e fis
+    h, e
+    r g,
+    fis g
+    \once \tieDashed a1~ %130
+    a2. a4
+    g2 h~
+    h a~
+    a g(
+    fis) g %135
+    g2. fis4
+    g\breve*1/2\fermata \bar "|." %137 finis
+  }
+}
 
+IIOffertoriumSopranoLyrics = \lyricmode {
+  Col -- lau -- %81
+  da -- bunt
+  mul --
+  ti __
+
+  sa -- pi -- %88
+  en -- ti -- am
+  e -- %90
+  ius,
+  col -- lau --
+  da -- bunt
+  mul --
+  ti %95
+  sa -- pi --
+  en -- ti -- am
+  e --
+  ius,
+  et %100
+  us -- que in
+  sae -- cu -- lum
+  non de --
+  le -- bi --
+  tur, %105
+
+  et
+  us -- que in
+  sae -- cu -- lum
+  non de -- %110
+  le -- bi --
+  tur, non, __
+  non, __
+  non, __
+  non, __ %115
+  non __
+  de --
+  le -- bi --
+  tur,
+  %120
+  non,
+  non de --
+  le -- bi --
+  tur, non,
+  non de -- %125
+  le -- bi --
+  tur, non,
+  non,
+  non de --
+  le -- %130
+  bi --
+  tur, non, __
+  non, __
+  non __
+  de -- %135
+  le -- bi --
+  tur. %137 finis
+}
 
 
 % San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.

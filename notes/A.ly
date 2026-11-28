@@ -1936,3 +1936,134 @@ IICredoAltoLyrics = \lyricmode {
   men, a -- %245
   men. %246 finis
 }
+
+IIOffertoriumAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoIIOffertorium
+    R2.*41 %41
+    R2.\fermataFine
+    R2.*31 \markDaCapo \bar "||" %73
+    \twotwotime \time 2/2 \tempoIIOffertoriumB \newSpacingSection
+      R1*5 %78
+    \mvTr g'2\fE^\tutti g
+    fis g %80
+    a1
+    g2 fis4 fis
+    g( h) a g
+    fis2 g
+    g fis %85
+    e d4 d
+    d2( cis)
+    d1
+    R1*2 %90
+    d2 d
+    cis d
+    e d
+    d cis
+    fis1 %95
+    fis2 fis
+    fis1~
+    fis
+    fis
+    R %100
+    g
+    e2 a4 a
+    fis2 g4 g
+    g2 fis
+    g2. g4 %105
+    g2 g
+    a fis
+    d g
+    g g
+    fis fis %110
+    e e
+    dis d
+    cis c
+    h h'
+    a1 %115
+    g
+    ais2 fis
+    fis2. fis4
+    fis1
+    g %120
+    fis2 g
+    a!2. a4
+    g2 a
+    h1
+    a %125
+    R
+    g
+    fis2 g
+    a g~
+    g fis4 e %130
+    fis2. fis4
+    g2 d
+    e a
+    d, g
+    d d %135
+    d2. d4
+    d\breve*1/2\fermata \bar "|." %137 finis
+  }
+}
+
+IIOffertoriumAltoLyrics = \lyricmode {
+  Col -- lau -- %79
+  da -- bunt %80
+  mul --
+  ti sa -- pi --
+  en -- ti -- am e --
+  ius,
+  sa -- pi -- %85
+  en -- ti -- am
+  e --
+  ius,
+
+  col -- lau -- %91
+  da -- bunt
+  mul -- ti
+  sa -- pi --
+  en -- %95
+  ti -- am
+  e --
+
+  ius,
+  %100
+  et
+  us -- que in
+  sae -- cu -- lum
+  non de --
+  le -- bi -- %105
+  tur, non,
+  non de --
+  le -- bi --
+  tur, non,
+  non de -- %110
+  le -- bi --
+  tur, non,
+  non, non,
+  non, non,
+  non, %115
+  non,
+  non de --
+  le -- bi --
+  tur,
+  non, %120
+  non de --
+  le -- bi --
+  tur, non,
+  non,
+  non, %125
+
+  non,
+  non de --
+  le -- _
+  _ _ %130
+  _ bi --
+  tur, non,
+  non, non,
+  non, non,
+  non de -- %135
+  le -- bi --
+  tur. %137 finis
+}

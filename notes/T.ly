@@ -1786,3 +1786,122 @@ IICredoTenoreLyrics = \lyricmode {
   men, a -- %245
   men. %246 finis
 }
+
+IIOffertoriumTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 3/4 \autoBeamOff \tempoIIOffertorium
+    R2.*41 %41
+    R2.\fermataFine
+    R2.*31 \markDaCapo \bar "||" %73
+    \twotwotime \time 2/2 \tempoIIOffertoriumB \newSpacingSection
+      R1*3 %76
+    \mvTr d2\fE^\tutti d
+    cis d
+    e1
+    d2 e4 e %80
+    fis2 e4 d
+    e2 d
+    d c!
+    c h4 h
+    a2 a %85
+    R1
+    g2 g
+    fis g
+    a g
+    g fis %90
+    g4( a) h g
+    a1
+    g2  a4 a
+    h2 a
+    a h %95
+    h ais
+    d2. cis8 h
+    cis1\trill
+    h
+    R1*4 %103
+    d1
+    h2 e4 e %105
+    c2 c4 c
+    c2 a
+    g h
+    c a~
+    a h %110
+    c c
+    fis, r
+    R1*3 %115
+    r2 e'
+    cis h
+    h2. ais4
+    h1
+    R1*5 %124
+    d1 %125
+    cis2 d
+    e2. e4
+    d2 d
+    c! h
+    e e %130
+    d2. c4
+    h2 h
+    c1
+    h
+    a2 h %135
+    a2. a4
+    h\breve*1/2\fermata \bar "|." %137 finis
+  }
+}
+
+IIOffertoriumTenoreLyrics = \lyricmode {
+  Col -- lau -- %77
+  da -- bunt
+  mul --
+  ti sa -- pi -- %80
+  en -- ti -- am
+  e -- ius,
+  sa -- pi --
+  en -- ti -- am
+  e -- ius, %85
+
+  col -- lau --
+  da -- bunt
+  mul -- ti
+  sa -- pi -- %90
+  en -- ti -- am
+  e --
+  ius, col -- lau --
+  da -- bunt
+  mul -- ti %95
+  sa -- pi --
+  en -- ti -- am
+  e --
+  ius,
+
+  et %104
+  us -- que in %105
+  sae -- cu -- lum
+  non de --
+  le -- bi --
+  tur, non __
+  de -- %112
+  le -- bi --
+  tur,
+
+  non, %116
+  non de --
+  le -- bi --
+  tur,
+
+  non, %125
+  non de --
+  le -- bi --
+  tur, non,
+  non de --
+  le -- bi -- %130
+  tur, non,
+  non, non,
+  non,
+  non,
+  non de -- %135
+  le -- bi --
+  tur. %137 finis
+}

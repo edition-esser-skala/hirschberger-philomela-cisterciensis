@@ -3647,3 +3647,305 @@ IICredoBassFigures = \figuremode {
   r \bc q %245
   r1 %246 finis
 }
+
+IIOffertoriumOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \tempoIIOffertorium
+    \mvTr g'4\fE-\soloE g, g'
+    fis e d
+    e e, e'
+    d c h
+    c c, c' %5
+    h a g
+    c d d,
+    g h h
+    c c c
+    d d d %10
+    e e e
+    fis fis fis
+    g g8 a h c
+    d4 d, dis
+    e e8 fis g a %15
+    h4 h, h
+    c c8 d e fis
+    g4 g, g
+    a r fis
+    g c d %20
+    g-! d-! g,-!
+    g'\p g, g'
+    fis e d
+    e e, e'
+    d c h %25
+    c c, c'
+    h a g
+    d' d, r
+    r8 h' h h h h
+    c c c c c c %30
+    d d d d d d
+    e e e e e e
+    fis fis fis fis fis fis
+    g4 r g,
+    d' r dis %35
+    e r e,
+    h' r h
+    c r c
+    g2 g4
+    a r fis %40
+    g c d
+    g,\fermataFine h'8 a g fis
+    e2 r4
+    r a g
+    fis2 r4 %45
+    r g fis
+    e2 r4
+    r fis e
+    dis2 r4
+    e2 r4 %50
+    d! d d
+    c! c c
+    c c c
+    h h h
+    h h h %55
+    a a a
+    h h h
+    e2 r4
+    e2 r4
+    fis e d! %60
+    e2 d4
+    cis2 d4
+    h h' h
+    a a, a
+    g g g %65
+    fis fis fis
+    e e e
+    d d d
+    cis' cis ais
+    h2 r4 %70
+    r8 e d cis h fis
+    h4 fis' fis, \noBreak
+    h d8 c! h a! \markDaCapo \bar "||"
+    \twotwotime \time 2/2 \tempoIIOffertoriumB \newSpacingSection
+      \mvTr g'1-!\fE-\tuttiE \noBreak
+    fis2-! g-! %75
+    a1-\parenthesize-!
+    << {
+      d %77
+      cis2 d
+    } \\ {
+      g,2 fis4 g %77
+      a2 d,
+    } >>
+    d cis
+    d1^\critnote %80
+    \clef "treble_8" fis'2 e4 d
+    e2 d
+    d c!
+    \clef bass d,1
+    d %85
+    cis2 d
+    e1
+    d2 g
+    a g
+    g fis %90
+    g4 a h g
+    g2 fis
+    e fis
+    g a
+    d,2. e4 %95
+    fis2 fis
+    fis1
+    fis
+    h,
+    \clef treble d''! %100
+    << {
+      h2 e4 e
+      c2 c4 c
+      c2 h
+    } \\ {
+      g1_\critnote %101
+      e2 a4 a
+      fis2 g
+    } >>
+    \clef "treble_8" d1
+    \clef bass g, %105
+    e2 a4 a
+    fis2 d4 d
+    g1
+    e2 a4 a
+    d,2 d %110
+    c1
+    h2 h'
+    fis1
+    g
+    d2 dis %115
+    e e
+    fis h
+    fis1
+    h,
+    \clef treble g''-! %120
+    << {
+      d'
+      cis2 d
+      e2. e4
+    } \\ {
+      fis,2 g %121
+      a2. a4
+      g2 a
+    } >>
+    \clef bass g,1
+    fis2 g %125
+    a d,~
+    d c!~
+    c h
+    a e'4 d
+    c1 %130
+    d2. d4
+    g,2 g
+    g1-!
+    g-!
+    d'2 g, %135
+    d1
+    g\breve*1/2\fermata \bar "|." %137 finis
+  }
+}
+
+IIOffertoriumBassFigures = \figuremode {
+  r2.
+  <6>
+  r
+  q
+  r %5
+  q
+  r
+  r4 <6> <5!>
+  <5> <6> <5>
+  <5> <6> <5> %10
+  <5> <6> <\t>
+  <5!> <6> <\t>
+  <9> <8>2
+  <4>4 <3> <5!>
+  <9> <8> <\t> %15
+  <4> <3> <5!>
+  <9> <8> <\t>
+  <4> <3>2
+  <9> <5!>4
+  r <6> <_+> %20
+  r2.
+  r
+  <6>
+  <5>
+  <6> %25
+  r
+  q
+  <6 4>4 <5 _+>2
+  r8 <6> <\t>2
+  r2. %30
+  r
+  r
+  r
+  \bo <[9]>4 \bc <[8]>2
+  <5 4> <5!>4 %35
+  <9>2 <8>4
+  <5 4>2 <5!>4
+  <9>2 <8>4
+  <5 4> <\t 3>2
+  <9>2 <5!>4 %40
+  r <6> <_+>
+  r <_+> <6>8 <6\\>
+  r2.
+  r4 <3> q
+  <6 5>2. %45
+  r4 <3> q
+  r2.
+  r4 <3> q
+  <6 5>2.
+  r %50
+  <4\+ 2>
+  <6>
+  <4\+ 2>
+  <6>
+  <4 2> %55
+  <6>
+  <_+>
+  r
+  <6>2 <5>4
+  <[5\+] _+>2 <6>4 %60
+  <3>2 <\t>4
+  <5> <6>8 <5>4.
+  <6>2.
+  <7 [_+]>8 <6\\> <\t>2
+  <7>8 <6> <\t>2 %65
+  <7>8 <6> <\t>2
+  <7>8 <6[+]> <\t>2
+  <7\\>8 <6> <\t>2
+  <7>8 <6\\> <\t>4 <5! [_+]>
+  r2. %70
+  r8 <3> q \bo <[3]> <3> \bc <[5\+] _+>
+  r4 <5\+ 4> <\t _+>
+  r <3>2
+  r1
+  r %75
+  r
+  r
+  r
+  <4 2>2 <\t \t>
+  <_+>1 %80
+  <3>2 <\t>
+  <6\\>1
+  <4 2>2 <6>4 <5>
+  <7! _+>2 <6 4>
+  <5 \t> <\t _+> %85
+  <6 3>1
+  <7>2 <6\\>
+  r1
+  <6>
+  <4 2>2 <\t \t> %90
+  r1
+  <4\+ 2>2 <6>
+  <6\\> <6>
+  <6 5> <_+>
+  <9 [5]> <8 6>4 <\t \t> %95
+  <5\+ 4>2 <\t _+>
+  <6 5\+> <\t 4>
+  <5\+ \t> <\t _+>
+  <_+>1
+  r %100
+  r
+  r
+  r
+  <5 4>2 <\t _+>
+  <5> <6> %105
+  q <7>
+  <6 5>1
+  <5>2 <6>
+  q <7>
+  q <6> %110
+  <7> <6>
+  <_+> <_!>
+  <5\+ 4> <5! 3>
+  <9> <8>
+  <5 4> <\t 3> %115
+  <9> <8>
+  <7 [5\+] _+> <_!>
+  <5\+ 4>2. <\t _+>4
+  <_+>1
+  r %120
+  r
+  r
+  r
+  <5>2 <6>
+  q <\t> %125
+  <_+>1
+  <6 4 2>2 <6>4 <5>
+  <4 2>2 <6>
+  <6\\> <5>4 <\t>
+  <6 5>1 %130
+  <[_+]>
+  r
+  r
+  r
+  <_+> %135
+  <5 4>2. <\t _+>4
+  r1 %137 finis
+}

@@ -1757,3 +1757,140 @@ IICredoViolinoII = {
     g g, r2\fermata \bar "|." %246 finis
   }
 }
+
+IIOffertoriumViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoIIOffertorium
+    g'4\fE g g
+    d' d d
+    g g g
+    fis e d
+    e c, e' %5
+    d c h
+    c d d,
+    g r r
+    r e'16 d c h a g fis e
+    d4 fis'2 %10
+    r4 g16 fis e d c h a g
+    fis4 a'2~
+    a4 g h,
+    a2 r8 a
+    g2. %15
+    fis2 r8 f
+    e2.
+    d2 r8 d
+    c4 r c
+    h e a, %20
+    h2 r4
+    g'\p g h
+    a g fis
+    g g' g
+    fis e d %25
+    e c, e'
+    d c h
+    g fis r
+    r8 d d d d d
+    e4 e'16 d c h a g fis e %30
+    fis8 fis fis fis fis fis'
+    g4 g16 fis e d c h a g
+    a8 a a a a a'
+    a4 g h,
+    a2 r8 a %35
+    g2.
+    fis2 r8 f
+    e2.
+    d2 r8 d
+    c4 r c %40
+    h e a,
+    h2\fermataFine r4
+    R2.
+    r4 e g
+    d2 r4 %45
+    r d fis
+    g2 r4
+    r c, e
+    h2 r4
+    h2 r4 %50
+    r8 h e gis e gis
+    r4 c16 h a g fis e d c
+    d4 d' r
+    r h16 a g fis e d c h
+    c4 c' r %55
+    r a16 g fis e dis cis h a
+    h4 fis' r
+    h,2 r4
+    R2.*4 %62
+    d4 g g
+    cis, fis fis
+    fis8 e e4 e %65
+    e8 d d4 d
+    d8 cis cis4 cis
+    cis8 h h4 h
+    h8 ais ais4 ais
+    h2 r4 %70
+    R2.
+    r8 d'\fE cis4 cis
+    d2 r4 \markDaCapo \bar "||"
+    \twotwotime \time 2/2 \tempoIIOffertoriumB \newSpacingSection
+      R1*5 %78
+    g,2\fE g
+    fis g %80
+    a1
+    g2 fis
+    g4 h a g
+    fis2 g~
+    g fis %85
+    e d~
+    d cis
+    d1
+    R1*2 %90
+    d2 d
+    cis d
+    e d
+    d cis
+    fis1 %95
+    fis2 fis
+    \once \tieDashed fis1~
+    fis
+    fis
+    R %100
+    g
+    e2 a4 a
+    fis2 g~
+    g fis
+    g g %105
+    g g
+    a fis-\critnote
+    d g
+    g1
+    fis %110
+    e
+    dis2 d
+    cis c
+    h h'
+    a1 %115
+    g
+    ais2 fis
+    fis2. fis4
+    fis1
+    g %120
+    fis2 g
+    a!2. a4
+    g2 a
+    h1
+    a %125
+    R
+    g
+    fis2 g
+    a \once \tieDashed g~
+    g fis4 e %130
+    fis2. fis4
+    g2 d
+    e a
+    d, g
+    d d %135
+    d2. d4
+    h\breve*1/2\fermata \bar "|." %137 finis
+  }
+}

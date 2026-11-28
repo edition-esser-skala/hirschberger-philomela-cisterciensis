@@ -1752,3 +1752,138 @@ IICredoViolinoI = {
     g g, r2\fermata \bar "|." %246 finis
   }
 }
+
+IIOffertoriumViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoIIOffertorium
+    g'4-!\fE g-! g-!
+    d'-! d-! d-!
+    g g g
+    fis e d
+    e c, e' %5
+    d c h
+    c d d,
+    g d'16 c h a g fis e d
+    c4 e'2
+    r4 fis16 e d c h a g fis %10
+    e4 g'2
+    r4 a16 g fis e d c h a
+    h4 g'2~
+    g4 fis8 e fis4~
+    fis e2~ %15
+    e4 d8 c d4~
+    d c2~
+    c4 h8 a h4~
+    h a8 g a4
+    g a fis %20
+    g d g,
+    g'\p g g
+    d' d d
+    g g g
+    fis e d %25
+    e c, e'
+    d c h
+    h a r
+    r d16 c h a g fis e d
+    c8 e4 g c8 %30
+    r4 fis16 e d c h a g fis
+    e8 g4 h e8
+    r4 a16 g fis e d c h a
+    h4 g'2~
+    g4 fis8 e fis4~ %35
+    fis e2~
+    e4 d8 c d4~
+    d c2~
+    c4 h8 a h4~
+    h a8 g a4 %40
+    g a fis
+    g g,\fermataFine r
+    R2.
+    r4 c' h
+    a2 r4 %45
+    r h a
+    g2 r4
+    r a g
+    fis2 r4
+    g2 r4 %50
+    r e'16 d c h a gis fis e
+    a4 a' r
+    r d,16 c h a g! fis e d
+    g4 g' r
+    r c,16 h a g fis e d c %55
+    fis4 fis' r
+    r h,16 a g fis e dis cis? h
+    e4. fis8 g4
+    R2.*4 %62
+    d'4 d d
+    cis cis cis
+    h h h %65
+    a a a
+    g g g
+    fis fis fis
+    e e e
+    d2 r4 %70
+    R2.
+    r8 h''\fE cis,4 ais'
+    h h, r \markDaCapo \bar "||"
+    \twotwotime \time 2/2 \tempoIIOffertoriumB \newSpacingSection
+      R1*7 %80
+    r2 d\fE
+    cis d
+    e1
+    \once \tieDashed d~
+    d %85
+    R1*2
+    r2 g,
+    fis g
+    a1 %90
+    g
+    r2 d'
+    cis d
+    e1~
+    e2 d %95
+    cis4 h cis2~
+    cis h
+    h ais
+    h1
+    d %100
+    h2 e4 e
+    c!2 c4 c~
+    c2 h
+    a2. a4
+    h2 r %105
+    R1
+    d
+    h2 e4 e
+    c2 c4 c
+    c2 h~ %110
+    h a
+    h h~
+    h a~
+    a g'~
+    g fis~ %115
+    fis e~
+    e d
+    cis2. cis4
+    h1
+    R %120
+    d
+    cis2 d
+    e2. e4
+    d2 e
+    fis1 %125
+    e2 fis
+    h, e
+    r g,
+    fis g
+    \once \tieDashed a1~ %130
+    a2. a4
+    g2 h~
+    h a~
+    a g
+    fis g %135
+    g2. fis4
+    g\breve*1/2\fermata \bar "|." %137 finis
+  }
+}

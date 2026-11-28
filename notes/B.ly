@@ -1655,3 +1655,229 @@ IICredoBassoLyrics = \lyricmode {
   men, a -- %245
   men. %246 finis
 }
+
+IIOffertoriumBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \autoBeamOff \tempoIIOffertorium
+    R2.*21 %21
+    \mvTr g'4\pE^\solo g, g'
+    fis e d
+    e c' e,
+    d c h %25
+    c c' c,
+    h a g
+    d' d, r
+    r8 h' h h h4\trill
+    c8 c c c c4\trill %30
+    d8 d d d d4
+    e r e
+    fis fis fis
+    g g8([ a)] h([ c)]
+    d4 d, dis %35
+    e e8([ fis)] g([ a)]
+    h4 h, h
+    c c8([ d)] e([ fis)]
+    g4 g, r
+    r r fis' %40
+    g c, d
+    g g,\fermataFine r
+    r h' e,
+    c'2 c4
+    r c d, %45
+    \grace c'8 h4. a8 g4
+    r h e,
+    a2 a4
+    r a h,
+    g'4. fis8 e4 %50
+    r8 gis gis4 gis
+    a8 e4 a8~ a16[ h c8]
+    fis, d4 fis8~ fis16[ g! a8]
+    g d4 g8~ g16[ a h8]
+    e, c4 e8~ e16[ fis g8] %55
+    fis c4 fis8~ fis16[ g a8]
+    dis, h4 dis8[ fis a]
+    \grace a g4. fis8 e4
+    r c' h
+    \grace h ais2\trill h4 %60
+    r g g
+    g8([ a16 h] a8) g fis4
+    r8 g g4 g
+    g8[ fis] fis4.\trill g16[ a]
+    h8[ e,] e4.\trill fis16[ g] %65
+    a8[ d,] d4.\trill e16[ fis]
+    g8[ cis,] cis4.\trill d16[ e]
+    fis8[ h,] h4.\trill cis16[ d]
+    e8[ ais,] ais4.\trill h16[ cis]
+    d4. cis8 h4 %70
+    r8 g' fis e d cis
+    h4 r r
+    R2. \markDaCapo \bar "||"
+    \twotwotime \time 2/2 \tempoIIOffertoriumB \newSpacingSection
+      \mvTr g'2\fE^\tuttiE g \noBreak
+    fis g %75
+    a1
+    g2 fis4 g
+    a2 d,4 d
+    d2( cis)
+    d1 %80
+    R1*3
+    d1
+    d %85
+    cis2 d
+    e1
+    d2 d'4 d
+    c!2 h4 h
+    c1 %90
+    h4 a g2
+    g fis
+    e fis
+    g a
+    d,2. e4 %95
+    fis2 fis4 fis
+    \once \tieDashed fis1~
+    fis
+    h,
+    R1*5 %104
+    g'1 %105
+    e2 a4 a
+    fis2 d4 d
+    g1
+    e2 a4 a
+    d,2 d4 d %110
+    c2 c
+    h h'
+    fis1
+    g2 g
+    d dis %115
+    e e
+    fis h
+    fis2. fis4
+    h,1
+    R1*4 %123
+    g'1
+    fis2 g %125
+    a d,
+    d c!
+    c h
+    a e'4 d
+    c1 %130
+    d2. d4
+    g,2 g
+    g1
+    g
+    d'2 g %135
+    d2. d4
+    g,\breve*1/2\fermata \bar "|." %137 finis
+  }
+}
+
+IIOffertoriumBassoLyrics = \lyricmode {
+  Ju -- stus ut %22
+  pal -- ma flo --
+  re -- bit, ut
+  pal -- ma flo -- %25
+  re -- bit, ut
+  pal -- ma flo --
+  re -- bit,
+  ju -- stus ut pal --
+  ma, ju -- stus ut pal -- %30
+  ma, ju -- stus ut pal --
+  ma flo --
+  re -- bit, flo --
+  re -- bit, ut
+  pal -- ma flo -- %35
+  re -- bit, ut
+  pal -- ma flo --
+  re -- bit, ut
+  pal -- ma
+  flo -- %40
+  re -- bit, flo --
+  re -- bit,
+  si -- cut
+  ce -- drus,
+  ce -- drus %45
+  Li -- ba -- ni,
+  si -- cut
+  ce -- drus,
+  ce -- drus
+  Li -- ba -- ni %50
+  mul -- ti -- pli --
+  ca -- _ _
+  _ _ _
+  _ _ _
+  _ _ _ %55
+  _ _ _
+  _ _ _
+  _ bi -- tur,
+  si -- cut
+  ce -- drus, %60
+  ce -- drus
+  Li -- ba -- ni
+  mul -- ti -- pli --
+  ca -- _ _
+  _ _ _ %65
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ _
+  _ bi -- tur, %70
+  mul -- ti -- pli -- ca -- bi --
+  tur.
+
+  Col -- lau --
+  da -- bunt %75
+  mul --
+  ti sa -- pi --
+  en -- ti -- am
+  e --
+  ius, %80
+
+  col -- %84
+  lau -- %85
+  da -- bunt
+  mul --
+  ti sa -- pi --
+  en -- ti -- am
+  e -- %90
+  _ _ ius,
+  col -- lau --
+  da -- bunt
+  mul -- ti
+  sa -- pi -- %95
+  en -- ti -- am
+  e --
+
+  ius,
+
+  et %105
+  us -- que in
+  sae -- cu -- lum,
+  et
+  us -- que in
+  sae -- cu -- lum, %110
+  sae -- cu --
+  lum non,
+  non,
+  non, non,
+  non, non, %115
+  non, non,
+  non de --
+  le -- bi --
+  tur,
+
+  non, %124
+  non de -- %125
+  le -- bi --
+  tur, non,
+  non de --
+  le -- _ _
+  _ %130
+  _ bi --
+  tur, non,
+  non,
+  non,
+  non de -- %135
+  le -- bi --
+  tur. %137 finis
+}
