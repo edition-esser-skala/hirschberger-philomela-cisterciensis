@@ -1997,3 +1997,87 @@ IISanctusTenoreLyrics = \lyricmode {
 
   sis. %108 finis
 }
+
+IIBenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 3/4 \autoBeamOff \tempoIIBenedictus
+    \mvTr a2\pE^\solo d8([ e)]
+    \grace d cis2\trill d4
+    r8 h a([ g fis e)]
+    d2^\critnote r4
+    R2.*10 %14
+    a'2 d8([ e)] %15
+    \grace d cis2\trill d4
+    r8 h a([ g fis e)]
+    d2 r4
+    r r a'
+    h16[ a h c!] h8 d4 h8 %20
+    a16[ g a h] a8 d4 a8
+    g16[ fis g a] g8 e'4 g,8
+    \grace g fis4 e e'
+    fis~\trill fis16[ e d8] d16[ cis h8]
+    e4~\trill e16[ d cis8] cis16[ h a8] %25
+    d4~\trill d16[ cis h8] h16[ a gis8]
+    a([ h)] cis([ d)] e4
+    r8 fis e[( d)] cis([ h)]
+    a2 r4
+    R2.*4 %33
+    r4 d d
+    e8([ cis)] d4. d8 %35
+    e([ cis)] d4. d8
+    e([ cis)] d4 a
+    h16[ a h c] h8 g'4 h,8
+    a16[ g a h] a8 fis'4 a,8
+    g16[ fis g a] g8 e'4 g,8 %40
+    \grace g fis4. g8 a4
+    h g'8([ fis)] e([ d)]
+    cis4. h8 a4
+    d16([ cis d e)] d2\trill
+    d16([ cis d e)] d2\trill %45
+    d16([ cis d e)] d2\trill
+    d8 e16 h \grace d8 cis4.\trill d8
+    d2 r4
+    R2.*4 %52
+    R2.\fermata \markOsannaDaCapo \bar "||" %53 finis
+  }
+}
+
+IIBenedictusTenoreLyrics = \lyricmode {
+  Be -- ne --
+  di -- ctus,
+  qui ve --
+  nit,
+
+  be -- ne -- %15
+  di -- ctus,
+  qui ve --
+  nit,
+  ve --
+  _ _ _ _ %20
+  _ _ _ _
+  _ _ _ _
+  _ nit in
+  no -- _
+  _ _ %25
+  _ _
+  _ mi -- ne
+  Do -- _ mi --
+  ni.
+
+  Be -- ne -- %34
+  di -- ctus, qui %35
+  ve -- nit, qui
+  ve -- nit in
+  no -- _ _ _
+  _ _ _ _
+  _ _ _ _ %40
+  _ mi -- ne,
+  no -- mi -- ne
+  Do -- mi -- ni,
+  no -- _
+  _ _ %45
+  _ _
+  _ mi -- ne Do -- mi --
+  ni. %48 finis
+}

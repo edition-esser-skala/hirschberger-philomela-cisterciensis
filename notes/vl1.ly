@@ -2004,3 +2004,57 @@ IISanctusViolinoI = {
     h\fermata \bar "|." %108 finis
   }
 }
+
+IIBenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoIIBenedictus
+    R2.*3
+    r4 r a'\fE
+    h8 d16 cis d8 g4 h8 %5
+    a,8 d16 cis d8 fis4 a8
+    g, cis16 h cis8 e4 g8
+    fis4 e r
+    r8 fis(-. e-. d-. cis-. h-.)
+    r e(-. d-. cis-. h-. a-.) %10
+    r d(-. cis-. h-. a-. gis-.)
+    r16 a'(-. gis-. fis-.) e(-. d-. cis-. h-.) a4
+    \tuplet 3/2 { fis'8 d h } a4 \grace cis8 h4\trill
+    a2 r4
+    R2.*3 %17
+    r8 g'(-.\p fis-. e-. d-. cis-.)
+    d2 fis4
+    g16( fis g a) g4 r %20
+    fis16( e fis g) fis4 r
+    e16( d e fis) e4 r
+    d cis cis
+    d8 a4 d fis8
+    e a,4 cis e8 %25
+    d( a) gis([ d')] e,([ d')]
+    cis2 r4
+    R2.
+    r8 fis(-.\fE e-. d-. cis-. h-.)
+    a16 cis e a a,8 a' gis16( h) d,8 %30
+    a16 cis e a a,8 a' gis16( h) d,8
+    cis16( a) a'8 cis,4 h\trill
+    a2 r4
+    r r d8(\pE fis)
+    e4 d8 a d16( fis a d,) %35
+    e4 d8 a d16( fis a d,)
+    e4 d fis
+    g16( fis g a) g4 r
+    fis16( e fis g) fis4 r
+    e16( d e fis) e4 r %40
+    R2.*3
+    f16( e f g) f2\trill
+    f16( e f g) f2\trill %45
+    f16( e f g) f2\trill
+    R2.
+    r8 h!(-.\fE a-. g-. fis!-. e-.)
+    d h(-. a-. g-. fis-. e-.)
+    d16 fis a d a,8 d' cis16( e) g,8 %50
+    d16 fis a d a,8 d' cis16( e) g,8
+    fis16( d) d'8 fis,4 e
+    d2 r4\fermata \markOsannaDaCapo \bar "||" %53 finis
+  }
+}

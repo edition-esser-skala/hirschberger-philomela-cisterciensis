@@ -6,6 +6,11 @@
 \include "ees_articulate.ly"
 
 
+markOsannaDaCapo = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Osanna da capo"
+}
+
 obadlib = \markup \remark "ob (G) ad libitum"
 clnoobl = \markup \remark "clno (C)"
 
@@ -62,10 +67,9 @@ tempoIICredo = \tempoMarkup "Allabreve"
 tempoIIOffertorium = \tempoMarkup "Vivace"
   tempoIIOffertoriumB = \tempoMarkup "Allabreve"
 tempoIISanctus = \tempoMarkup "Adagio"
-  % tempoIIPleni = \tempoMarkup "Vivace"
-  tempoIIPleni = \tempo4=90
-  tempoIIOsanna = \tempo4=240
-  % tempoIIOsanna = \tempoTitleMarkup "Osanna" "Allabreve"
+  tempoIIPleni = \tempoMarkup "Vivace"
+  tempoIIOsanna = \tempoTitleMarkup "Osanna" "Allabreve"
+tempoIIBenedictus = \tempoMarkup "[Adagio]"
 
 
 \include "notes/cor1.ly"

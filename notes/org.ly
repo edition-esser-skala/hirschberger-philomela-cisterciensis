@@ -4184,3 +4184,119 @@ IISanctusBassFigures = \figuremode {
   <8>
   r %108 finis
 }
+
+IIBenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 3/4 \tempoIIBenedictus
+    \mvTr d4\pE-\solo fis g
+    a g fis
+    g a a,
+    d fis\fE d
+    g g g %5
+    fis fis fis
+    e e a, d
+    a r
+    d2 r4
+    cis2 r4 %10
+    h2 r4
+    a2 cis4
+    d e e,
+    a a'8\pE g! fis e
+    d4 fis g %15
+    a g fis
+    g a a,
+    d2 a4
+    d fis d
+    g r g %20
+    d r d
+    e r cis
+    d a a
+    d r  d
+    cis r cis %25
+    h r h
+    a2 r4
+    d e e,
+    a e'\fE e,
+    a r e' %30
+    a r e
+    a e e,
+    a a'\pE g!
+    fis fis fis
+    g fis fis %35
+    g fis fis
+    g fis d
+    g r g
+    d r d
+    e r cis %40
+    d2 r4
+    g2 g4
+    a2 r4
+    d,8 d d d d d
+    b b b b b b %45
+    gis gis gis gis gis gis
+    g4 a a
+    d,2 a'4\fE
+    d2 a'4
+    d r a %50
+    d, r a'
+    d a a,
+    d2 r4\fermata \markOsannaDaCapo \bar "||" %53 finis
+  }
+}
+
+IIBenedictusBassFigures = \figuremode {
+  r4 <6> q
+  <_+> <\t> <6>
+  r <6 4> <5 _+>
+  r2.
+  r %5
+  <6>4 <\t>2
+  r4 <6\\> <7 _+>
+  r <_+>2
+  r2.
+  <6> %10
+  <7>4 <6\\>2
+  <_+> <6>4
+  <5>8 <6> <4>4 <_+>
+  q2.
+  r4 <6> <5>8 <6> %15
+  <_+>4 <\t> <6>
+  r <6 4> <5 _+>
+  r2.
+  r4 <6>2
+  r2. %20
+  r
+  r2 <5>4
+  r <_+>2
+  r2.
+  <6>2 q4 %25
+  <7> <6\\> q
+  r2.
+  r4 <6\\ 4> <5 _+>
+  <_+> <5 4> <\t _+>
+  <_+>2 <7 _+>4 %30
+  <_+>2 <7 _+>4
+  <[_+]> <6\\ 4> <5 _+>
+  <_+>2.
+  <6>4 <\t>2
+  <6>4 q q %35
+  q q2
+  q4 q2
+  r2.
+  r
+  r2 <6 5>4 %40
+  r2.
+  r2 <6>8 <5>
+  <_+>2.
+  <_!>8 <\t> r2
+  q2. %45
+  \bo <7! 5 [_!]>8 \bc <\t \t [\t]> r2
+  <5 _!>8 <6> <4>4 <_+>
+  q2 q4
+  r2 q4
+  r2 <7 _+>4 %50
+  r2 q4
+  r \bo <[6] 4> \bc <[5] _+>
+  r2. %53 finis
+}
