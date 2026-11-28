@@ -52,6 +52,15 @@ tempoIIGloria = \tempoMarkup "Vivace"
   tempoIIQuoniam = \tempoMarkup "Vivace" %110
   tempoIICumSancto = \tempoMarkup "Adagio" %60
   tempoIIAmen = \tempoMarkup "Vivace" %150
+tempoIIConcerto = \tempoMarkup "Allegro"
+  tempoIIConcertoB = \tempoMarkup "Andante"
+  tempoIIConcertoC = \tempoMarkup "Allabreve"
+tempoIICredo = \tempoMarkup "Allabreve"
+  tempoIIEtIncarnatus = \tempoMarkup "Adagio" %70
+  tempoIICrucifixus = \tempoMarkup "Adagio" %60
+  tempoIIEtResurrexit = \tempoMarkup "Allabreve" %180
+  tempoIIMortuorum = \tempoMarkup "Adagio" %60
+  tempoIIEtVitam = \tempoMarkup "Allegro" %140
 
 
 \include "notes/cor1.ly"

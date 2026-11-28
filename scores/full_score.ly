@@ -596,9 +596,126 @@
   %     \midi { \tempo 4 = 60 } %105
   %   }
   % }
+  % \bookpart {
+  %   \section "2" "Gloria"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #2
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "cor/ob" "1, 2" }
+  %           % \transpose c g,
+  %           \partCombine #'(0 . 10) \IIGloriaCornoI \IIGloriaCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \IIGloriaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \IIGloriaViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \IIGloriaSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \IIGloriaSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \IIGloriaAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \IIGloriaAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \IIGloriaTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \IIGloriaTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \IIGloriaBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \IIGloriaBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \IIGloriaOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \IIGloriaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 } %see definitions
+  %   }
+  % }
+  % \bookpart {
+  %   \section "3" "Concerto"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #22
+  %     system-system-spacing.minimum-distance = #22
+  %     systems-per-page = #3
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "cor/ob" "1, 2" }
+  %           \transpose c g,
+  %           \partCombine #'(0 . 10) \IIConcertoCornoI \IIConcertoCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \IIConcertoViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \IIConcertoViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \IIConcertoOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \IIConcertoBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 } % 70 – 240
+  %   }
+  % }
   \bookpart {
-    \section "2" "Gloria"
-    \addTocEntry
+    \section "4" "Credo"
+    % \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -608,7 +725,7 @@
       markup-system-spacing.minimum-distance = #10
       system-system-spacing.basic-distance = #17
       system-system-spacing.minimum-distance = #17
-      systems-per-page = #2
+      % systems-per-page = #2
     }
     \score { %\articulate
       <<
@@ -616,7 +733,7 @@
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "cor/ob" "1, 2" }
             % \transpose c g,
-            \partCombine #'(0 . 10) \IIGloriaCornoI \IIGloriaCornoII
+            \partCombine #'(0 . 10) \IICredoCornoI \IICredoCornoII
           >>
         >>
         \new StaffGroup <<
@@ -624,47 +741,47 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \IIGloriaViolinoI
+              \IICredoViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \IIGloriaViolinoII
+              \IICredoViolinoII
             }
           >>
         >>
         \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \IIGloriaSoprano }
+            \new Voice = "Soprano" { \dynamicUp \IICredoSoprano }
           }
-          \new Lyrics \lyricsto Soprano \IIGloriaSopranoLyrics
+          \new Lyrics \lyricsto Soprano \IICredoSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \IIGloriaAlto }
+            \new Voice = "Alto" { \dynamicUp \IICredoAlto }
           }
-          \new Lyrics \lyricsto Alto \IIGloriaAltoLyrics
+          \new Lyrics \lyricsto Alto \IICredoAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \IIGloriaTenore }
+            \new Voice = "Tenore" { \dynamicUp \IICredoTenore }
           }
-          \new Lyrics \lyricsto Tenore \IIGloriaTenoreLyrics
+          \new Lyrics \lyricsto Tenore \IICredoTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \IIGloriaBasso }
+            \new Voice = "Basso" { \dynamicUp \IICredoBasso }
           }
-          \new Lyrics \lyricsto Basso \IIGloriaBassoLyrics
+          \new Lyrics \lyricsto Basso \IICredoBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \IIGloriaOrgano
+            \IICredoOrgano
           }
         >>
-        \new FiguredBass { \IIGloriaBassFigures }
+        \new FiguredBass { \IICredoBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 110 } %see definitions

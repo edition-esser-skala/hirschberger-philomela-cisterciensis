@@ -1356,3 +1356,170 @@ IIGloriaViolinoII = {
     g2\fermata \bar "|." %211 finis
   }
 }
+
+IIConcertoViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key g \major \time 2/4 \tempoIIConcerto
+    <g'' h, d, g,>4\fE  <fis a, d,>
+    <g h, d, g,> r
+    r8 d, e d
+    g fis16 e d c h a
+    g8 h c d %5
+    g,4 r
+    r8 h' a g
+    a4 r
+    r8 d cis h
+    cis4 r %10
+    r8 h a g
+    r a g fis
+    r g fis e
+    a cis r d(
+    \grace e d)\trill cis r f,\p %15
+    \grace g f\trill e r4
+    d'4~\fE d16 d, fis! a
+    d4~ d16 d, fis a
+    d8 d d cis
+    d d, d cis %20
+    d4 r8 h'
+    h16( g) a8 \once \slurDashed a16( fis) \once \tieDashed g8~
+    g fis r d'\pE
+    d16( h) c8 c16( a) \once \tieDashed h8~
+    h a r b~ %25
+    b a r g~
+    g fis r4
+    g8\f g g g
+    g-\critnote a a a
+    a h h h %30
+    h c c c
+    c d d a
+    g h h16( g) a8
+    r a a16( fis) g8
+    r h \slurDashed h16( g) a8 %35
+    r a a16( fis) \slurSolid g8
+    r c h a
+    g c h a
+    g c h a
+    h a16 g d'8 d, %40
+    g4\fermata r8 h
+    a4 r8 a
+    h g fis e
+    d fis r4
+    fis e %45
+    fis r
+    r8 fis g a
+    d,4 r8 fis
+    e4 r8 a
+    a4 r8 h %50
+    a4 r8 d
+    d4 r8 g,~
+    g fis r g
+    g fis r4
+    h16 gis e4 h'8 %55
+    \tuplet 3/2 8 { cis16 d e } a,8~ a16 cis e g,
+    fis8 a4 a8
+    \tuplet 3/2 8 { h16 c d } g,8~ g16 h d f,
+    e8 g4 g8
+    \tuplet 3/2 8 { a16 h c } fis,!8~ fis16 a c e, %60
+    dis8 fis4 fis8
+    \tuplet 3/2 8 { g16 a h } e,8~ e16 g h g
+    g8 fis r e\p
+    e dis r4
+    e'8.\fE e16 e16. e32 e16. e32 %65
+    e8. e16 e16. e32 e16. e32
+    d8. d16 d16. d32 d16. d32
+    d8. d16 d16. d32 d16. d32
+    c8. c16 c16. c32 c16. c32
+    c8. c16 c16. c32 c16. c32 %70
+    h8. h16 h16. h32 h16. h32
+    h8 h e dis
+    e e h h \noBreak
+    g4 r \markDaCapo \bar "||"
+    \time 3/4 \tempoIIConcertoB
+      r8 g g g g g \noBreak %75
+    r e e e a16( g) fis( e)
+    fis8 fis fis fis fis fis
+    r d d d g16( fis) e( d)
+    e8 e e e e e
+    a, h'4 a g8 %80
+    fis h4 a g8
+    c h4 a \once \slurDashed g16( fis)
+    g4 g fis
+    g g fis
+    e2. \noBreak %85
+    dis\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIIConcertoC \newSpacingSection
+      r4 d\fE g h \noBreak
+    a8 g fis e d4 a'
+    g2 a
+    d, r %90
+    g,1\pE
+    d'
+    g4 fis8 e d4 c
+    h a g2
+    r4 g'\fE g8 h d4 %95
+    r c, c8 e g4
+    r a a8 cis e4
+    r d, d8 fis a4
+    r d d8 fis a4
+    r g, g8 h d4~ %100
+    d h a g
+    fis h a g
+    fis h a g
+    fis r r fis
+    e2 r4 e' %105
+    a, fis fis fis
+    e2 r4 a
+    a2 r4 d~
+    d cis r d~
+    d cis r \tieDashed f,~ %110
+    f e r f~ \tieSolid
+    f e r2
+    fis4 g a g
+    fis h a g
+    \tuplet 3/2 4 { fis8 e d } e4 d cis \noBreak %115
+    d2 r \bar ":|.|:"
+    r4 a d fis \noBreak
+    e8 d cis h a4 e'
+    d2 e
+    a, r %120
+    r4 d g h
+    a8 g fis e d4 a'
+    g2 a
+    d, r
+    r8 h e g h4 g %125
+    r8 h, dis fis-\critnote h4 fis
+    r8 h, dis fis h4 dis,!
+    r8 e g h e4 h
+    r8 e, gis h e4 h
+    r8 e, a c e4 a, %130
+    r8 d, fis a d4 d,
+    r8 d g h d4 d,
+    r8 e g h e4 e,
+    r8 e a fis a4 a
+    r8 dis, fis a h,4 fis' %135
+    e g h a
+    h2 c4 h
+    g2 r
+    g a
+    d,4 c' h a %140
+    g h a g~
+    g fis r b~
+    b a r \tieDashed g~
+    g fis r b~
+    b a r g~ \tieSolid %145
+    g fis r2
+    h!4 c d c
+    h e d c
+    h a g fis
+    g2 r\fermata \bar ":|." %150 finis
+  }
+}
+
+IICredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key g \major \time 2/2 \tempoIICredo
+    
+  }
+}

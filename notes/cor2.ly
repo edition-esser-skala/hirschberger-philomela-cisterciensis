@@ -112,3 +112,86 @@ IIGloriaCornoII = {
     e2\fermata \bar "|." %211 finis
   }
 }
+
+IIConcertoCornoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoIIConcerto
+    c'4\fE g
+    c r
+    R2*2
+    r8 e d16 c g8 %5
+    e4 r
+    R2*14 %20
+    r4 r8 e'
+    e d4 c8
+    c g r e'\pE
+    e d4 c8
+    c g r4 %25
+    R2*7 %32
+    r8 e'\fE e16 c d8
+    r d d16 g, c8
+    r8 e e16 c d8 %35
+    r d d16 g, c8
+    r f e d
+    c f e d
+    c f e d
+    c4 g %40
+    c\fermataFine r
+    R2*3
+    g4 d' %45
+    g, r
+    R2*3
+    r4 r8 c %50
+    g4 r8 g
+    c4 r
+    R2*4 %56
+    g8 g g g
+    c4 r
+    R2*16 \markDaCapo \bar "||" %74
+    \time 3/4 \tempoIIConcertoB
+      R2.*5 %79
+    r8 e4 d c8 %80
+    g e'4 d c8
+    f e4 d c16 g
+    c4 g g
+    e r r
+    R2. \noBreak %85
+    R\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIIConcertoC \newSpacingSection
+      R1*2
+    r2 r4 d'\fE
+    c g e2 %90
+    R1*2
+    r2 r4 d'\pE
+    c g e2
+    c'\fE c %95
+    c r
+    d d
+    d r
+    g, g
+    c r %100
+    r4 e d c
+    g e' d c
+    g e' d c
+    g2 r
+    R1*12 \bar ":|.|:" %116
+    R1*22 %138
+    r2 r4 d'
+    c f e d %140
+    c e d c
+    c g r2
+    R1*5 %147
+    r4 f'e d
+    c2 g
+    e r\fermata \bar ":|." %150 finis
+  }
+}
+
+IICredoCornoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoIICredo
+    
+  }
+}

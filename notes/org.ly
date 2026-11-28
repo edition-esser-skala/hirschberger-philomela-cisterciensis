@@ -2830,3 +2830,327 @@ IIGloriaBassFigures = \figuremode {
   <4>4 <_+> %210
   r2 %211 finis
 }
+
+IIConcertoOrgano = {
+  \relative c {
+    \clef bass
+    \twofourtime \key g \major \time 2/4 \tempoIIConcerto
+    g4\fE d'
+    g r
+    r8 h, c d
+    g-! fis16-! e-! d-! c-! h-! a-!
+    g8-! h-! c-! d-! %5
+    g,4 r
+    r8 g' fis e
+    fis4 r
+    r8 h a g
+    a4 r %10
+    r8 g fis e
+    r fis e d
+    r e d cis
+    d a r gis~
+    gis a r \once \tieDashed gis~\pE %15
+    gis a r4
+    d8\fE d cis cis
+    h h fis fis
+    g gis a a
+    d g a a, %20
+    d d' d, r
+    r4 r8 g,
+    d'4 r
+    r r8 g\pE
+    d4 r8 \tieDashed cis~ %25
+    cis d r cis~ \tieSolid
+    cis d r4
+    h!8\fE h h h
+    c c c c
+    d d d d %30
+    e e e e
+    fis fis fis fis
+    g4 r8 d
+    d, r r g'
+    g, r r d' %35
+    d r r g,
+    g4 r8 d'
+    g4 r8 d
+    g,4 r8 d'
+    g g, d' d, %40
+    g4\fermataFine r8 g'
+    fis4 r8 fis
+    e e d cis
+    d4 a'16 g fis e
+    d4 a' %45
+    d r
+    r8 fis,-! g-! a-!
+    d,4 r8 d
+    a4 r8 cis
+    d4 r8 g %50
+    d4 r8 fis
+    g4 r8 e
+    h'4 r8 e,
+    h4 h'16 a g fis
+    e8 e e e %55
+    a a a a
+    d, d d d
+    g g g g
+    c, c c c
+    fis fis fis fis %60
+    h, h h h
+    e e e e
+    h'4 r8 ais\pE
+    ais h r4
+    r16 d,!\fE d d d8 d %65
+    r16 cis cis cis cis8 cis
+    r16 c c c c8 c
+    r16 h h h h8 h
+    r16 h h h h8 h
+    r16 a a a a8 a %70
+    r16 a a a a8 a'
+    g dis e fis
+    g a h h,
+    e4 d!16 c h a \markDaCapo \bar "||"
+    \time 3/4 \tempoIIConcertoB
+      e'8 e e e e e \noBreak %75
+    a a a a a a
+    d, d d d d d
+    g g g g g h,
+    c c c c c c
+    d d d d d d %80
+    d4 d g,
+    g g d'
+    g d d,
+    g e' d
+    c2. \noBreak %85
+    h\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIIConcertoC \newSpacingSection
+      g'4\fE g g g \noBreak
+    fis fis fis fis
+    e2 fis
+    g4 d g,2 %90
+    g'4\p g g g
+    fis fis fis fis
+    e2 fis
+    g4 d g,2
+    h4\fE h h h %95
+    c c c c
+    cis cis cis cis
+    d d d d
+    fis fis fis fis
+    g g g g %100
+    g,2 r4 c
+    d2 r4 c
+    d2 r4 c
+    d2 r4 d
+    a2 r4 cis %105
+    d d d fis
+    a2 r4 cis,
+    d2 r4 \once \tieDashed gis,~
+    gis a a' gis~
+    gis a a, gis'~ %110
+    gis a a, \once \tieDashed gis'~
+    gis a a, r
+    d e fis e
+    d g fis e
+    d g a a, \noBreak %115
+    d a d, r \bar ":|.|:"
+    d' d d d \noBreak
+    cis cis cis cis
+    h2 cis
+    d d8 c h a %120
+    g4 g' g g
+    fis fis fis fis
+    e2 fis
+    g4 d g,2
+    r4 e' g e %125
+    r h dis h
+    r h dis h
+    r e g e
+    gis gis gis gis
+    a a a a %130
+    fis fis fis fis
+    g! g g g
+    e e e e
+    fis fis fis fis
+    dis dis dis dis %135
+    e2 g4 fis
+    e g a h
+    e,2 h'8 a g fis
+    e2 fis
+    g r %140
+    g c,
+    d r4 \tieDashed cis~
+    cis d d, cis'~
+    cis d d, cis'~
+    cis d d, cis'~ \tieSolid %145
+    cis d d, r
+    g a h a
+    g2 r4 d'
+    g c, d d,
+    g2 r\fermata \bar ":|." %150 finis
+  }
+}
+
+IIConcertoBassFigures = \figuremode {
+  r2
+  r
+  r8 <6> q <_+>
+  r2
+  r %5
+  r
+  r8 <6> <\t>4
+  <7>2
+  r8 <6> <[\t] _+>4
+  <7 _+>8 <6 \t>4. %10
+  r8 <6>4.
+  r8 q4.
+  r8 <6\\>4.
+  r8 <_+>4 <7- 5>8
+  <\t \t> <5 _+>4 <7- 5>8 %15
+  <\t \t> <5 _+>4.
+  <3[+]>8 <\t>4.
+  <5>8 <\t> <[6]>4
+  <5>8 <\t> <4> <_+>
+  r <5> <4> <_+> %20
+  r2
+  r
+  <6 4>8 <5 _+>4.
+  r2
+  <6 4>8 <5 _+>4 <7- 5>8 %25
+  <\t \t> <5 _+>4 <7- 5>8
+  <\t \t> <5 _+>4.
+  <6>2
+  <5>8 <6> <\t>4
+  <[5]>8 <6> <\t>4 %30
+  <5>8 <6> <\t>4
+  <5>8 <6> <\t>4
+  r4. <7 5>8
+  <\t \t>2
+  r4. <7 5>8 %35
+  <\t \t>2
+  r4. <7 5>8
+  r4. q8
+  r2
+  r %40
+  r4. <6>8
+  <7> <6>4 q8
+  <7> <6\\>4 <6>8
+  r4 <_+>
+  r q %45
+  r2
+  r
+  r
+  <5 4>8 <\t _+>4 <6 5!>8
+  <_+>2 %50
+  <5 4>8 <\t _+>4 <5!>8
+  r2
+  \bo <[6] 4>8 <5 _+>4.
+  <6 4>8 \bc <[5] _+> <_!> <\t>
+  <_ _+>4. <7 [\t]>8 %55
+  <_ _+> <_ \t>4 <7! [\t]>8
+  r4. <7!>8
+  r4. q8
+  r4. <7>8
+  r4. q8 %60
+  <_ _+>4. <7 [\t]>8
+  <_!>2
+  <6 4>8 <5 _+>4 \bo <7 5 [_+]>8
+  \bc <\t \t [\t]> <_+>4.
+  r16 <4\+ 2> <\t \t>4. %65
+  r16 <6>4..
+  r16 <4\+ 2> <\t \t>4.
+  r16 <6>4..
+  r16 <4 2>4..
+  r16 <6>4.. %70
+  r16 <4\+ 2> <\t \t>4.
+  <6>8 q <3> q
+  <6>4 <4>8 <_+>
+  r2
+  r2. %75
+  r
+  r
+  r2 r8 <6>
+  r2.
+  r8 <8 6> <\t \t> <7 5> <\t \t> <6 4> %80
+  <_+>4 <\t> \bo <[9] 4>8 \bc <[8] 3>
+  <6 [4]> <5 3> <\t \t> <4 2> <7 _+>4
+  r <4> <_+>
+  r <5> <6>
+  <7> <6>2 %85
+  <_+>2.
+  r1
+  <6>4 <\t>2.
+  r2 <6>4 <5>
+  r1 %90
+  r
+  <[6]>
+  r2 <6>4 <5>
+  r1
+  <6>2 <5!> %95
+  r1
+  <6>2 <5!>
+  <[_+]>1
+  <6>2 <5!>
+  r1 %100
+  r2. <7 5>4
+  <5 _+>2. <7 5>4
+  <5 _+>1
+  r
+  <5 4>4 <\t _+>2 <5!>4 %105
+  r2. <6>4
+  <5 4> <\t _+>2 <5>4
+  r2. <7! 5>4
+  <\t \t> <_+>2 <7! 5>4
+  <\t \t> <[_+]>2 <7! 5>4 %110
+  <\t \t> <_+>2 <7! 5>4
+  <\t \t> <_+>2.
+  <[_+]>1
+  r
+  r4 <6> <4> <_+> %115
+  r1
+  r
+  <6>
+  r2 <6>4 <5>
+  r1 %120
+  r
+  <6>4 <\t>2.
+  r2 <6>4 <5>
+  r1
+  r4 <_!>2. %125
+  r4 <_+>2.
+  r4 q2.
+  r4 <_!>2.
+  <6>4 <5!>2.
+  <9>4 <\t>2. %130
+  <6 5!>4 <\t \t>2.
+  <8>4 <\t>2.
+  r1
+  <9>4 <\t>2.
+  <5!>1 %135
+  r2 <6>4 <6\\>
+  r <6> q <_+>
+  r1
+  r2 <6[!]>4 <5!>
+  r1 %140
+  r2 <6>4 <5>
+  \bo <[6] 4> \bc <[5] _+>2 <7- 5>4
+  <\t \t> <5 _+>2 <7- 5>4
+  <\t \t> <5 _+>2 <7- 5>4
+  <\t \t> <5 _+>2 <7- 5>4 %145
+  <\t \t> <5 _+>2.
+  <[_!]>1
+  r
+  r4 <6> <4> <_+>
+  r1 %150 finis
+}
+
+IICredoOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key g \major \time 2/2 \tempoIICredo
+    
+  }
+}
+
+IICredoBassFigures = \figuremode {
+
+}
