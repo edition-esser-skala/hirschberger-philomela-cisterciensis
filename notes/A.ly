@@ -1713,3 +1713,226 @@ IIGloriaAltoLyrics = \lyricmode {
   a -- %210
   men. %211 finis
 }
+
+IICredoAlto = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key g \major \time 2/2 \autoBeamOff \tempoIICredo
+    \mvTr g'2\fE^\tutti fis
+    r4 a g fis
+    g2 fis
+    R1
+    r4 g g g %5
+    g g r2
+    r4 a2 a4
+    a8 a a4 r2
+    r4 fis g a
+    h8 h h4 h h %10
+    a a a g8 fis
+    g4 fis e2
+    fis g4 fis8 g
+    e4 e a h
+    e, fis e e %15
+    fis2 r
+    R1*21 %37
+    r2 \mvTr fis4\fE^\tuttiE fis
+    e fis g e
+    fis fis g g %40
+    fis g a fis
+    g g g g
+    fis g8 g a4 fis
+    g2 g4 fis
+    g c8 c h4 h %45
+    h2 r
+    R1
+    r2 r4 g
+    g2 fis
+    r4 a g fis %50
+    g2 r
+    r4 g g g
+    g g r2
+    r4 a a a
+    a a r2 %55
+    r4 fis g a
+    h h r h
+    a a r h
+    a a r e
+    a( g2 fis4) %60
+    g h h g
+    r h h g \noBreak
+    R1\fermata \bar "||"
+    \twofourtime \key c \major \time 2/4 \tempoIIEtIncarnatus \newSpacingSection
+      R2*54 \noBreak %117
+    R2\fermata \bar "||"
+    \key g \dorian \time 3/4 \tempoIICrucifixus \newSpacingSection
+      \mvTr d4(\pE^\solo g) g \noBreak
+    g( fis) fis %120
+    d( b') b
+    b( a) a
+    f!4. es8 d4
+    es4. d8 c4
+    d8([ es)] c2 %125
+    d r4
+    R2.*7 %133
+    g4 f8([ a?)] g([ f)]
+    e!2 r4 %135
+    f es8([ g f es)]
+    d2 r4
+    c( f) f
+    f es2
+    d4( g) g %140
+    g f2
+    e!2 a4
+    fis2.
+    g2 r4
+    g g fis %145
+    g2 r4
+    R2.*6 \noBreak %152
+    R2.\fermata \bar "||"
+    \key g \major \time 2/2 \tempoIIEtResurrexit \newSpacingSection
+      R1*42 %195
+    r2 \mvDl g4\pE^\aTre g
+    fis fis8 fis fis4 fis
+    g g8 g g4 g
+    g fis8([ e)] fis2
+    g g4 g %200
+    g g fis fis
+    e2 e4 fis
+    e1
+    dis2 \mvTr d4\fE^\tutti g
+    a2 a4 a %205
+    g4. g8 g2
+    g4 g g f
+    e e r g
+    a a a g
+    fis! fis r a %210
+    a a a a
+    g g g g
+    g2 g4 g
+    fis2 g
+    g( fis) %215
+    g r
+    R1*15 %231
+    r2 \mvTr g4\fE^\tutti g
+    fis2 fis4 fis
+    g g r g8 g
+    g4 g e8 e a a %235
+    d,4 d r g
+    g g8 g f4 f
+    e8 g g4 r g
+    a a g g8 g
+    fis!4 fis r a %240
+    a a a a8 a
+    g4 g r g~
+    g g g( fis)
+    g2 fis
+    g fis %245
+    g1\fermata \bar "|." %246 finis
+  }
+}
+
+IICredoAltoLyrics = \lyricmode {
+  Pa -- trem
+  o -- mni -- po --
+  ten -- tem,
+
+  fa -- cto -- rem %5
+  coe -- li
+  vi -- si --
+  bi -- li -- um
+  in -- vi -- si --
+  bi -- li -- um, et in %10
+  u -- num Do -- mi -- num
+  Je -- sum Chri --
+  stum, Fi -- li -- um
+  De -- i, De -- i
+  u -- ni -- ge -- ni -- %15
+  tum.
+
+  Ge -- ni -- %38
+  tum non, non, non
+  fa -- ctum, con -- sub -- %40
+  stan -- ti -- a -- lem
+  Pa -- tri, per quem
+  o -- mni -- a fa -- cta
+  sunt, per quem
+  o -- mni -- a fa -- cta %45
+  sunt.
+
+  Qui
+  pro -- pter
+  nos ho -- mi -- %50
+  nes
+  no -- stram sa --
+  lu -- tem,
+  no -- stram sa --
+  lu -- tem, %55
+  no -- stram sa --
+  lu -- tem de --
+  scen -- dit, de --
+  scen -- dit de
+  coe -- %60
+  lis, de -- scen -- dit
+  de coe -- lis.
+
+  Cru -- ci -- %119
+  fi -- xus, %120
+  cru -- ci --
+  fi -- xus
+  e -- ti -- am,
+  e -- ti -- am
+  pro no -- %125
+  bis,
+
+  sub Pon -- ti -- %134
+  o %135
+  Pi -- la --
+  to
+  pas -- sus,
+  pas -- sus,
+  pas -- sus, %140
+  pas -- sus
+  et se --
+  pul --
+  tus,
+  se -- pul -- tus %145
+  est.
+
+  Et in %196
+  Spi -- ri -- tum San -- ctum,
+  Do -- mi -- num et vi --
+  vi -- fi -- can --
+  tem, qui ex %200
+  Pa -- tre Fi -- li --
+  o -- que pro --
+  ce --
+  dit. Qui cum
+  Pa -- tre et %205
+  Fi -- li -- o
+  si -- mul ad -- o --
+  ra -- tur et
+  con -- glo -- ri -- fi --
+  ca -- tur, et %210
+  con -- glo -- ri -- fi --
+  ca -- tur: qui lo --
+  cu -- tus est
+  per Pro --
+  phe -- %215
+  tas.
+
+  Et ex -- %232
+  pe -- cto, ex --
+  pe -- cto re -- sur --
+  re -- cti -- o -- nem mor -- tu -- %235
+  o -- rum, et
+  vi -- tam ven -- tu -- ri
+  sae -- cu -- li, ven --
+  tu -- ri sae -- cu -- li,
+  a -- men, ven -- %240
+  tu -- ri sae -- cu -- li,
+  a -- men, a --
+  men, a --
+  men, a --
+  men, a -- %245
+  men. %246 finis
+}

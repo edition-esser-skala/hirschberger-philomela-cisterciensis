@@ -715,7 +715,7 @@
   % }
   \bookpart {
     \section "4" "Credo"
-    % \addTocEntry
+    \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -725,7 +725,7 @@
       markup-system-spacing.minimum-distance = #10
       system-system-spacing.basic-distance = #17
       system-system-spacing.minimum-distance = #17
-      % systems-per-page = #2
+      systems-per-page = #2
     }
     \score { %\articulate
       <<
@@ -784,7 +784,7 @@
         \new FiguredBass { \IICredoBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 110 } %see definitions
+      \midi { \tempo 4 = 180 } %see definitions
     }
   }
 }

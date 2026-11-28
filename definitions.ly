@@ -56,11 +56,9 @@ tempoIIConcerto = \tempoMarkup "Allegro"
   tempoIIConcertoB = \tempoMarkup "Andante"
   tempoIIConcertoC = \tempoMarkup "Allabreve"
 tempoIICredo = \tempoMarkup "Allabreve"
-  tempoIIEtIncarnatus = \tempoMarkup "Adagio" %70
-  tempoIICrucifixus = \tempoMarkup "Adagio" %60
-  tempoIIEtResurrexit = \tempoMarkup "Allabreve" %180
-  tempoIIMortuorum = \tempoMarkup "Adagio" %60
-  tempoIIEtVitam = \tempoMarkup "Allegro" %140
+  tempoIIEtIncarnatus = \tempoMarkup "Andante" %65
+  tempoIICrucifixus = \tempoMarkup "Adagio" %90
+  tempoIIEtResurrexit = \tempoMarkup "Allabreve" %160
 
 
 \include "notes/cor1.ly"

@@ -192,6 +192,72 @@ IICredoCornoII = {
   \relative c' {
     \clef treble
     \twotwotime \key c \major \time 2/2 \tempoIICredo
-    
+    c'2\fE g
+    r4 d' c g
+    c2 g
+    R1*36 %39
+    r2 c4\fE c %40
+    g c d g,
+    c2 r
+    R1*5 %47
+    r2 r4 c
+    c2 g
+    r4 d' c g %50
+    c2 r
+    R1*7 %58
+    r2 r4 c
+    d c g2 %60
+    e4 e' e c
+    r e e c \noBreak
+    R1\fermata \bar "||"
+    \time 2/4 \tempoIIEtIncarnatus \newSpacingSection
+      R2*54 \noBreak %117
+    R2\fermata \bar "||"
+    \time 3/4 \tempoIICrucifixus \newSpacingSection
+      R2.*34 \noBreak %152
+    R2.\fermata \bar "||"
+    \time 2/2 \tempoIIEtResurrexit \newSpacingSection
+      c4\fE e8 d c g c4 \noBreak
+    c e8 d c g c4 %155
+    c e8 d c4 r %
+    c e8 d c4 r
+    R1*6 %163
+    r2 r4 e8 d
+    c2 r %165
+    r4 e\pE e8 d c4
+    r e e8 d c4
+    R1*36 %203
+    r2 c4\fE c
+    g2 g4 g %205
+    c c c2
+    c4 c c c
+    c2 r4 c_\critnote
+    d d d d
+    d2 r4 d %210
+    d d d d
+    c c r e
+    c2 c4 c
+    c2 c
+    g1 %215
+    e2 r
+    R1*7 %223
+    r4 e'\p d c
+    c g r2 %225
+    R1*6 %231
+    r2 c4\fE c
+    g2 g4 g
+    c e8 d c4 r
+    R1 %235
+    r2 r4 c
+    c c8 c c4 c
+    c2 r4 c
+    d d8 d d4 d
+    d2 r4 g, %240
+    g g8 g g4 g
+    c c r2
+    R1
+    r2 g
+    c g %245
+    c1\fermata \bar "|." %246 finis
   }
 }

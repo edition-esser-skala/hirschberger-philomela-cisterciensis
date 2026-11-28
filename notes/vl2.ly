@@ -1520,6 +1520,240 @@ IICredoViolinoII = {
   \relative c' {
     \clef treble
     \twotwotime \key g \major \time 2/2 \tempoIICredo
-    
+    h'2\fE a4 a8 h
+    c4 c h a
+    h2 a
+    r4 g g g
+    g2 g4 g %5
+    g g a a
+    a2 a4 a
+    a a d d
+    d2 d4 d
+    d2 e4 e %10
+    e d d e8 fis
+    g4 g g g
+    fis2 e4 d8 e
+    cis4 cis d h
+    cis d2 cis4 %15
+    d2 r4 fis,
+    e2 r4 e
+    d8 cis d4 r a'\p
+    a2 r4 a
+    a r r h\f %20
+    a2 r4 a
+    g8 fis g4 r2
+    r4 c,\p e c
+    g' g, h g
+    a a' fis d %25
+    g g, h g
+    d'2 r4 fis
+    e2 g4 g
+    g fis d2
+    d4 cis e' e %30
+    e d r2
+    R1*3
+    r4 fis\f e d8 cis %35
+    d4 fis, e d8 cis
+    d4 fis e2
+    fis d'4 d
+    cis d e cis
+    d2 h4 h %40
+    a h c! a
+    h h e e
+    dis e fis dis
+    e2 e4 dis
+    e fis e dis %45
+    e2 r4 e,
+    fis d'!8 a fis4 \once \tieDashed c'!~
+    c h d h
+    h2 a
+    c4 c h a %50
+    h g g g
+    g2 g4 g
+    g g a a
+    a2 a4 a
+    a a d d %55
+    d2 d4 d
+    d d e2^\critnote
+    cis4 d2 e4
+    cis d2 c4~
+    c h a2 %60
+    h r4 h
+    h g r h \noBreak
+    h g r2\fermata \bar "||"
+    \twofourtime \key c \major \time 2/4 \tempoIIEtIncarnatus \newSpacingSection
+      c,16\fE e e8 e16 g g8 \noBreak
+    g16 c c8 c16 e e8 %65
+    r e,~ e16 d c h
+    c e' e8 r16 d c h
+    c8 e,~ e16 d c h
+    c e' e8 r16 d c h
+    c4 r16 g g g %70
+    g f f8 r16 f f f
+    f e e8 r16 es es es
+    es d d8 r16 es es es
+    es8\trill d r4
+    c16\p e e8 e16 g g8 %75
+    g16 c c8 c16 e e8
+    r e,~ e16 d c h
+    c e' e8 r16 d c h
+    c8 e,~ e16 d c h
+    c e' e8 r16 d c h %80
+    c4 r16 c c c
+    c h h8 r16 d d d
+    d c c8 r h
+    c h16 g g8\trill a16 fis
+    g4 r8 fis %85
+    g d d g
+    e fis fis a
+    g g g g
+    r g16 g g8 g
+    r g16 g g8 g %90
+    fis4 r
+    R2
+    r4 r16 g\f g g
+    g8\trill fis r16 a a a
+    a8\trill g r16 b b b %95
+    b8\trill a r16 g g g
+    g8\trillE fis r a
+    d, e g fis
+    g4 r
+    r8 c,\p c c %100
+    c c c f
+    d d d g
+    e e e a
+    f f f h
+    g g g g %105
+    c c c c
+    c h h h
+    c c c c
+    c h r4
+    R2 %110
+    c,16\fE e! e8 e16 g g8
+    g16 c c8 c16 e e8
+    r e,~ e16 d c h
+    c e' e8 r16 d c h
+    c8 e,~ e16 d c h %115
+    c e' e8 r16 d c h
+    c8 g a g \noBreak
+    e4 r\fermata \bar "||"
+    \key g \dorian \time 3/4 \tempoIICrucifixus \newSpacingSection
+      R2. \noBreak
+    d4\pE a' a %120
+    a g g
+    f! c' c
+    f,4. es8 d4
+    es4. d8 c4
+    d8 es c2\trill %125
+    d4\f f d
+    f c' c
+    c b2
+    f4 es' es
+    r8 d es d c b %130
+    r c d c b a
+    b2 a4
+    b2 r4
+    h,!4\p r r
+    e! r r %135
+    a, r r
+    d r r
+    c f f
+    f es2
+    d4 g g %140
+    g f2
+    e!4 a2
+    r8 fis fis fis fis fis
+    r g g g g g
+    g4 r r %145
+    R2.
+    d4\f a' a
+    a g2
+    f!4 c' c
+    r8 b c b a g %150
+    r a b a g fis
+    g4 g fis \noBreak
+    g2 r4\fermata \bar "||"
+    \key g \major \time 2/2 \tempoIIEtResurrexit \newSpacingSection
+      g,8\fE g g g g h a h \noBreak
+    g g g g g h a h %155
+    g g g g g g' fis g
+    g, g g g g g' fis g
+    d g d h d4 d
+    g16( f? e d) e( d c h) c8 e g e
+    cis4 a' r a %160
+    a16( g fis! e) fis( e d cis) d8 fis a fis
+    d4 d' r d
+    d16( c! h a) h( a g fis) g8 h d h
+    g4 e d d
+    g d g, r %165
+    g8\p g g g g h a h
+    g g g g g g' fis g
+    d g d h d4 d
+    g16( f? e d) e( d c h) c8e  g e
+    cis4 a' r a %170
+    a16( g fis! e) \once \slurDashed fis( e d cis) d8 fis a fis
+    d4 d' r d
+    d16( c! h a) h( a g fis) g8 h d h
+    d a4 d fis d8
+    e2 r4 a, %175
+    a2 d4 d
+    d2 d,4 d
+    d2 r
+    R1
+    r8 fis\p fis fis fis fis g a %180
+    h4 r r g
+    g16( f e d) e( d c h) c8 e g e
+    cis4 a' r a
+    a16( g fis! e) \once \slurDashed fis( e d cis) d8 fis a fis
+    d4 r d r %185
+    h r h r
+    g' r g r
+    e fis d r
+    R1
+    r2 g4 g %190
+    fis g2 a4
+    fis g2 e'4
+    e8 e, e e e4 e'
+    e8 e, e e e4 r
+    R1*9 %203
+    r2 h'4\fE d
+    d2 d4 a %205
+    h d d2
+    g,4 g r g
+    g16( f e d) e( d c h) c8 e g e
+    cis4 a' r a
+    a16( g fis! e) \once \slurDashed fis( e d cis) d8 fis a fis %210
+    d4 a' r d
+    d16( c! h a) h( a g fis) g8 h d h
+    c4 e2 c4
+    a2 h
+    a1 %215
+    h4 h d a
+    h r r2
+    r4 g\p g g
+    fis2 \once \tieDashed h~
+    h4 a8 g a4 \once \tieDashed a~ %220
+    a g8 fis g4 g~
+    g fis8 e fis2
+    r4 h a g
+    fis h a g
+    g fis r2 %225
+    R1*5 %230
+    r4 fis'\fE fis2
+    dis4 d h d
+    d a2 d4
+    h8 g h d h4 g
+    c d c d %235
+    d d h g
+    g g r g
+    g16( f? e d) e( d c h) c8 e g e
+    cis4 a' r a
+    a16( g fis! e) fis( e d cis) d8 fis a fis %240
+    d4 d' r d
+    d16( c! h a) h( a g fis) g8 h d h
+    g4 e' d2
+    h a
+    h4 g d fis' %245
+    g g, r2\fermata \bar "|." %246 finis
   }
 }
