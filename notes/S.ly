@@ -2373,14 +2373,174 @@ IISanctusSopranoLyrics = \lyricmode {
   sis. %108 finis
 }
 
+IIAgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoIIAgnus
+    R1*20 \noBreak %20
+    R1\fermata \bar "||"
+    \time 3/4 \tempoIIAgnusB \newSpacingSection
+      r4 \mvTr h'\pE^\aTre h \noBreak
+    h h h
+    h h h
+    e e e %25
+    d d d
+    c2 c4
+    h2 h4
+    r \mvTr d\fE^\tuttiE d
+    d2 d4 %30
+    d2 d4
+    r e e
+    d4. d8 d4
+    e d2 \noBreak
+    h r4\fermata \bar "||" %35
+    \twofourtime \time 2/4 \tempoIIDona \newSpacingSection
+      \mvTr d16([\pE^\solo c h c)] d4 \noBreak
+    d16([ c h c)] d4
+    r8 e([ d c)]
+    h4 r
+    R2 %40
+    r4 r8 h
+    h a r c
+    c h r h
+    h a r d
+    d c4 b8 %45
+    b a4 d8
+    d c4 b8
+    b a r4
+    h8([ d16 c)] h4
+    h8([ d16 c] h8) g' %50
+    fis([ e)] d c
+    h a d4
+    d8([ cis16 d)] e8 e
+    e([ d16 cis)] d8 d
+    d([ cis16 d)] e8 e %55
+    e([ d16 cis)] d8 a16 a
+    h8 e cis4\trill
+    d r8 \mvTr d\fE^\tutti
+    d cis r e
+    e d r fis %60
+    fis e a, a
+    h([ cis16 d] e8) e
+    a,([ h16 cis] d8) d
+    d([ cis16 h] cis4)
+    d dis8 dis %65
+    e dis e dis
+    e dis r dis16 dis
+    e8 fis e([ dis)]
+    e4 r
+    R2 %70
+    r8 \mvTr d!([\pE^\solo h]) g
+    e'4. e8
+    e d r d
+    d c r c
+    c h r h %75
+    h a d4~
+    d8 c e4~
+    e8 d4 c8
+    h a4 c8
+    h a4 c8 %80
+    h a16 g g8([ fis)]
+    g4 r
+    \mvTr d'16([\fE^\tutti c h c)] d4
+    d16([ c h c)] d4
+    r8 e([ d c)] %85
+    h4 r
+    R2
+    r4 r8 h
+    h a r c
+    c h r h %90
+    h a d d
+    e4. d16([ c)]
+    d4. c16([ h)]
+    c2
+    h8 d c([ h)] %95
+    a d c([ h)]
+    a h a4
+    g8 g g4
+    g8 g g4
+    g2\fermata \bar "|." %100 finis
+  }
+}
 
+IIAgnusSopranoLyrics = \lyricmode {
+  A -- gnus %22
+  De -- i, qui
+  tol -- lis, qui
+  tol -- lis pec -- %25
+  ca -- ta, pec --
+  ca -- ta
+  mun -- di:
+  Do -- na
+  no -- bis %30
+  pa -- cem,
+  do -- na,
+  do -- na no --
+  bis pa --
+  cem. %35
+  Do -- na
+  no -- bis
+  pa --
+  cem,
+  %40
+  da
+  pa -- cem, da
+  pa -- cem, da
+  pa -- cem, da
+  pa -- cem, da %45
+  pa -- cem, da
+  pa -- cem, da
+  pa -- cem,
+  do -- na
+  no -- bis %50
+  pa -- cem, da
+  pa -- cem, da
+  pa -- cem, da
+  pa -- cem, da
+  pa -- cem, da %55
+  pa -- cem, do -- na
+  no -- bis pa --
+  cem, da
+  pa -- cem, da
+  pa -- cem, da %60
+  pa -- cem, do -- na
+  no -- bis
+  pa -- cem,
+  pa --
+  cem, do -- na %65
+  no -- bis, no -- bis
+  pa -- cem, do -- na
+  no -- bis pa --
+  cem,
+  %70
+  do -- na
+  no -- bis
+  pa -- cem, da
+  pa -- cem, da
+  pa -- cem, da %75
+  pa -- cem, do --
+  na no --
+  _ bis
+  pa -- cem, da
+  pa -- cem, da %80
+  pa -- cem, da pa --
+  cem,
+  do -- na
+  no -- bis
+  pa -- %85
+  cem,
 
-
-
-
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+  da
+  pa -- cem, da
+  pa -- cem, da %90
+  pa -- cem, do -- na
+  no -- bis
+  pa -- cem,
+  pa --
+  cem, da pa -- %95
+  cem, da pa --
+  cem, da pa --
+  cem, da pa --
+  cem, da pa --
+  cem. %100
+}

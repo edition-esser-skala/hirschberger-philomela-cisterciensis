@@ -2058,3 +2058,106 @@ IIBenedictusViolinoI = {
     d2 r4\fermata \markOsannaDaCapo \bar "||" %53 finis
   }
 }
+
+IIAgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoIIAgnus
+    r8 d'\p d d r e e e
+    r d d d r c c c
+    r h h h r d d e
+    r e e e r h h h
+    r a a a r d d d %5
+    r d d d r d d d
+    r a d h r a a a
+    r a a a r a a a
+    r h h h r a a a
+    r g g a r a a a %10
+    r a a a r g g g
+    r c c c r h h h
+    r a a fis' r e e e
+    r e e e r dis e^\critnote e
+    r e dis dis r e e e %15
+    r h h h r a a a
+    r a a a r g g g
+    r c c c r h h h
+    r e e e r d d d
+    r d d d r h h h \noBreak %20
+    r e, e e d4 r\fermata \bar "||"
+    \time 3/4 \tempoIIAgnusB \newSpacingSection
+      R2.*7 %28
+    r4 h''\fE h
+    a a a %30
+    h2 h4
+    r g a
+    fis4. fis8 g4
+    g g fis \noBreak
+    g2 r4\fermata \bar "||" %35
+    \twofourtime \time 2/4 \tempoIIDona \newSpacingSection
+      r4 d16(\p c) h( c) \noBreak
+    d4 d16( c) h( c)
+    d4 r
+    r8 c h a
+    g4 d16 c h a %40
+    g8 h16 d g8 h
+    d, fis16 a c8 a
+    d, g16 h d8 h~
+    h a r d,
+    d d d b'~ %45
+    b a4 d,8
+    d d d b'~
+    b a d,16 c h a
+    g4 h'8 d16 c
+    h4 r %50
+    R2
+    r4 d~
+    d8 cis16 d e4~
+    e8 d16 cis d8 d~
+    d cis16 d e8 e~ %55
+    e d16 cis d8 r
+    R2
+    d,8\fE fis16 a d8 fis
+    a, cis16 e g8 a,
+    d, fis16 a d fis a8 %60
+    fis e a4
+    g8 h h a16 g
+    \once \tieDashed a4~ a8 g16 fis
+    g2
+    fis4 fis16( h,) fis'( h,) %65
+    g'( h,) fis'( h,) g'( h,) fis'( h,)
+    g'( h,) fis'( h,) h'( h,) fis'( h,)
+    g'8 fis16 e e8 dis
+    e4 r
+    r8 a\p a a %70
+    a g r4
+    r8 e e e
+    e d r d~
+    d c r c~
+    c h r \once \tieDashed h~ %75
+    h a d4~
+    d8 c \once \tieDashed e4~
+    e8 d4 c!8
+    h a r c
+    h a r4 %80
+    R2
+    g16\fE h d g d,8 fis'
+    g4 g,8 g'
+    d16 c h c d4
+    R2 %85
+    r8 c h a
+    g4 d16 c h a
+    g8 h16 d g8 h
+    d, fis16 a c8 d,
+    g, h16 d g h d8 %90
+    h a r g'
+    e fis16 g a4
+    d,8 e16 fis g4~
+    g8 fis16 e fis4
+    g8 d c h %95
+    a d c h
+    a h d d,
+    g e' d c
+    h e, d c
+    h2\fermata \bar "|." %100 finis
+  }
+}

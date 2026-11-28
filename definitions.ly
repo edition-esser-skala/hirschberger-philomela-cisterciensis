@@ -70,6 +70,9 @@ tempoIISanctus = \tempoMarkup "Adagio"
   tempoIIPleni = \tempoMarkup "Vivace"
   tempoIIOsanna = \tempoTitleMarkup "Osanna" "Allabreve"
 tempoIIBenedictus = \tempoMarkup "[Adagio]"
+tempoIIAgnus = \tempoMarkup "Adagio"
+  tempoIIAgnusB = \tempoMarkup "Tarde"
+  tempoIIDona = \tempoMarkup "Allegro"
 
 
 \include "notes/cor1.ly"

@@ -1138,7 +1138,7 @@ IIKyrieViolinoII = {
     fis g4 fis8 %70
     g c h a
     g c, h a
-    g2\fermata \bar "|." %73 fins
+    g2\fermata \bar "|." %73 finis
   }
 }
 
@@ -2007,5 +2007,108 @@ IISanctusViolinoII = {
     \once \tieDashed e1~
     e2 d4 c
     d1\fermata \bar "|." %108 finis
+  }
+}
+
+IIAgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoIIAgnus
+    r8 h'\p h h r c c c
+    r h h h r a a a
+    r g g g r h h h
+    r h h h r e, e e
+    r e e e r a a a %5
+    r h h h r h h h
+    r e, f f r fis e e
+    r fis fis fis r fis fis fis
+    r g g g r fis fis fis
+    r e e e r fis fis fis %10
+    r fis fis fis r h, h h
+    r a' a e r fis fis fis
+    r fis fis h r h h h
+    r cis cis cis r h cis cis
+    r h h h r g g g %15
+    r e e e r e e e
+    r d d d r d d d
+    r e e fis r d d d
+    r g g e r a h h
+    r a a a r d, d d \noBreak %20
+    r c c c h4 r\fermata \bar "||"
+    \time 3/4 \tempoIIAgnusB \newSpacingSection
+      R2.*7 %28
+    r4 d'\fE d
+    d2 fis4 %30
+    g2 g4
+    r e c8 a
+    a2 h4
+    e d2\trill \noBreak
+    d r4\fermata \bar "||" %35
+    \twofourtime \time 2/4 \tempoIIDona \newSpacingSection
+      r4 h16(\p a) g( a) \noBreak
+    h4 h16( a) g( a)
+    h4 r
+    r8 e, d c
+    h4 d16 c h a %40
+    g8 h16 d g8 g
+    d fis16 a a8 fis
+    d g16 h h8 g~
+    g fis r d
+    d d d \once \tieDashed g~ %45
+    g fis4 d8
+    d d d \once \tieDashed g~
+    g fis d16 c h! a
+    g4 g'8 h!16 a
+    g4 r %50
+    R2
+    r4 r8 fis
+    e4 g8 fis16 e
+    fis4 r8 fis
+    e4 g8 fis16 e %55
+    fis8 fis r4
+    R2
+    d8\fE fis16 a d4
+    a8 cis16 e e8 cis
+    d, fis16 a d8 fis %60
+    d cis a a
+    h cis16 d e4
+    a,8 h16 cis d4
+    d8 cis16 h cis4
+    d dis8 dis %65
+    e16( h) dis( h) e( h) dis( h)
+    e( h) dis( h) fis'( h,) dis( h)
+    e8 c! h4\trill
+    h r
+    r8 c\p c c %70
+    c h r4
+    r8 c c c
+    c h r \once \tieDashed h~
+    h8^\critnote a r a~
+    a g r g~ %75
+    g fis r \once \tieDashed f~
+    f^\critnote e r g
+    fis!4 r8 a
+    g fis r a
+    g fis r4 %80
+    R2
+    h8\fE h a4
+    h h8 d
+    h16 a g a h4
+    R2 %85
+    r8 e, d c
+    h4 d16 c h a
+    g8 h16 d g8 h
+    d, fis16 a c8 d,
+    g, h16 d g h d8 %90
+    g, fis d' d
+    e4~ e8 d16 c
+    d4~ d8 c16 h
+    c2
+    h8 h a g %95
+    fis h a g
+    fis g4 fis8
+    g c h a
+    g c, h a
+    g2\fermata \bar "|." %100 finis
   }
 }

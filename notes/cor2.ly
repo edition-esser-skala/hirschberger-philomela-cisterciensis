@@ -322,3 +322,55 @@ IISanctusCornoII = {
     c\fermata \bar "|." %108 finis
   }
 }
+
+IIAgnusCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoIIAgnus
+    R1*20 \noBreak %20
+    R1\fermata \bar "||"
+    \time 3/4 \tempoIIAgnusB \newSpacingSection
+      R2.*7 %28
+    r4 e'\fE c
+    g2 g4 %30
+    c2 c4
+    R2.
+    r4 r c
+    c d2\trill \noBreak
+    e r4\fermata \bar "||" %35
+    \twofourtime \time 2/4 \tempoIIDona \newSpacingSection
+      r4 e16\p d c d \noBreak
+    e4 e16 d c d
+    e8 f e d
+    c4 r
+    R2 %40
+    c8 c c r
+    r g d' d
+    r c e e
+    g,4 r
+    R2*4 %48
+    c8 e16 d c4
+    c8 e16 d c4 %50
+    R2*27 %77
+    r4 r8 d\p
+    c g4 d'8
+    c g4 r8 %80
+    R2*2
+    e'16\fE d c d e4
+    e16 d c d e4
+    r8 f e d %85
+    c4 r
+    R2
+    r8 c c c
+    c g g d'
+    d c e c %90
+    c g r4
+    R2*3
+    r8 e' d c %95
+    g e' d c
+    g c g4
+    c c
+    c c
+    c2\fermata \bar "|." %100 finis
+  }
+}

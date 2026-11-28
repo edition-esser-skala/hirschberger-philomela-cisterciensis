@@ -1967,3 +1967,94 @@ IISanctusBassoLyrics = \lyricmode {
   cel --
   sis. %108 finis
 }
+
+IIAgnusBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoIIAgnus
+    R1*20 \noBreak %20
+    R1\fermata \bar "||"
+    \time 3/4 \tempoIIAgnusB \newSpacingSection
+      R2.*7 %28
+    r4 \mvTr g'\fE^\tuttiE g
+    fis2 d4 %30
+    g2 g4
+    r c, c
+    c4. c8 h4
+    c d2 \noBreak
+    g, r4\fermata \bar "||" %35
+    \twofourtime \time 2/4 \tempoIIDona \newSpacingSection
+      R2*22 %57
+    r4 r8 \mvTr d'\fE^\tutti
+    a' a, r cis
+    d d r d %60
+    a' a, r fis'
+    g4~ g8[ fis16 e]
+    \once \tieDashed fis4~ fis8[ e16 d]
+    e2
+    d4 h8 h' %65
+    e, h' e, h
+    e h' r h16 h
+    e,8 a h([ h,)]
+    e4 r
+    R2*13 %82
+    r4 \mvDl h'16([\fE^\tutti a g a)]
+    h4 h16([ a g a)]
+    h4 r %85
+    R2*2
+    r4 r8 g
+    d' d, r d
+    g g, r g' %90
+    d d r h'
+    c4~ c8[ h16 a]
+    h4~ h8[ a16 g]
+    a2
+    g4 r8 g %95
+    d' d, r g
+    d' g,16 g d4
+    g,8 g' g4
+    g,8 g' g4
+    g,2\fermata \bar "|." %100 finis
+  }
+}
+
+IIAgnusBassoLyrics = \lyricmode {
+  Do -- na %29
+  no -- bis %30
+  pa -- cem,
+  do -- na,
+  do -- na no --
+  bis pa --
+  cem. %35
+
+  da %58
+  pa -- cem, da
+  pa -- cem, da %60
+  pa -- cem, da
+  pa --
+  _
+  _
+  cem, do -- na %65
+  no -- bis, no -- bis
+  pa -- cem, do -- na
+  no -- bis pa --
+  cem,
+
+  do -- %83
+  na no --
+  bis %85
+
+  da %88
+  pa -- cem, da
+  pa -- cem, da %90
+  pa -- cem, da
+  pa --
+  _
+  _
+  cem, da pa -- %95
+  cem, da
+  pa -- cem, da pa --
+  cem, da pa --
+  cem, da pa --
+  cem. %100
+}

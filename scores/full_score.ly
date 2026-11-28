@@ -928,41 +928,115 @@
   %     \midi { \tempo 4 = 70 } %90 – 240
   %   }
   % }
+  % \bookpart {
+  %   \section "7" "Benedictus"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #20
+  %     system-system-spacing.minimum-distance = #20
+  %     systems-per-page = #4
+  %     page-count = #2
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vl 1"
+  %           \IIBenedictusViolinoI
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \smallGroupDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \IIBenedictusTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \IIBenedictusTenoreLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \IIBenedictusOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \IIBenedictusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "7" "Benedictus"
-    \addTocEntry
+    \section "8" "Agnus Dei"
+    % \addTocEntry
     \paper {
-      system-system-spacing.basic-distance = #20
-      system-system-spacing.minimum-distance = #20
-      systems-per-page = #4
-      page-count = #2
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      system-system-spacing.basic-distance = #17
+      system-system-spacing.minimum-distance = #17
+      systems-per-page = #2
     }
-    \score { %\articulate
+    \score { \articulate
       <<
-        \new StaffGroup \with { \smallGroupDistance } <<
-          \new Staff {
-            \set Staff.instrumentName = "vl 1"
-            \IIBenedictusViolinoI
-          }
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "cor/ob" "1, 2" }
+            \transpose c g,
+            \partCombine #'(0 . 10) \IIAgnusCornoI \IIAgnusCornoII
+          >>
         >>
-        \new ChoirStaff \with { \smallGroupDistance } <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \IIAgnusViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \IIAgnusViolinoII
+            }
+          >>
+        >>
+        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \IIAgnusSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \IIAgnusSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \IIAgnusAlto }
+          }
+          \new Lyrics \lyricsto Alto \IIAgnusAltoLyrics
+
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \IIBenedictusTenore }
+            \new Voice = "Tenore" { \dynamicUp \IIAgnusTenore }
           }
-          \new Lyrics \lyricsto Tenore \IIBenedictusTenoreLyrics
+          \new Lyrics \lyricsto Tenore \IIAgnusTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \IIAgnusBasso }
+          }
+          \new Lyrics \lyricsto Basso \IIAgnusBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \IIBenedictusOrgano
+            \transpose c c,
+            \IIAgnusOrgano
           }
         >>
-        \new FiguredBass { \IIBenedictusBassFigures }
+        \new FiguredBass { \IIAgnusBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 90 }
+      % \layout { }
+      \midi { \tempo 4 = 60 } %90 – 105
     }
   }
 }
