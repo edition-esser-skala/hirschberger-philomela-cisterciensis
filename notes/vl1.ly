@@ -1887,3 +1887,120 @@ IIOffertoriumViolinoI = {
     g\breve*1/2\fermata \bar "|." %137 finis
   }
 }
+
+IISanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoIISanctus
+    r2 f'\fE
+    e g
+    fis! a
+    g4 h a a
+    a a g2 \noBreak %5
+    fis r\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIIPleni
+      g16\p d h d g d h d \noBreak
+    g d h d g d h d
+    g,8 e' e e
+    e4\trill d %10
+    r8 c h a
+    \tuplet 3/2 8 { h16 a g } g8 g'4
+    cis,16\f g e g cis g e g
+    cis g e g cis g e g
+    d' a fis a d a fis a %15
+    d a fis a d a fis a
+    \sbOn \tuplet 3/2 8 { e' d cis cis h a } a8. e'16
+    \tuplet 3/2 8 { g fis e e d cis } cis8. g'16
+    \tuplet 3/2 8 { fis e d } d8 d8. fis16
+    \tuplet 3/2 8 { e d cis } cis8 cis8. e16 %20
+    \tuplet 3/2 8 { fis, e d } d8 d8. fis16
+    \tuplet 3/2 8 { e d cis } cis8 cis8. e16
+    \tuplet 3/2 8 { fis e d d' cis d } e,4\trill \sbOff
+    d r
+    g'16\p d h d g d h d %25
+    g d h d g d h d
+    g,8 e' e e
+    e4\trill d
+    r8 c c c
+    h16 a g8 g'4 %30
+    cis,16 a e a cis a e a
+    d a fis a d a fis a
+    e' cis a cis e cis a cis
+    fis e d8 a16 g fis8
+    dis'16 a fis a dis a fis a %35
+    e' h g h e h g h
+    fis' dis h dis fis dis h dis
+    g fis e8 h16 a g8
+    c!4 r8 c
+    c h r4 %40
+    r8 e e e
+    r d d d
+    r c  c c
+    h a r d
+    cis4 r8 d %45
+    cis4 r8 d
+    cis4 e
+    d r8 g,
+    fis e16 d a'8 a,
+    d4 r %50
+    d'16 h g h d h g h
+    d h g h d h g h
+    g8 f' f f
+    f e g,16 f e8
+    a'16 e cis e a e cis e %55
+    a e cis e a e cis e
+    a,8 g' g g
+    g fis! r g
+    fis4 r8 g
+    fis4 r8 g %60
+    fis e d c
+    h16( a) g4 c8
+    h16( a) g4 c8
+    h a16 g d'8 d,
+    g16\fE f' f f \tuplet 3/2 8 { \sbOn f e d f e d \sbOff } %65
+    e g g g \tuplet 3/2 8 { \sbOn g fis e g fis e \sbOff }
+    fis c c c \tuplet 3/2 8 { \sbOn c h a c h a \sbOff }
+    h8 a16 g d'8 d, \noBreak
+    g d g, r\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIIOsanna \newSpacingSection
+      g'2\fE g \noBreak %70
+    g4 e' d c
+    h a h cis
+    d h a g
+    fis d' cis h
+    a cis d2 %75
+    c4 h a2
+    h4 e d c
+    h c h a
+    g2 g
+    fis r %80
+    r4 d' cis h
+    a g a h
+    a cis d2~
+    d cis~
+    cis h~ %85
+    h a~
+    a g~
+    g fis
+    h2. cis4
+    h2 ais %90
+    h1
+    g!2 g
+    g4 e' d c
+    h a h cis
+    d fis g2~ %95
+    g fis~
+    fis e~
+    e d~
+    d c~
+    c h~ %100
+    h a~
+    a e'
+    d e
+    d1\trill
+    h2 \once \tieDashed d~ %105
+    d c4 h
+    c1
+    h\fermata \bar "|." %108 finis
+  }
+}

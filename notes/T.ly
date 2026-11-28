@@ -1905,3 +1905,95 @@ IIOffertoriumTenoreLyrics = \lyricmode {
   le -- bi --
   tur. %137 finis
 }
+
+IISanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoIISanctus
+    r2 \mvTr g\fE^\tutti
+    g a
+    a d
+    d a4 a8 a
+    a4 d h4. cis8 \noBreak %5
+    a2 r\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIIPleni
+      R2*62 \noBreak %68
+    R2\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIIOsanna \newSpacingSection
+      R1*7 %76
+    \mvTr g2\fE^\tuttiE g
+    g4 e' d c
+    h a h( cis)
+    d h( a) g %80
+    fis fis r2
+    R1
+    r2 r4 d'
+    d2 e
+    cis d %85
+    h cis
+    a h
+    g ais
+    h4( ais) h( e)
+    cis1\trill %90
+    h
+    r4 c! h( a)
+    g c g2
+    g r
+    r r4 d' %95
+    e1
+    d
+    c
+    h
+    a %100
+    g
+    fis2 a~
+    a a
+    a1
+    h2 h %105
+    \once \tieDashed c1~
+    c
+    d\fermata \bar "|." %108 finis
+  }
+}
+
+IISanctusTenoreLyrics = \lyricmode {
+  San --
+  ctus, san --
+  ctus, san --
+  ctus Do -- mi -- nus
+  De -- us Sa -- ba -- %5
+  oth.
+
+  O -- san -- %77
+  na, o -- san -- na
+  in ex -- cel --
+  sis, in __ ex -- %80
+  cel -- sis,
+
+  o --
+  san -- na
+  in ex -- %85
+  cel -- sis,
+  in ex --
+  cel -- sis,
+  in __ ex --
+  cel -- %90
+  sis,
+  o -- san --
+  na, o -- san --
+  na,
+  o -- %95
+  san --
+  _
+  _
+  _
+  _ %100
+  _
+  na in __
+  ex --
+  cel --
+  sis, ex -- %105
+  cel --
+
+  sis. %108 finis
+}

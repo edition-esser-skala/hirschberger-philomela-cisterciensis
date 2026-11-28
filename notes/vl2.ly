@@ -1894,3 +1894,118 @@ IIOffertoriumViolinoII = {
     h\breve*1/2\fermata \bar "|." %137 finis
   }
 }
+
+IISanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoIISanctus
+    g'2\fE d'
+    c e
+    d c
+    h cis
+    d d4.\trill cis8 \noBreak %5
+    d2 r\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIIPleni
+      d16\p h g h d h g h \noBreak
+    d h g h d h g h
+    g8 c c c
+    c4\trill h %10
+    r8 a g fis
+    g4 h
+    e,8\f cis16 e e8 cis16 e
+    e8 cis16 e e8 cis16 e
+    fis8 d16 fis fis8 d16 fis %15
+    fis8 d16 fis fis8 d16 fis
+    a8 e16 a a8 e16 a
+    a8 e16 a a8 e16 a
+    \tuplet 3/2 8 { a g fis } fis8 fis8.-\critnote a16
+    \tuplet 3/2 8 { g16 fis e } e8 e8. g16 %20
+    \tuplet 3/2 8 { fis16 e d } d8 d8. fis16
+    \tuplet 3/2 8 { e16 d cis } cis8 cis8. e16
+    d8 d4 cis8
+    d4 r
+    d'16\p h g h d h g h %25
+    d h g h d h g h
+    g8 c c c
+    c4\trill h
+    r8 a a a
+    g16 fis g8 h4 %30
+    a16 e cis e a e cis e
+    a fis d fis a fis d fis
+    cis' a e a cis a e a
+    d cis d8 fis,16 e d8
+    fis dis16 fis fis8 dis16 fis %35
+    g8 e16 g g8 e16 g
+    dis' h fis h dis h fis h
+    h a g8 g16 fis e8
+    r g g g
+    fis4 r %40
+    r8 a a a
+    r g g g
+    r fis fis fis
+    g fis r fis
+    e4 r8 fis %45
+    e4 r8 fis
+    e4 a
+    a r8 g
+    fis e16 d a'8 a,
+    d4 r %50
+    d'16 h g h d h g h
+    d h g h d h g h
+    g8 d' d d
+    d c e,16 d c8
+    e'16 cis a cis e cis a cis %55
+    e cis a cis e cis a cis
+    a8 e' e e
+    e d r h
+    a4 r8 h
+    a4 r8 h %60
+    a4 r8 c
+    h16 a g4 c8
+    h16 a g4 c8
+    h a16 g d'8 d,
+    g16\fE d' d d \tuplet 3/2 8 { \sbOn d c h d c h \sbOff } %65
+    c e e e \tuplet 3/2 8 { \sbOn e d cis e d cis \sbOff }
+    d a a a \tuplet 3/2 8 { \sbOn a g fis a g fis \sbOff }
+    h8 a16 g d'8 d, \noBreak
+    g d g, r\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIIOsanna \newSpacingSection
+      R1*3 %72
+    d'2\fE d
+    d4 h' a g
+    fis e fis g %75
+    a g2 fis4
+    g c h a
+    g g fis e
+    d cis d e
+    d g fis e %80
+    d2 r
+    d d
+    cis? r4 a'
+    h1
+    a %85
+    g
+    fis
+    e
+    d4 e fis g
+    fis1 %90
+    fis
+    r4 e d c!
+    h c d e
+    g d2 g4
+    fis2 r4 g %95
+    g2 a
+    fis g
+    e fis
+    d e
+    c d %100
+    h c
+    d g
+    fis g
+    g fis
+    g f %105
+    \once \tieDashed e1~
+    e2 d4 c
+    d1\fermata \bar "|." %108 finis
+  }
+}

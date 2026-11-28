@@ -1881,3 +1881,89 @@ IIOffertoriumBassoLyrics = \lyricmode {
   le -- bi --
   tur. %137 finis
 }
+
+IISanctusBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoIISanctus
+    r2 \mvTr h\fE^\tuttiE
+    c cis
+    d fis
+    g g4 g8 g
+    fis4 fis e4. e8 \noBreak %5
+    d2 r\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIIPleni
+      R2*62 \noBreak %68
+    R2\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIIOsanna \newSpacingSection
+      R1*10 %79
+    \mvTr d2\fE^\tuttiE d %80
+    d4 h' a g
+    fis e fis( g)
+    a2 r4 fis
+    g fis e cis
+    fis( e) d h %85
+    e d cis a
+    d( cis) h g
+    cis h ais fis
+    h cis d e
+    fis2 fis, %90
+    h1
+    R
+    r4 c h a
+    g fis g( e')
+    d2 r4 h' %95
+    c h a fis
+    h( a) g e
+    a g fis d
+    g( fis) e c
+    fis e d h %100
+    e( d) c a
+    d2 cis
+    d cis
+    d1
+    g,2 h %105
+    c!1
+    c
+    g\fermata \bar "|." %108 finis
+  }
+}
+
+IISanctusBassoLyrics = \lyricmode {
+  San --
+  ctus, san --
+  ctus, san --
+  ctus Do -- mi -- nus
+  De -- us Sa -- ba -- %5
+  oth.
+
+  O -- san -- %80
+  na, o -- san -- na
+  in ex -- cel --
+  sis, o --
+  san -- na in ex --
+  cel -- sis, o -- %85
+  san -- na in ex --
+  cel -- sis, o --
+  san -- na in ex --
+  cel -- _ _ _
+  _ _ %90
+  sis,
+
+  o -- san -- na
+  in ex -- cel --
+  sis, o -- %95
+  san -- na in ex --
+  cel -- sis, o --
+  san -- na in ex --
+  cel -- sis, o --
+  san -- na in ex -- %100
+  cel -- sis, o --
+  san -- na
+  in ex --
+  cel --
+  sis, in %105
+  ex --
+  cel --
+  sis. %108 finis
+}

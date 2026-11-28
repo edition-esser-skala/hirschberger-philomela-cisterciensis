@@ -3949,3 +3949,238 @@ IIOffertoriumBassFigures = \figuremode {
   <5 4>2. <\t _+>4
   r1 %137 finis
 }
+
+IISanctusOrgano = {
+  \relative c {
+    \clef treble
+    \key g \major \time 4/4 \tempoIISanctus
+    \mvTr g''2-!\fE-\tuttiE \clef bass h,,
+    c cis
+    d fis
+    g g
+    fis e \noBreak %5
+    d r\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIIPleni
+      \mvTr g8\pE-\solo g, g' g, \noBreak
+    g' g, g' g,
+    g g g g
+    g4 g %10
+    d' r8 d,
+    r g g' g,
+    r a\f a a
+    r a a a
+    r d d d %15
+    r d d d
+    cis cis cis cis
+    cis cis cis cis
+    d d d d
+    a a a a %20
+    d d d d
+    a' a a a
+    d, fis a a,
+    d4 d'16\p c! h a
+    g8 g, g' g, %25
+    g' g, g' g,
+    g g g g
+    g4 g
+    d' r8 d,
+    g4 r8 g' %30
+    g g g g
+    fis fis fis fis
+    cis cis cis cis
+    d4 r
+    h'8 h h h %35
+    g g g g
+    dis dis dis dis
+    e4 r
+    r8 e e e
+    d!4 r %40
+    r8 c! c c
+    r h h h
+    r a a a
+    g d'r4
+    r8 a' a, a' %45
+    r a a, a'
+    a4 cis,
+    d r8 g-!
+    fis-! e16-! d-! a'8-! a,-!
+    d4 d'16 c! h a %50
+    g8 g, g g
+    g g g g
+    g4 r
+    c r
+    a'8 a, a a %55
+    a a a a
+    a4 r
+    d r
+    r8 d d d
+    r d d g, %60
+    d'4 r8 c'-!
+    h16-! a-! g4-! c8-\parenthesize-!
+    h16-! a-! \parOn g4-\parenthesize-! \parOff c8-\parenthesize-!
+    h-! a16-! g-! d'8-! d,-!
+    g\fE h, h g %65
+    c cis cis a
+    d fis fis d
+    h-! a16-! g-! d'8-! d,-!
+    g'-! d-! g,-! r\fermata \bar "||"
+    \clef treble \twotwotime \time 2/2 \tempoIIOsanna \newSpacingSection
+      \mvTr g''2-!\fE-\tuttiE g-! \noBreak %70
+    g4-! e'-! d-! c-!
+    \parOn h-\parenthesize-! a-! h-! \parOff cis-\parenthesize-!
+    << {
+      d h a g
+      fis d' cis h
+      a cis d2 %75
+      c4 h a2
+    } \\ {
+      d,2 d
+      d4 h' a g
+      fis e fis g %75
+      a g2 fis4
+    } >>
+    \clef "treble_8" g,2 g
+    g4 e' d c
+    h a h cis
+    d \clef bass d, d2 %80
+    d4 h' a g
+    fis e fis g
+    a2 r4 fis
+    g fis e cis
+    fis e d h %85
+    e d cis a
+    d cis h g
+    cis h ais fis
+    h cis d e
+    fis2 fis, %90
+    h1
+    \clef treble g''2 g
+    g4 \clef bass c,, h a
+    g fis g e
+    d2 r4 h'' %95
+    c h a fis
+    h a g e
+    a g fis d
+    g fis e c
+    fis e d h %100
+    e d c a
+    d2 cis
+    d cis
+    d1
+    g,2 h %105
+    \once \tieDashed c!1~
+    c
+    g\fermata \bar "|." %108 finis
+  }
+}
+
+IISanctusBassFigures = \figuremode {
+  r2 <6 5!>
+  r <6 5>
+  <[_+]> <6 5>
+  r <4\+ 2>
+  <6> <7>4. <6\\>8 %5
+  <_+>1
+  r2
+  r
+  r8 <6 4> <\t \t>4
+  <6 4> <5 3> %10
+  <7 5>2
+  r
+  r8 <7 _+>4.
+  r8 q4.
+  r2 %15
+  r
+  <6>8 <\t>4.
+  <6>2
+  r
+  <7 _+> %20
+  r
+  q
+  r8 <6> <4> <_+>
+  r2
+  r %25
+  r
+  r8 <6 4> <\t \t>4
+  <6 4> <5 3>
+  <7 3>2
+  r %30
+  <4\+ 2>8 <\t \t>4.
+  <6>2
+  <6 [5]>
+  r
+  <_+> %35
+  <6>8 <\t>4.
+  \bo <6 [5]>8 \bc <\t [\t]>4.
+  r2
+  r8 <6> <\t>4
+  <7>8 <6>4. %40
+  r8 <6>4.
+  r8 q4.
+  r8 q4.
+  r2
+  r8 <[5] _+>4 <6 4>8 %45
+  r <[5] _+>4 <6 4>8
+  <[5] _+>4 <6>8 <5>
+  r2
+  r
+  r4 <_+> %50
+  r2
+  r
+  <7!>
+  \bo <[9] 4!>8 \bc <[8] 3>4.
+  <_+>2 %55
+  q
+  <7 [_+]>
+  \bo <[9] 4>8 \bc <[8] _+>4.
+  r8 <[5] _+>4 <6 4>8
+  r <[5 _+]>4. %60
+  r2
+  r
+  r
+  r
+  r8 <5!> <\t>4 %65
+  r8 <5!> <\t>4
+  <[_+]>8 <5!> <\t>4
+  r2
+  r
+  r1 %70
+  r
+  r
+  r
+  r
+  r %75
+  r
+  <5 3>4 <6 4> <5 3> <6 4>
+  <[5] 3> <6> q q
+  q <\t>2.
+  <_+>4 <6 4> <5 _+> <6 4> %80
+  r <6> <6 [_+]> <6>
+  q <\t>2.
+  <_+> <6>4
+  <5> <\t> <6\\ 5> <\t \t>
+  <5[+]>2 <6 5> %85
+  <5> <6 5>
+  <5> <6 5>
+  <5> <6 5 [_+]>
+  r4 \bo <[6\\]> \bc <[6]> <6\\>
+  \bo <[5\+] 4>2 \bc <[\t] _+> %90
+  r1
+  r
+  r2 <6>
+  r4 <[6]>2 <6\\>4
+  r2. <6>4 %95
+  r2 <6 5>
+  <5> <6 5>
+  <5> <6 5>
+  <5> <6 5>
+  <5> <6 5>4 <\t \t> %100
+  <5>2 <6 5>
+  r q
+  r q
+  <4> <_+>
+  r <5!> %105
+  <9>1
+  <8>
+  r %108 finis
+}

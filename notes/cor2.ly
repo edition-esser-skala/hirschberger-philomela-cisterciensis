@@ -261,3 +261,64 @@ IICredoCornoII = {
     c1\fermata \bar "|." %246 finis
   }
 }
+
+IISanctusCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoIISanctus
+    r2 c'\fE
+    c d
+    d d
+    c r
+    R1 \noBreak %5
+    R\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIIPleni
+      e8\p e e e \noBreak
+    e e e r-\critnote
+    r f f f
+    f4\trill e %10
+    r8 d c g
+    c4 r
+    r8 d\fE d d
+    r d d d
+    r g, g g %15
+    r g g g
+    R2*8 %24
+    e'8\p e e e %25
+    e e e r
+    r f f f
+    f4\trill e
+    r8 d d d
+    c16 g e8 r4 %30
+    R2*20 %50
+    e'8 e e e
+    e4 r
+    r8 c c c
+    c4 r
+    d r %55
+    d8 d d d
+    d4 r
+    d r8 c
+    g4 r8 c
+    g4 r8 c %60
+    g4 r
+    R2*3
+    r8 c\fE c c %65
+    c d d d
+    d d d d
+    e d16 c g'8 g, \noBreak
+    c4 r\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIIOsanna \newSpacingSection
+      R1*7 %76
+    r4 f\fE e d
+    c r r2
+    R1*23 %101
+    r2 d
+    d d
+    d1
+    c2 c %105
+    c1
+    c
+    c\fermata \bar "|." %108 finis
+  }
+}

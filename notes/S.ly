@@ -2172,16 +2172,213 @@ IIOffertoriumSopranoLyrics = \lyricmode {
   tur. %137 finis
 }
 
+IISanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoIISanctus
+    \mvTr g'2(\fE^\tutti d')
+    c e
+    d c
+    h cis4 cis8 cis
+    d4 d d4.\trill cis8 \noBreak %5
+    d2 r\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoIIPleni
+      \mvDl g2\pE^\solo \noBreak
+    g,
+    r8 e' e e
+    e4\trill d %10
+    r8 c h a
+    h16([ a)] g8 r4
+    R2*12 %24
+    g'2 %25
+    g,
+    r8 e' e e
+    e4\trill d
+    r8 c c c
+    h16([ a)] g8 g'4 %30
+    cis,8 e4 cis8
+    d fis4 d8
+    e g4 e8
+    fis16 e d8 r4
+    dis8 fis4 dis8 %35
+    e g4 e8
+    fis a4 fis8
+    g16 fis e8 r4
+    c! c8 c
+    c([ h)] h8 c16([ d)] %40
+    e8([ a,)] a h16([ c)]
+    d8([ g,)] g a16([ h)]
+    c8([ fis,)] fis g16([ a)]
+    h a a8 r d
+    cis16([ h)] a4 d8 %45
+    cis16[ h] a4 d8
+    cis[ e16 d] cis[ h a g]
+    fis[ d' cis h] a8[ g]
+    fis e16 d a'8([ a,)]
+    d4 r %50
+    d'2
+    g,
+    r8 f' f f
+    f e r4
+    e2 %55
+    a,
+    r8 g' g g16 g
+    g8 fis! r g
+    fis16[ e] d4 g8
+    fis16[ e] d4 g8 %60
+    fis[ e d c]
+    h16[ a] g4 c8
+    h16[ a] g4 c8
+    h a16 g d'8([ d,)]
+    d4 r %65
+    R2*3
+    R2\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoIIOsanna \newSpacingSection
+      \mvTr g2\fE^\tutti g \noBreak %70
+    g4 e' d c
+    h a h( cis)
+    d h a( g)
+    fis d' cis( h)
+    a cis d2 %75
+    c4 h a2
+    h4 e d c
+    h c h a
+    g2 g
+    fis r %80
+    r4 d' cis h
+    a g a( h)
+    a cis d2~
+    d cis~
+    cis h~ %85
+    h a~
+    a g~
+    g fis
+    h2. cis4
+    h2( ais) %90
+    h1
+    g!2 g
+    g4 e' d c
+    h a h( cis)
+    d fis g2~ %95
+    g fis~
+    fis e~
+    e d~
+    d c~
+    c h~ %100
+    h a~
+    a e'
+    d e
+    d1
+    h2 d~ %105
+    d c4( h)
+    c1
+    h\fermata \bar "|." %108 finis
+  }
+}
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
+IISanctusSopranoLyrics = \lyricmode {
+  San --
+  ctus, san --
+  ctus, san --
+  ctus Do -- mi -- nus
+  De -- us Sa -- ba -- %5
+  oth.
+  Ple --
+  ni,
+  ple -- ni sunt
+  coe -- li, %10
+  coe -- li et
+  ter -- ra,
+
+  ple -- %25
+  ni,
+  ple -- ni sunt
+  coe -- li,
+  coe -- li et
+  ter -- ra glo -- %30
+  _ _ _
+  _ _ _
+  _ _ _
+  _ ri -- a,
+  glo -- _ _ %35
+  _ _ _
+  _ _ _
+  _ ri -- a,
+  glo -- ri -- a
+  tu -- a, glo -- %40
+  _ _ _
+  _ _ _
+  _ _ _
+  _ ri -- a, glo --
+  _ _ _ %45
+  _ _ _
+  _ _
+  _ _
+  _ ri -- a tu --
+  a, %50
+  ple --
+  ni,
+  ple -- ni sunt
+  coe -- li,
+  ple -- %55
+  ni
+  sunt coe -- li et
+  ter -- ra glo --
+  _ _ _
+  _ _ _ %60
+  _
+  _ _ _
+  _ _ _
+  _ ri -- a tu --
+  a. %75
+
+  O -- san -- %70
+  na, o -- san -- na
+  in ex -- cel --
+  sis, o -- san --
+  na, o -- san --
+  na, o -- san -- %75
+  na, o -- san --
+  na, o -- san -- na
+  in ex -- cel -- sis,
+  o -- san --
+  na, %80
+  o -- san -- na
+  in ex -- cel --
+  sis, o -- san --
+  _
+  _ %85
+  _
+  _
+  na
+  in ex --
+  cel -- %90
+  sis,
+  o -- san --
+  na, o -- san -- na
+  in ex -- cel --
+  sis, o -- san -- %95
+  _
+  _
+  _
+  _
+  _ %100
+  _
+  na
+  in ex --
+  cel --
+  sis, in __ %105
+  ex --
+  cel --
+  sis. %108 finis
+}
 
 
-% ## Benedictus
+
+
+
 
 % Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
 
 
 % ## Agnus Dei

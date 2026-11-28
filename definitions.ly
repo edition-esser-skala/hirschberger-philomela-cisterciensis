@@ -61,6 +61,11 @@ tempoIICredo = \tempoMarkup "Allabreve"
   tempoIIEtResurrexit = \tempoMarkup "Allabreve" %160
 tempoIIOffertorium = \tempoMarkup "Vivace"
   tempoIIOffertoriumB = \tempoMarkup "Allabreve"
+tempoIISanctus = \tempoMarkup "Adagio"
+  % tempoIIPleni = \tempoMarkup "Vivace"
+  tempoIIPleni = \tempo4=90
+  tempoIIOsanna = \tempo4=240
+  % tempoIIOsanna = \tempoTitleMarkup "Osanna" "Allabreve"
 
 
 \include "notes/cor1.ly"
