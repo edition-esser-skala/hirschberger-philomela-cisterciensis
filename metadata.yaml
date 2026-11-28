@@ -2,10 +2,10 @@ composer:
   last: Hirschberger
   first: P. Albericus
 title: Philomela cisterciensis
-subtitle: "Missa in honorem B. V. M."
+subtitle: "Missa in honorem B. V. M. · Missa Beati Alberici"
 id: " "
 genre: mass
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob (G), 2 clno (C), timp (C–G), 2 vl, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro),\\2 ob (G), 2 cor (G), 2 clno (C), timp (C–G), 2 vl, b, org
 ark: 68748/e1pah1
 license: cc-by-sa-4.0
 sources:
@@ -18,4 +18,5 @@ sources:
     license: public domain
     principal: true
 parts:
+  cor12: Corno I, II in G
   ottoni: Clarino I, II in C\\Timpani in C–G

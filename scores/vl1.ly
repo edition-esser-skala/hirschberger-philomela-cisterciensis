@@ -6,6 +6,7 @@
 \include "score_settings/one-staff.ly"
 
 \book {
+  \part "missa1" "I" "Missa in honorem B. V. M."
   \bookpart {
     \section "1" "Kyrie"
     \addTocEntry
@@ -78,6 +79,81 @@
     \score {
       <<
         \new Staff { \IAgnusViolinoI }
+      >>
+    }
+  }
+  \part "missa2" "II" "Missa Beati Alberici"
+  \bookpart {
+    \section "1" "Kyrie"
+    \addTocEntry
+    \paper { page-count = #1 }
+    \score {
+      <<
+        \new Staff { \IIKyrieViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Gloria"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \IIGloriaViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Concerto"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \IIConcertoViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Credo"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \IICredoViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Offertorium"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \IIOffertoriumViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Sanctus"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \IISanctusViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "7" "Benedictus"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \IIBenedictusViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "8" "Agnus Dei"
+    \addTocEntry
+    \paper { system-count = #14 }
+    \score {
+      <<
+        \new Staff { \IIAgnusViolinoI }
       >>
     }
   }
